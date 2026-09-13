@@ -1,0 +1,51 @@
+[
+  {
+    "id": "rejected.nature.tree.tbo_license",
+    "name": "TBO-Tree-Gen",
+    "reason": "license not confirmed in README (pre-release). Catalogued tentatively as nature.tree.tbo_spacecol with license=unknown; treat as review-needed until COPYING found.",
+    "repo": "https://github.com/TheBeautifulOrc/TBO-Tree-Gen",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.nature.tree.easy_tree_license",
+    "name": "Easy-Tree",
+    "reason": "license file not verified; GN-heavy, little portable Python.",
+    "repo": "https://github.com/jacobcjohnston/Easy-Tree",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.nature.tree.lowpoly_license",
+    "name": "LuFlo/low-poly-tree-generator",
+    "reason": "license not visible on README.",
+    "repo": "https://github.com/LuFlo/low-poly-tree-generator",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.nature.tree.lazy_license",
+    "name": "lazy-tree",
+    "reason": "license not confirmed.",
+    "repo": "https://github.com/thelazyone/lazy-tree",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.paid.the_grove",
+    "name": "The Grove 3D",
+    "reason": "commercial tree generator, not open source.",
+    "repo": "https://www.thegrove3d.com/",
+    "license": "proprietary"
+  },
+  {
+    "id": "rejected.paid.botaniq",
+    "name": "Botaniq / Graswald",
+    "reason": "commercial vegetation asset packs, not procedural source generators.",
+    "repo": "",
+    "license": "proprietary"
+  },
+  {
+    "id": "rejected.asset.not_code",
+    "name": "Poly Haven / Megascans trees",
+    "reason": "static meshes, not procedural generators.",
+    "repo": "",
+    "license": "CC0 / Megascans"
+  }
+]

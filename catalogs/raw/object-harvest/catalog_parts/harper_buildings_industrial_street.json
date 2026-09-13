@@ -1,0 +1,3594 @@
+[
+  {
+    "id": "building.floorplan.buildingtools",
+    "name": "Building Tools Floorplan",
+    "category": "buildings/plans",
+    "description": "Editable floorplan used as the seed for floors, openings and roofs.",
+    "tags": [
+      "floorplan",
+      "layout"
+    ],
+    "variants": [],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/floorplan/floorplan_types.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "MIT Ghost-Town-inspired Blender addon."
+  },
+  {
+    "id": "building.storey.buildingtools",
+    "name": "Building Tools Storey Slabs",
+    "category": "buildings/floors",
+    "description": "Storey slabs extruded from a floorplan.",
+    "tags": [
+      "floor",
+      "storey"
+    ],
+    "variants": [
+      "single",
+      "multi-storey"
+    ],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/floor/floor_types.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.door.buildingtools",
+    "name": "Building Tools Door",
+    "category": "buildings/openings",
+    "description": "Parametric door leaf plus wall cutout.",
+    "tags": [
+      "door"
+    ],
+    "variants": [
+      "single",
+      "multigroup"
+    ],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/door/door_types.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.window.buildingtools",
+    "name": "Building Tools Window",
+    "category": "buildings/openings",
+    "description": "Parametric facade windows including grouped rows.",
+    "tags": [
+      "window"
+    ],
+    "variants": [
+      "single",
+      "row",
+      "multigroup"
+    ],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/fill/fill_types.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.roof.buildingtools",
+    "name": "Building Tools Roof",
+    "category": "buildings/roofs",
+    "description": "Roof generator attached to a floorplan.",
+    "tags": [
+      "roof"
+    ],
+    "variants": [],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/generator.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.stair.buildingtools",
+    "name": "Building Tools Stairs",
+    "category": "buildings/circulation",
+    "description": "Stair flight connecting storeys.",
+    "tags": [
+      "stairs"
+    ],
+    "variants": [],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/generator.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.balcony.buildingtools",
+    "name": "Building Tools Balcony",
+    "category": "buildings/exterior",
+    "description": "Balcony slab and railing on the facade.",
+    "tags": [
+      "balcony",
+      "railing"
+    ],
+    "variants": [],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/balcony/balcony_types.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.house.modular.buildingtools",
+    "name": "Modular House from Floorplan",
+    "category": "buildings/houses",
+    "description": "Composed house: floorplan + storeys + openings + roof.",
+    "tags": [
+      "house",
+      "modular"
+    ],
+    "variants": [
+      "suburban",
+      "townhouse"
+    ],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/generator.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.wall.freecad",
+    "name": "FreeCAD Arch Wall",
+    "category": "buildings/walls",
+    "description": "Parametric BIM wall with layers and openings.",
+    "tags": [
+      "wall",
+      "bim"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchWall.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.window.freecad",
+    "name": "FreeCAD Arch Window",
+    "category": "buildings/openings",
+    "description": "Parametric BIM window/door object.",
+    "tags": [
+      "window",
+      "door"
+    ],
+    "variants": [
+      "window",
+      "door"
+    ],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchWindow.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.window.preset.freecad",
+    "name": "FreeCAD Window Presets",
+    "category": "buildings/openings",
+    "description": "Preset library of window and door layouts.",
+    "tags": [
+      "window",
+      "preset"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchWindowPresets.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.stair.freecad",
+    "name": "FreeCAD Arch Stairs",
+    "category": "buildings/circulation",
+    "description": "Full parametric BIM stair generator.",
+    "tags": [
+      "stairs"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchStairs.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.roof.freecad",
+    "name": "FreeCAD Arch Roof",
+    "category": "buildings/roofs",
+    "description": "Parametric roof from wires/profiles.",
+    "tags": [
+      "roof"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchRoof.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.beam.freecad",
+    "name": "FreeCAD Arch Structure Beam",
+    "category": "buildings/structure",
+    "description": "Structural beam as BIM structure part.",
+    "tags": [
+      "beam"
+    ],
+    "variants": [
+      "beam"
+    ],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchStructure.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.column.freecad",
+    "name": "FreeCAD Arch Structure Column",
+    "category": "buildings/structure",
+    "description": "Structural column as BIM structure part.",
+    "tags": [
+      "column"
+    ],
+    "variants": [
+      "column"
+    ],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchStructure.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.slab.freecad",
+    "name": "FreeCAD Arch Structure Slab",
+    "category": "buildings/floors",
+    "description": "Structural slab as BIM structure part.",
+    "tags": [
+      "slab"
+    ],
+    "variants": [
+      "slab"
+    ],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchStructure.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.truss.freecad",
+    "name": "FreeCAD Arch Truss",
+    "category": "buildings/structure",
+    "description": "Parametric truss.",
+    "tags": [
+      "truss"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchTruss.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.frame.freecad",
+    "name": "FreeCAD Arch Frame",
+    "category": "buildings/structure",
+    "description": "Frame from a profile swept on a path.",
+    "tags": [
+      "frame"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchFrame.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.storey.freecad",
+    "name": "FreeCAD Arch Floor",
+    "category": "buildings/floors",
+    "description": "Storey / building-part container.",
+    "tags": [
+      "storey",
+      "floor"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchFloor.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.room.space.freecad",
+    "name": "FreeCAD Arch Space",
+    "category": "buildings/rooms",
+    "description": "BIM space / room volume.",
+    "tags": [
+      "room",
+      "space"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchSpace.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.curtainwall.freecad",
+    "name": "FreeCAD Arch Curtain Wall",
+    "category": "buildings/facades",
+    "description": "Mullion-and-panel curtain wall.",
+    "tags": [
+      "curtain-wall",
+      "facade"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchCurtainWall.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.panel.freecad",
+    "name": "FreeCAD Arch Panel",
+    "category": "buildings/panels",
+    "description": "Prefab panel / sheet.",
+    "tags": [
+      "panel"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchPanel.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.precast.freecad",
+    "name": "FreeCAD Arch Precast",
+    "category": "buildings/concrete",
+    "description": "Precast concrete pieces.",
+    "tags": [
+      "precast",
+      "concrete"
+    ],
+    "variants": [
+      "beam",
+      "slab",
+      "pipe"
+    ],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchPrecast.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "street.fence.freecad",
+    "name": "FreeCAD Arch Fence",
+    "category": "street/fences",
+    "description": "Parametric fence along a path.",
+    "tags": [
+      "fence"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchFence.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "industrial.pipe.freecad",
+    "name": "FreeCAD Arch Pipe",
+    "category": "industrial/pipes",
+    "description": "Parametric pipe and connector.",
+    "tags": [
+      "pipe"
+    ],
+    "variants": [
+      "pipe",
+      "connector"
+    ],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchPipe.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "industrial.rebar.freecad",
+    "name": "FreeCAD Arch Rebar",
+    "category": "industrial/rebar",
+    "description": "Reinforcement bars inside structures.",
+    "tags": [
+      "rebar"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchRebar.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "industrial.equipment.freecad",
+    "name": "FreeCAD Arch Equipment",
+    "category": "industrial/equipment",
+    "description": "BIM equipment host (tanks/machines).",
+    "tags": [
+      "equipment"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchEquipment.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.site.freecad",
+    "name": "FreeCAD Arch Site",
+    "category": "street/site",
+    "description": "Site object with terrain reference.",
+    "tags": [
+      "site"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchSite.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.grid.freecad",
+    "name": "FreeCAD Arch Grid",
+    "category": "buildings/plans",
+    "description": "Axis grid for modular buildings.",
+    "tags": [
+      "grid"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchGrid.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.covering.freecad",
+    "name": "FreeCAD Arch Covering",
+    "category": "buildings/finishes",
+    "description": "Finish covering applied to BIM faces.",
+    "tags": [
+      "covering"
+    ],
+    "variants": [],
+    "source_project": "FreeCAD BIM/Arch",
+    "repo": "https://github.com/FreeCAD/FreeCAD",
+    "source_file": "candidates/freecad_bim/ArchCovering.py",
+    "commit": "local-harvest",
+    "license": "LGPL-2.1-or-later",
+    "language": "Python",
+    "runtime": "other",
+    "dependencies": [
+      "FreeCAD",
+      "Part"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Local copy in candidates/freecad_bim."
+  },
+  {
+    "id": "building.wall.homebuilder",
+    "name": "Home Builder Wall",
+    "category": "buildings/walls",
+    "description": "Residential wall system.",
+    "tags": [
+      "wall"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/walls/data_walls.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "building.door.homebuilder",
+    "name": "Home Builder Door",
+    "category": "buildings/openings",
+    "description": "Residential door library + generator.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/doors_windows/data_doors_windows.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "building.window.homebuilder",
+    "name": "Home Builder Window",
+    "category": "buildings/openings",
+    "description": "Residential window library + generator.",
+    "tags": [
+      "window"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/doors_windows/data_doors_windows.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "furniture.cabinet.base.homebuilder",
+    "name": "Home Builder Base Cabinet",
+    "category": "furniture/kitchen",
+    "description": "Parametric base kitchen cabinet.",
+    "tags": [
+      "cabinet",
+      "kitchen"
+    ],
+    "variants": [
+      "base",
+      "drawer"
+    ],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/cabinets/data_cabinets.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "furniture.cabinet.wall.homebuilder",
+    "name": "Home Builder Wall Cabinet",
+    "category": "furniture/kitchen",
+    "description": "Parametric wall-hung kitchen cabinet.",
+    "tags": [
+      "cabinet",
+      "kitchen"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/cabinets/data_cabinets.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "furniture.cabinet.tall.homebuilder",
+    "name": "Home Builder Tall Cabinet",
+    "category": "furniture/kitchen",
+    "description": "Parametric tall pantry cabinet.",
+    "tags": [
+      "cabinet",
+      "pantry"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/cabinets/data_cabinets.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "furniture.countertop.homebuilder",
+    "name": "Home Builder Countertop",
+    "category": "furniture/kitchen",
+    "description": "Parametric kitchen countertop.",
+    "tags": [
+      "countertop"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/cabinets/data_countertops.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "furniture.closet.homebuilder",
+    "name": "Home Builder Closet",
+    "category": "furniture/storage",
+    "description": "Parametric closet carcass + inserts.",
+    "tags": [
+      "closet"
+    ],
+    "variants": [
+      "inserts"
+    ],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/closets/data_closets.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "household.appliance.range.homebuilder",
+    "name": "Home Builder Range",
+    "category": "household/appliances",
+    "description": "Parametric kitchen range including hood option.",
+    "tags": [
+      "range",
+      "stove"
+    ],
+    "variants": [
+      "range",
+      "hood"
+    ],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/cabinets/data_appliances.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "household.appliance.refrigerator.homebuilder",
+    "name": "Home Builder Refrigerator",
+    "category": "household/appliances",
+    "description": "Parametric refrigerator insert.",
+    "tags": [
+      "refrigerator"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/cabinets/data_appliances.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "household.appliance.dishwasher.homebuilder",
+    "name": "Home Builder Dishwasher",
+    "category": "household/appliances",
+    "description": "Parametric dishwasher insert.",
+    "tags": [
+      "dishwasher"
+    ],
+    "variants": [],
+    "source_project": "Home Builder",
+    "repo": "https://github.com/creativemind3d/Home_Builder",
+    "source_file": "candidates/home_builder/cabinets/data_appliances.py",
+    "commit": "local-harvest",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local copy candidates/home_builder. Confirm upstream repo slug on merge."
+  },
+  {
+    "id": "building.room.archimesh",
+    "name": "Archimesh Room",
+    "category": "buildings/rooms",
+    "description": "Parametric room volume.",
+    "tags": [
+      "room"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_room_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "building.door.archimesh",
+    "name": "Archimesh Door",
+    "category": "buildings/openings",
+    "description": "Parametric door.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_door_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "building.window.archimesh",
+    "name": "Archimesh Window",
+    "category": "buildings/openings",
+    "description": "Parametric window.",
+    "tags": [
+      "window"
+    ],
+    "variants": [
+      "standard",
+      "panel"
+    ],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_window_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "building.roof.tile.archimesh",
+    "name": "Archimesh Tile Roof",
+    "category": "buildings/roofs",
+    "description": "Parametric tiled roof.",
+    "tags": [
+      "roof",
+      "tile"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_roof_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "building.column.archimesh",
+    "name": "Archimesh Column",
+    "category": "buildings/structure",
+    "description": "Parametric column.",
+    "tags": [
+      "column"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_column_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "building.stair.archimesh",
+    "name": "Archimesh Stairs",
+    "category": "buildings/circulation",
+    "description": "Parametric stairs.",
+    "tags": [
+      "stairs"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_stairs_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "furniture.cabinet.kitchen.archimesh",
+    "name": "Archimesh Kitchen Cabinets",
+    "category": "furniture/kitchen",
+    "description": "Parametric kitchen cabinets.",
+    "tags": [
+      "cabinet",
+      "kitchen"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_kitchen_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "furniture.shelf.archimesh",
+    "name": "Archimesh Shelves",
+    "category": "furniture/storage",
+    "description": "Parametric shelves.",
+    "tags": [
+      "shelf"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_shelves_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "prop.books.archimesh",
+    "name": "Archimesh Books",
+    "category": "props/books",
+    "description": "Procedural books.",
+    "tags": [
+      "books"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_books_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "lighting.lamp.archimesh",
+    "name": "Archimesh Lamp",
+    "category": "interior/lighting",
+    "description": "Parametric lamp.",
+    "tags": [
+      "lamp"
+    ],
+    "variants": [],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_lamp_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "interior.curtain.archimesh",
+    "name": "Archimesh Curtain",
+    "category": "interior/window-treatments",
+    "description": "Roller / Japanese curtain.",
+    "tags": [
+      "curtain"
+    ],
+    "variants": [
+      "roller",
+      "japanese"
+    ],
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/archimesh/achm_curtain_maker.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender community addon, files copied locally."
+  },
+  {
+    "id": "building.wall.archipack",
+    "name": "Archipack Wall",
+    "category": "buildings/walls",
+    "description": "Parametric wall with snap and holes.",
+    "tags": [
+      "wall"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_wall2.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.door.archipack",
+    "name": "Archipack Door",
+    "category": "buildings/openings",
+    "description": "Parametric door with frame and panels.",
+    "tags": [
+      "door"
+    ],
+    "variants": [
+      "single",
+      "double"
+    ],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_door.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.window.archipack",
+    "name": "Archipack Window",
+    "category": "buildings/openings",
+    "description": "Parametric window with mullions.",
+    "tags": [
+      "window"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_window.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.slab.archipack",
+    "name": "Archipack Slab",
+    "category": "buildings/floors",
+    "description": "Parametric slab.",
+    "tags": [
+      "slab"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_slab.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "street.fence.archipack",
+    "name": "Archipack Fence",
+    "category": "street/fences",
+    "description": "Parametric fence along a path.",
+    "tags": [
+      "fence"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_fence.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.stair.archipack",
+    "name": "Archipack Stair",
+    "category": "buildings/circulation",
+    "description": "Parametric stair.",
+    "tags": [
+      "stairs"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_stair.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.floor.finish.archipack",
+    "name": "Archipack Floor Finish",
+    "category": "buildings/floors",
+    "description": "Finished flooring including heating variant.",
+    "tags": [
+      "floor"
+    ],
+    "variants": [
+      "standard",
+      "heating"
+    ],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_floor.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.roof.archipack",
+    "name": "Archipack Roof",
+    "category": "buildings/roofs",
+    "description": "Parametric roof.",
+    "tags": [
+      "roof"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_roof.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.truss.archipack",
+    "name": "Archipack Truss",
+    "category": "buildings/structure",
+    "description": "Roof truss.",
+    "tags": [
+      "truss"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_truss.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.beam.archipack",
+    "name": "Archipack Beam",
+    "category": "buildings/structure",
+    "description": "Parametric beam.",
+    "tags": [
+      "beam"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "archipack beam module",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "interior.blind.archipack",
+    "name": "Archipack Blind",
+    "category": "interior/window-treatments",
+    "description": "Parametric window blind.",
+    "tags": [
+      "blind"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_blind.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "street.road.archipack",
+    "name": "Archipack Road / Terrain",
+    "category": "street/roads",
+    "description": "Terrain primitive including earthworks and roads.",
+    "tags": [
+      "road",
+      "terrain"
+    ],
+    "variants": [
+      "terrain",
+      "road"
+    ],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "archipack terrain",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Use the GPL 2.79 public tree, not the paid 2.x kitchen generator."
+  },
+  {
+    "id": "building.siding.jarch",
+    "name": "JARCH Vis Siding",
+    "category": "buildings/facades",
+    "description": "Parametric wall siding with cutouts.",
+    "tags": [
+      "siding",
+      "facade"
+    ],
+    "variants": [
+      "horizontal",
+      "vertical",
+      "board-batten"
+    ],
+    "source_project": "JARCH Vis",
+    "repo": "https://github.com/BlendingJake/JARCH-Vis",
+    "source_file": "candidates/jarch_vis/jv_siding.py",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "GPL Blender architecture addon."
+  },
+  {
+    "id": "building.flooring.jarch",
+    "name": "JARCH Vis Flooring",
+    "category": "buildings/floors",
+    "description": "Parametric flooring patterns.",
+    "tags": [
+      "flooring"
+    ],
+    "variants": [
+      "plank",
+      "tile"
+    ],
+    "source_project": "JARCH Vis",
+    "repo": "https://github.com/BlendingJake/JARCH-Vis",
+    "source_file": "candidates/jarch_vis/jv_flooring.py",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "GPL Blender architecture addon."
+  },
+  {
+    "id": "building.window.regular.jarch",
+    "name": "JARCH Regular Window",
+    "category": "buildings/openings",
+    "description": "Gliding / double-hung / stationary window pattern.",
+    "tags": [
+      "window"
+    ],
+    "variants": [
+      "stationary",
+      "gliding",
+      "double-hung"
+    ],
+    "source_project": "JARCH Vis",
+    "repo": "https://github.com/BlendingJake/JARCH-Vis",
+    "source_file": "candidates/jarch_vis/jv_windows.py",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "GPL Blender architecture addon."
+  },
+  {
+    "id": "building.roof.shingle.jarch",
+    "name": "JARCH Shingle Roof",
+    "category": "buildings/roofs",
+    "description": "Shingle roofing.",
+    "tags": [
+      "roof",
+      "shingle"
+    ],
+    "variants": [],
+    "source_project": "JARCH Vis",
+    "repo": "https://github.com/BlendingJake/JARCH-Vis",
+    "source_file": "candidates/jarch_vis/jv_roofing.py",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "GPL Blender architecture addon."
+  },
+  {
+    "id": "building.roof.terracotta.jarch",
+    "name": "JARCH Terracotta Roof",
+    "category": "buildings/roofs",
+    "description": "Terracotta tile roofing.",
+    "tags": [
+      "roof",
+      "terracotta"
+    ],
+    "variants": [],
+    "source_project": "JARCH Vis",
+    "repo": "https://github.com/BlendingJake/JARCH-Vis",
+    "source_file": "candidates/jarch_vis/jv_roofing.py",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "GPL Blender architecture addon."
+  },
+  {
+    "id": "building.roof.shake.jarch",
+    "name": "JARCH Shake Roof",
+    "category": "buildings/roofs",
+    "description": "Wood-shake roofing.",
+    "tags": [
+      "roof",
+      "shake"
+    ],
+    "variants": [],
+    "source_project": "JARCH Vis",
+    "repo": "https://github.com/BlendingJake/JARCH-Vis",
+    "source_file": "candidates/jarch_vis/jv_roofing.py",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "GPL Blender architecture addon."
+  },
+  {
+    "id": "building.modular.cqterrain",
+    "name": "cqterrain Building",
+    "category": "buildings/modular",
+    "description": "Multi-room building from rooms/walls/floors.",
+    "tags": [
+      "building"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/building/Building.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.room.cqterrain",
+    "name": "cqterrain Room",
+    "category": "buildings/rooms",
+    "description": "Parametric room.",
+    "tags": [
+      "room"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/building/Room.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.wall.cqterrain",
+    "name": "cqterrain Wall",
+    "category": "buildings/walls",
+    "description": "Parametric wall segment.",
+    "tags": [
+      "wall"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/building/Wall.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.floor.cqterrain",
+    "name": "cqterrain Floor",
+    "category": "buildings/floors",
+    "description": "Parametric floor plate.",
+    "tags": [
+      "floor"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/building/Floor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.cqterrain",
+    "name": "cqterrain Door",
+    "category": "buildings/openings",
+    "description": "Base parametric door.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/Door.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.single.cqterrain",
+    "name": "cqterrain Single Door",
+    "category": "buildings/openings",
+    "description": "Single-leaf door.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/DoorSingle.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.double.cqterrain",
+    "name": "cqterrain Double Door",
+    "category": "buildings/openings",
+    "description": "Double-leaf door.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/DoorDouble.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.panel.cqterrain",
+    "name": "cqterrain Panel Door",
+    "category": "buildings/openings",
+    "description": "Paneled door.",
+    "tags": [
+      "door",
+      "panel"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/PanelDoor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.heavy.cqterrain",
+    "name": "cqterrain Heavy Door",
+    "category": "industrial/doors",
+    "description": "Reinforced industrial door.",
+    "tags": [
+      "door",
+      "industrial"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/HeavyDoor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.door.blast.cqterrain",
+    "name": "cqterrain Blast Door",
+    "category": "industrial/doors",
+    "description": "Blast / bunker door.",
+    "tags": [
+      "door",
+      "blast"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/BlastDoor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.garage.cqterrain",
+    "name": "cqterrain Garage Door",
+    "category": "buildings/openings",
+    "description": "Sectional garage door.",
+    "tags": [
+      "garage",
+      "door"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/GarageDoor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.door.hatch.cqterrain",
+    "name": "cqterrain Hatch",
+    "category": "industrial/doors",
+    "description": "Floor/ceiling hatch.",
+    "tags": [
+      "hatch"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/Hatch.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.split.cqterrain",
+    "name": "cqterrain Split Door",
+    "category": "buildings/openings",
+    "description": "Split door.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/SplitDoor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.tiled.cqterrain",
+    "name": "cqterrain Tiled Door",
+    "category": "buildings/openings",
+    "description": "Tiled-panel door.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/door/TiledDoor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.floor.wood.cqterrain",
+    "name": "cqterrain Wood Floor",
+    "category": "buildings/floors",
+    "description": "Plank wood flooring.",
+    "tags": [
+      "floor",
+      "wood"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/floor/WoodFloor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.floor.tile.cqterrain",
+    "name": "cqterrain Tile Floor",
+    "category": "buildings/floors",
+    "description": "Tiled flooring.",
+    "tags": [
+      "floor",
+      "tile"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/floor/TileFloor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.floor.brick.cqterrain",
+    "name": "cqterrain Round Brick Floor",
+    "category": "buildings/floors",
+    "description": "Round-brick floor.",
+    "tags": [
+      "floor",
+      "brick"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/floor/RoundBrickFloor.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "street.barrier.jersey.cqterrain",
+    "name": "cqterrain Jersey Barrier",
+    "category": "street/barriers",
+    "description": "Traffic jersey barrier.",
+    "tags": [
+      "barrier",
+      "jersey"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/barrier/Barrier.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "street.bridge.cqterrain",
+    "name": "cqterrain Bridge",
+    "category": "street/bridges",
+    "description": "Bridge with ramp and tile variants.",
+    "tags": [
+      "bridge"
+    ],
+    "variants": [
+      "straight",
+      "ramp",
+      "tiled"
+    ],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/bridge/Bridge.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.ladder.cqterrain",
+    "name": "cqterrain Ladder",
+    "category": "industrial/access",
+    "description": "Industrial ladder.",
+    "tags": [
+      "ladder"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/Ladder.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.fan.cqterrain",
+    "name": "cqterrain Industrial Fan",
+    "category": "industrial/hvac",
+    "description": "Fan housing + blades.",
+    "tags": [
+      "fan",
+      "hvac"
+    ],
+    "variants": [
+      "housing",
+      "blade",
+      "industrial"
+    ],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/greeble/FanIndustrial.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.vent.cqterrain",
+    "name": "cqterrain Vent",
+    "category": "industrial/hvac",
+    "description": "Vent grille.",
+    "tags": [
+      "vent"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/greeble/vent.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.panel.cqterrain",
+    "name": "cqterrain Greeble Panel",
+    "category": "industrial/electrical",
+    "description": "Industrial panel greeble.",
+    "tags": [
+      "panel"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/greeble/Panel.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.antenna.dish.cqterrain",
+    "name": "cqterrain Dish Antenna",
+    "category": "industrial/antenna",
+    "description": "Dish / antenna greeble.",
+    "tags": [
+      "antenna",
+      "dish"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain/greeble/Dish.py",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.pipe.cqterrain",
+    "name": "cqterrain Pipe",
+    "category": "industrial/pipes",
+    "description": "Pipe terrain pieces.",
+    "tags": [
+      "pipe"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain pipe module",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.walkway.cqterrain",
+    "name": "cqterrain Walkway",
+    "category": "industrial/platforms",
+    "description": "Elevated walkway / catwalk.",
+    "tags": [
+      "walkway",
+      "catwalk"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain walkway",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "industrial.spool.cqterrain",
+    "name": "cqterrain Cable Spool",
+    "category": "industrial/props",
+    "description": "Cable/wire spool.",
+    "tags": [
+      "spool",
+      "cable"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain spool",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "street.shieldwall.cqterrain",
+    "name": "cqterrain Shieldwall",
+    "category": "street/barriers",
+    "description": "Defensive / industrial shieldwall.",
+    "tags": [
+      "barrier",
+      "wall"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain shieldwall",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.ruin.cqterrain",
+    "name": "cqterrain Ruin",
+    "category": "buildings/ruins",
+    "description": "Damaged building generator.",
+    "tags": [
+      "ruin"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain ruin",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.roof.cqterrain",
+    "name": "cqterrain Roof",
+    "category": "buildings/roofs",
+    "description": "Parametric roof pieces.",
+    "tags": [
+      "roof"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain roof",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.stair.cqterrain",
+    "name": "cqterrain Stairs",
+    "category": "buildings/circulation",
+    "description": "Parametric stairs.",
+    "tags": [
+      "stairs"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain stairs",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.window.cqterrain",
+    "name": "cqterrain Window",
+    "category": "buildings/openings",
+    "description": "Parametric window.",
+    "tags": [
+      "window"
+    ],
+    "variants": [],
+    "source_project": "cqterrain",
+    "repo": "https://github.com/medicationforall/cqterrain",
+    "source_file": "src/cqterrain window",
+    "commit": "3848928597b2ba9ca5b61e11279467c93ad66889",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "CadQuery solids. Easy geometric reference even if runtime is not Blender."
+  },
+  {
+    "id": "building.door.glasspanel.infinigen",
+    "name": "Infinigen Glass Panel Door",
+    "category": "buildings/openings",
+    "description": "Glass-panel door factory.",
+    "tags": [
+      "door",
+      "glass"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/doors",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "building.door.lite.infinigen",
+    "name": "Infinigen Lite Door",
+    "category": "buildings/openings",
+    "description": "Lite / windowed door factory.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/doors",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "building.door.louver.infinigen",
+    "name": "Infinigen Louver Door",
+    "category": "buildings/openings",
+    "description": "Louvered door factory.",
+    "tags": [
+      "door",
+      "louver"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/doors",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "building.door.panel.infinigen",
+    "name": "Infinigen Panel Door",
+    "category": "buildings/openings",
+    "description": "Paneled door factory.",
+    "tags": [
+      "door",
+      "panel"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/doors",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "building.window.infinigen",
+    "name": "Infinigen Window",
+    "category": "buildings/openings",
+    "description": "Window factory.",
+    "tags": [
+      "window"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/windows",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "lighting.ceiling.classic.infinigen",
+    "name": "Infinigen Ceiling Classic Lamp",
+    "category": "interior/lighting",
+    "description": "Classic ceiling fixture.",
+    "tags": [
+      "lamp",
+      "ceiling"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "candidates/infinigen/lamp/ceiling_classic_lamp.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "lighting.lamp.infinigen",
+    "name": "Infinigen Lamp",
+    "category": "interior/lighting",
+    "description": "Generic lamp factory.",
+    "tags": [
+      "lamp"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "candidates/infinigen/lamp",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "lighting.floorlamp.infinigen",
+    "name": "Infinigen Floor Lamp",
+    "category": "interior/lighting",
+    "description": "Floor lamp factory.",
+    "tags": [
+      "lamp",
+      "floor"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "candidates/infinigen/lamp",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "lighting.desklamp.infinigen",
+    "name": "Infinigen Desk Lamp",
+    "category": "interior/lighting",
+    "description": "Desk lamp factory.",
+    "tags": [
+      "lamp",
+      "desk"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "candidates/infinigen/lamp",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen.core"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "BSD-3. Dedup against Benjamin household.lamp.* if needed."
+  },
+  {
+    "id": "building.wall.masonry.extraobjects",
+    "name": "Masonry Wall",
+    "category": "buildings/walls",
+    "description": "Block masonry wall generator (Wallfactory + Blocks).",
+    "tags": [
+      "wall",
+      "masonry",
+      "brick"
+    ],
+    "variants": [
+      "straight",
+      "radial",
+      "sloped",
+      "openings",
+      "shelf",
+      "steps"
+    ],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/Wallfactory.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Keep Wallfactory + Blocks. Reject gears/torusknot/star/pyramid/honeycomb as primitives."
+  },
+  {
+    "id": "industrial.beam.extraobjects",
+    "name": "Beam Builder",
+    "category": "industrial/structure",
+    "description": "Parametric structural beam builder.",
+    "tags": [
+      "beam",
+      "steel"
+    ],
+    "variants": [],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_beam_builder.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "industrial.pipejoint.extraobjects",
+    "name": "Pipe Joint",
+    "category": "industrial/pipes",
+    "description": "Parametric pipe joints (elbows/tees as recognizable fittings).",
+    "tags": [
+      "pipe",
+      "fitting",
+      "joint"
+    ],
+    "variants": [
+      "elbow",
+      "tee",
+      "joint"
+    ],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_pipe_joint.py",
+    "commit": "local-harvest",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Borderline primitive; kept because fittings are named industrial parts."
+  },
+  {
+    "id": "industrial.pipes.volume.fill",
+    "name": "Random Volume Pipes",
+    "category": "industrial/pipes",
+    "description": "Grows obstacle-avoiding pipes inside a volume from origin surfaces.",
+    "tags": [
+      "pipe",
+      "industrial"
+    ],
+    "variants": [],
+    "source_project": "pipes-generator-blender",
+    "repo": "https://github.com/bruchansky/pipes-generator-blender",
+    "source_file": "candidates/pipes_generator/pipes-generator.py",
+    "commit": "local-harvest",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "MIT. Isolated class. Local copy + LICENSE present."
+  },
+  {
+    "id": "industrial.pipe.nd",
+    "name": "ND Pipe Generator",
+    "category": "industrial/pipes",
+    "description": "Non-destructive pipes along edges with profiles and fittings.",
+    "tags": [
+      "pipe"
+    ],
+    "variants": [
+      "circular",
+      "custom-profile"
+    ],
+    "source_project": "ND addon",
+    "repo": "https://github.com/hugemenace/nd",
+    "source_file": "ND 2.1 pipe generator",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "industrial.cable.nd",
+    "name": "ND Cable Generator",
+    "category": "industrial/cables",
+    "description": "Non-destructive cables with custom profiles.",
+    "tags": [
+      "cable"
+    ],
+    "variants": [],
+    "source_project": "ND addon",
+    "repo": "https://github.com/hugemenace/nd",
+    "source_file": "ND 2.1 cable generator",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "industrial.pipefitting.nd",
+    "name": "ND Pipe Fitting",
+    "category": "industrial/pipes",
+    "description": "Procedural fittings that follow host pipe diameter.",
+    "tags": [
+      "fitting",
+      "flange"
+    ],
+    "variants": [
+      "simple",
+      "stepped",
+      "flanged"
+    ],
+    "source_project": "ND addon",
+    "repo": "https://github.com/hugemenace/nd",
+    "source_file": "ND 2.1 fittings",
+    "commit": "main",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.tower.glass.bene",
+    "name": "Glass Tower",
+    "category": "buildings/towers",
+    "description": "Glass-tower facade extruded floor-by-floor.",
+    "tags": [
+      "skyscraper",
+      "glass"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.office.block.bene",
+    "name": "Office Block",
+    "category": "buildings/offices",
+    "description": "Mid-rise office block facade.",
+    "tags": [
+      "office"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.commercial.brick.bene",
+    "name": "Brick Commercial",
+    "category": "buildings/shops",
+    "description": "Brick commercial facade.",
+    "tags": [
+      "brick",
+      "shop"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.apartment.slab.bene",
+    "name": "Apartment Slab",
+    "category": "buildings/apartments",
+    "description": "Horizontal apartment slab.",
+    "tags": [
+      "apartment"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.apartment.tower.bene",
+    "name": "Apartment Tower",
+    "category": "buildings/apartments",
+    "description": "Vertical apartment tower.",
+    "tags": [
+      "apartment",
+      "tower"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.townhouse.bene",
+    "name": "Townhouse",
+    "category": "buildings/houses",
+    "description": "Row townhouse facade.",
+    "tags": [
+      "townhouse"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.cottage.bene",
+    "name": "Cottage",
+    "category": "buildings/houses",
+    "description": "Cottage / village house facade.",
+    "tags": [
+      "cottage"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.shopfront.bene",
+    "name": "Shopfront",
+    "category": "buildings/shops",
+    "description": "Ground-floor retail shopfront.",
+    "tags": [
+      "shop",
+      "storefront"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.warehouse.bene",
+    "name": "Warehouse",
+    "category": "buildings/industrial",
+    "description": "Warehouse facade.",
+    "tags": [
+      "warehouse"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.factory.hall.bene",
+    "name": "Factory Hall",
+    "category": "buildings/industrial",
+    "description": "Factory hall volume.",
+    "tags": [
+      "factory"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.industrial.tower.bene",
+    "name": "Industrial Tower",
+    "category": "buildings/industrial",
+    "description": "Industrial process tower.",
+    "tags": [
+      "industrial",
+      "tower"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "building.mixeduse.bene",
+    "name": "Mixed-Use Building",
+    "category": "buildings/mixed",
+    "description": "Mixed residential/commercial facade.",
+    "tags": [
+      "mixed-use"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps facade types",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed before copying source."
+  },
+  {
+    "id": "street.lamp.bene",
+    "name": "Procgen Street Lamp",
+    "category": "street/lighting",
+    "description": "Placeholder procedural street lamp.",
+    "tags": [
+      "lamp",
+      "street"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps/assets/library.py",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "street.bench.bene",
+    "name": "Procgen Street Bench",
+    "category": "street/furniture",
+    "description": "Placeholder procedural bench.",
+    "tags": [
+      "bench"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps/assets/library.py",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "street.sign.bene",
+    "name": "Procgen Street Sign",
+    "category": "street/signs",
+    "description": "Placeholder procedural sign.",
+    "tags": [
+      "sign"
+    ],
+    "variants": [],
+    "source_project": "bene-proggen-maps",
+    "repo": "https://github.com/Beneking102/bene-proggen-maps",
+    "source_file": "procgen_maps/assets/library.py",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.storefront.pbg",
+    "name": "Storefront Shell",
+    "category": "buildings/shops",
+    "description": "Urban storefront with display windows.",
+    "tags": [
+      "storefront"
+    ],
+    "variants": [
+      "1-10 floors"
+    ],
+    "source_project": "blender-building-generator",
+    "repo": "https://github.com/outerreaches/blender-building-generator",
+    "source_file": "addon sources",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed."
+  },
+  {
+    "id": "building.warehouse.pbg",
+    "name": "Warehouse Shell",
+    "category": "buildings/industrial",
+    "description": "Warehouse profile.",
+    "tags": [
+      "warehouse"
+    ],
+    "variants": [
+      "1-10 floors"
+    ],
+    "source_project": "blender-building-generator",
+    "repo": "https://github.com/outerreaches/blender-building-generator",
+    "source_file": "addon sources",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed."
+  },
+  {
+    "id": "building.residential.pbg",
+    "name": "Residential Shell",
+    "category": "buildings/apartments",
+    "description": "Residential multi-floor urban shell.",
+    "tags": [
+      "residential"
+    ],
+    "variants": [
+      "1-10 floors"
+    ],
+    "source_project": "blender-building-generator",
+    "repo": "https://github.com/outerreaches/blender-building-generator",
+    "source_file": "addon sources",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed."
+  },
+  {
+    "id": "building.bar.pbg",
+    "name": "Bar / Pub Shell",
+    "category": "buildings/shops",
+    "description": "Bar interior-layout profile.",
+    "tags": [
+      "bar"
+    ],
+    "variants": [
+      "1-10 floors"
+    ],
+    "source_project": "blender-building-generator",
+    "repo": "https://github.com/outerreaches/blender-building-generator",
+    "source_file": "addon sources",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed."
+  },
+  {
+    "id": "building.urban.damaged.pbg",
+    "name": "Damaged Urban Building",
+    "category": "buildings/ruins",
+    "description": "Post-apocalyptic wall collapse / irregular edges.",
+    "tags": [
+      "damaged",
+      "ruin"
+    ],
+    "variants": [
+      "1-10 floors"
+    ],
+    "source_project": "blender-building-generator",
+    "repo": "https://github.com/outerreaches/blender-building-generator",
+    "source_file": "addon sources",
+    "commit": "main",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License review-needed."
+  },
+  {
+    "id": "building.factory.geonodes",
+    "name": "GN Factory",
+    "category": "buildings/industrial",
+    "description": "Geometry-nodes factory preset.",
+    "tags": [
+      "factory",
+      "geonodes"
+    ],
+    "variants": [],
+    "source_project": "procedural_buildings",
+    "repo": "https://github.com/wsparcie/procedural_buildings",
+    "source_file": ".blend Geometry Nodes presets",
+    "commit": "main",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "geometry-nodes"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "MIT but logic lives in node trees."
+  },
+  {
+    "id": "building.tenement.geonodes",
+    "name": "GN Tenement",
+    "category": "buildings/apartments",
+    "description": "Urban tenement preset.",
+    "tags": [
+      "tenement"
+    ],
+    "variants": [],
+    "source_project": "procedural_buildings",
+    "repo": "https://github.com/wsparcie/procedural_buildings",
+    "source_file": ".blend Geometry Nodes presets",
+    "commit": "main",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "geometry-nodes"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "MIT but logic lives in node trees."
+  },
+  {
+    "id": "building.blockflats.geonodes",
+    "name": "GN Block of Flats",
+    "category": "buildings/apartments",
+    "description": "Residential block preset.",
+    "tags": [
+      "apartment"
+    ],
+    "variants": [],
+    "source_project": "procedural_buildings",
+    "repo": "https://github.com/wsparcie/procedural_buildings",
+    "source_file": ".blend Geometry Nodes presets",
+    "commit": "main",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "geometry-nodes"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "MIT but logic lives in node trees."
+  },
+  {
+    "id": "building.skyscraper.geonodes",
+    "name": "GN Skyscraper",
+    "category": "buildings/towers",
+    "description": "High-rise preset.",
+    "tags": [
+      "skyscraper"
+    ],
+    "variants": [],
+    "source_project": "procedural_buildings",
+    "repo": "https://github.com/wsparcie/procedural_buildings",
+    "source_file": ".blend Geometry Nodes presets",
+    "commit": "main",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "geometry-nodes"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "MIT but logic lives in node trees."
+  },
+  {
+    "id": "furniture.cabinet.parametric.fbuilder",
+    "name": "Parametric Cabinet (furniture_lib)",
+    "category": "furniture/storage",
+    "description": "Parametric cabinet with sections, doors, handles and hinges.",
+    "tags": [
+      "cabinet",
+      "door",
+      "hinge"
+    ],
+    "variants": [
+      "sectioned"
+    ],
+    "source_project": "furniture_builder",
+    "repo": "local-harvest",
+    "source_file": "candidates/furniture_builder/furniture_lib.py",
+    "commit": "local-harvest",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Local harvest. Confirm license."
+  },
+  {
+    "id": "building.fill.buildingtools",
+    "name": "Building Tools Fill (window/door pane fills)",
+    "category": "buildings/openings",
+    "description": "Parametric fills for openings: glass panes, bars, panels used by windows and multigroups.",
+    "tags": [
+      "window",
+      "fill",
+      "mullion"
+    ],
+    "variants": [],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/fill/fill_types.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Supports window/door appearance variants."
+  },
+  {
+    "id": "building.multigroup.buildingtools",
+    "name": "Building Tools Multigroup",
+    "category": "buildings/openings",
+    "description": "Door-window combination groups on a facade.",
+    "tags": [
+      "door",
+      "window",
+      "multigroup"
+    ],
+    "variants": [],
+    "source_project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "source_file": "candidates/building_tools/btools/building/multigroup/multigroup_types.py",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "bmesh"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "furniture.kitchen.archipack",
+    "name": "Archipack Kitchen",
+    "category": "furniture/kitchen",
+    "description": "Parametric kitchen cabinet run present in the public GPL tree.",
+    "tags": [
+      "kitchen",
+      "cabinet"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_kitchen.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Large module; GPL 2.79 tree includes kitchen."
+  },
+  {
+    "id": "building.molding.archipack",
+    "name": "Archipack Molding",
+    "category": "buildings/trim",
+    "description": "Parametric wall/ceiling molding.",
+    "tags": [
+      "molding",
+      "trim"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_molding.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "building.handle.archipack",
+    "name": "Archipack Door/Window Handle",
+    "category": "buildings/hardware",
+    "description": "Parametric handle used by Archipack doors and windows.",
+    "tags": [
+      "handle",
+      "hardware"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_handle.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.floor.heating.archipack",
+    "name": "Archipack Floor Heating",
+    "category": "buildings/floors",
+    "description": "Floor finish variant with heating layout.",
+    "tags": [
+      "floor",
+      "heating"
+    ],
+    "variants": [],
+    "source_project": "Archipack",
+    "repo": "https://github.com/s-leger/archipack",
+    "source_file": "candidates/archipack/archipack_floor_heating.py",
+    "commit": "master",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "industrial.bearing.cqwarehouse",
+    "name": "cq_warehouse Bearing",
+    "category": "industrial/bearings",
+    "description": "Parametric rolling-element bearing from standards tables.",
+    "tags": [
+      "bearing",
+      "industrial"
+    ],
+    "variants": [],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/bearing.py",
+    "commit": "local-harvest",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Hardware-store class generator; useful industrial prop."
+  },
+  {
+    "id": "industrial.fastener.cqwarehouse",
+    "name": "cq_warehouse Fastener",
+    "category": "industrial/fasteners",
+    "description": "Parametric screws, nuts, washers from metric/imperial tables.",
+    "tags": [
+      "screw",
+      "nut",
+      "bolt",
+      "washer"
+    ],
+    "variants": [
+      "screw",
+      "nut",
+      "washer"
+    ],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/fastener.py",
+    "commit": "local-harvest",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "industrial.chain.cqwarehouse",
+    "name": "cq_warehouse Chain",
+    "category": "industrial/mechanical",
+    "description": "Parametric chain.",
+    "tags": [
+      "chain"
+    ],
+    "variants": [],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/chain.py",
+    "commit": "local-harvest",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "industrial.sprocket.cqwarehouse",
+    "name": "cq_warehouse Sprocket",
+    "category": "industrial/mechanical",
+    "description": "Parametric sprocket.",
+    "tags": [
+      "sprocket",
+      "gear-adjacent"
+    ],
+    "variants": [],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/sprocket.py",
+    "commit": "local-harvest",
+    "license": "Apache-2.0",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Sprocket is a named machine part, not a math gear primitive."
+  }
+]

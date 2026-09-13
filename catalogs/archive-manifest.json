@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "project": "TK3D",
+  "archives": [
+    {
+      "archive": "GeoForge_Code_Library_v1.zip",
+      "archive_sha256": "451465e13b44447006301ad43e90d9623bfa4cd6e6ec36fd07b519cd7cfe954b",
+      "copied_files": 56,
+      "python_files": 30,
+      "skipped_pyc": 30
+    },
+    {
+      "archive": "GeoForge_Object_Harvest.zip",
+      "archive_sha256": "1510844919804ff1259f094ced31afb8bca4b8c456b8f89f02e56d89cb09a2a8",
+      "catalog_entries": 521,
+      "python_files": 315,
+      "empty_python_files": 0
+    }
+  ]
+}

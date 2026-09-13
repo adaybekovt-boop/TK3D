@@ -1,0 +1,77 @@
+{
+  "pack": "GeoForge OSS Source Bootstrap",
+  "generated_on": "2026-09-13",
+  "purpose": "Fetch pinned open-source procedural 3D / geometry sources for GeoForge research and adapters.",
+  "sources": [
+    {
+      "name": "Building Tools",
+      "repo": "https://github.com/ranjian0/building_tools.git",
+      "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+      "license": "MIT",
+      "role": "Blender building generation: floorplans, floors, doors, windows, stairs, roof, roads.",
+      "sparse_paths": [
+        "btools/building",
+        "btools/utils",
+        "btools/road",
+        "tests"
+      ]
+    },
+    {
+      "name": "ProcFunc",
+      "repo": "https://github.com/princeton-vl/procfunc.git",
+      "commit": "7ff982e89c58ce16fe4b0028d14661c0be77b6b7",
+      "license": "BSD-3-Clause",
+      "role": "Function-oriented procedural geometry API, mesh/object ops, node wrappers, deterministic helpers.",
+      "sparse_paths": [
+        "src/procfunc",
+        "examples/transpile_simple_chair",
+        "tests"
+      ]
+    },
+    {
+      "name": "Infinigen",
+      "repo": "https://github.com/princeton-vl/infinigen.git",
+      "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+      "license": "BSD-3-Clause",
+      "role": "Large library of procedural object generators; reference source for furniture and complex props.",
+      "sparse_paths": [
+        "src/infinigen/assets/objects",
+        "src/infinigen/core"
+      ],
+      "note": "This is a curated reference subset, not a standalone Infinigen installation."
+    },
+    {
+      "name": "trimesh",
+      "repo": "https://github.com/mikedh/trimesh.git",
+      "commit": "fcf660feb0a14c68fd3945789e8ed77e260f9167",
+      "license": "MIT",
+      "role": "Mesh analysis / validation / repair reference.",
+      "sparse_paths": [
+        "trimesh"
+      ]
+    },
+    {
+      "name": "Shapely",
+      "repo": "https://github.com/shapely/shapely.git",
+      "commit": "b5139dd8b11357796fa32effd0916e82eb9c2ab4",
+      "license": "BSD-3-Clause",
+      "role": "2D geometry / layout / footprints / intersections.",
+      "sparse_paths": [
+        "shapely",
+        "src"
+      ]
+    },
+    {
+      "name": "Manifold",
+      "repo": "https://github.com/elalish/manifold.git",
+      "commit": "a9cc3c658b8fbaceabf56886c467ad766cf71036",
+      "license": "Apache-2.0",
+      "role": "Robust manifold solid geometry and Boolean reference.",
+      "sparse_paths": [
+        "bindings/python",
+        "include/manifold",
+        "src"
+      ]
+    }
+  ]
+}

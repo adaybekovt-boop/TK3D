@@ -1,0 +1,113 @@
+[
+  {
+    "id": "reject.extra_objects.gears",
+    "name": "Gear primitives",
+    "reason": "primitive, not an object type",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_gears.py"
+  },
+  {
+    "id": "reject.extra_objects.torusknot",
+    "name": "Torus knot",
+    "reason": "math primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_torusknot.py"
+  },
+  {
+    "id": "reject.extra_objects.star",
+    "name": "Star mesh",
+    "reason": "primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_star.py"
+  },
+  {
+    "id": "reject.extra_objects.pyramid",
+    "name": "Pyramid",
+    "reason": "primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_pyramid.py"
+  },
+  {
+    "id": "reject.extra_objects.honeycomb",
+    "name": "Honeycomb",
+    "reason": "pattern primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_honeycomb.py"
+  },
+  {
+    "id": "reject.extra_objects.menger",
+    "name": "Menger sponge",
+    "reason": "fractal primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_menger_sponge.py"
+  },
+  {
+    "id": "reject.extra_objects.supertoroid",
+    "name": "Supertoroid",
+    "reason": "math primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_supertoroid.py"
+  },
+  {
+    "id": "reject.extra_objects.twisted_torus",
+    "name": "Twisted torus",
+    "reason": "math primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_twisted_torus.py"
+  },
+  {
+    "id": "reject.extra_objects.function_surface",
+    "name": "3D function surface",
+    "reason": "math surface, not an object type",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_3d_function_surface.py"
+  },
+  {
+    "id": "reject.nodee.furnitures",
+    "name": "Nodee Furnitures",
+    "reason": "paid Superhive product, no reusable source",
+    "repo": "https://superhivemarket.com/products/nodee-furnitures"
+  },
+  {
+    "id": "reject.blenderbash.furniture_gn",
+    "name": "Procedural furniture GN pack",
+    "reason": "paid Gumroad geometry-nodes file, no code",
+    "repo": "https://blenderbash.gumroad.com/l/tPJOa"
+  },
+  {
+    "id": "reject.stool_chair_table_generator",
+    "name": "Stool-Chair-Table Generator",
+    "reason": "paid Superhive GN, royalty-free but no source",
+    "repo": "https://superhivemarket.com/products/stool---chair---table-generator"
+  },
+  {
+    "id": "reject.procedural_bathrooms_blendermarket",
+    "name": "Procedural Bathrooms pack",
+    "reason": "paid asset pack, not code generators",
+    "repo": "https://www.blendernation.com/2024/01/15/procedural-bathrooms-and-assets/"
+  },
+  {
+    "id": "reject.tiny_treats_bathroom",
+    "name": "Tiny Treats Bubbly Bathroom",
+    "reason": "static CC0 meshes, not procedural generators",
+    "repo": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Bubbly-Bathroom-1.0"
+  },
+  {
+    "id": "reject.lpan18.chair_mixer",
+    "name": "3D-Chair-Generator mix-n-match",
+    "reason": "recombines existing OBJ parts, not a procedural generator; unclear license",
+    "repo": "https://github.com/lpan18/3D-Chair-Generator"
+  },
+  {
+    "id": "reject.unreal.table_chairs",
+    "name": "UE5 Procedural Table and Chairs",
+    "reason": "Unreal C++ cubes demo, not reusable Blender/Python geometry",
+    "repo": "https://github.com/UnMondodiBonobo/ProceduralTableAndChairs"
+  },
+  {
+    "id": "reject.furniture_builder.license",
+    "name": "blender_furniture_builder license review",
+    "reason": "usable code but no SPDX/license file in repo header — keep in catalog as unspecified-review, flagged here too",
+    "repo": "https://github.com/mikhailefimov/blender_furniture_builder"
+  }
+]

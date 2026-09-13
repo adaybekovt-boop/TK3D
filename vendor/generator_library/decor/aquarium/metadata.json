@@ -1,0 +1,24 @@
+{
+  "id": "decor.aquarium",
+  "name_ru": "Аквариум",
+  "meaning_ru": "Стеклянный аквариум с рамкой и процедурным содержимым.",
+  "not_this_ru": null,
+  "tags": [
+    "aquarium",
+    "аквариум",
+    "glass tank"
+  ],
+  "variants": [
+    "wet",
+    "dry"
+  ],
+  "files": [
+    "aquarium_tank.py"
+  ],
+  "source": {
+    "project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "furniture.kitchen.space",
+  "name_ru": "Кухонный гарнитур / остров",
+  "meaning_ru": "Композиция нижних и верхних кухонных шкафов; умеет вариант острова.",
+  "not_this_ru": null,
+  "tags": [
+    "kitchen",
+    "кухня",
+    "cabinets",
+    "island"
+  ],
+  "variants": [
+    "wall kitchen",
+    "kitchen island"
+  ],
+  "files": [
+    "kitchen_space.py"
+  ],
+  "source": {
+    "project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause"
+  }
+}

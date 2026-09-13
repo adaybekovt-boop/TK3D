@@ -1,0 +1,32 @@
+{
+  "id": "architecture.stairs.walkable",
+  "name_ru": "Обычная лестница со ступенями",
+  "meaning_ru": "Лестница, по которой человек поднимается ногами между этажами.",
+  "not_this_ru": "Не вертикальная приставная лестница с перекладинами.",
+  "tags": [
+    "лестница",
+    "ступени",
+    "этаж",
+    "walkable stairs",
+    "landing",
+    "railing"
+  ],
+  "variants": [
+    "filled",
+    "blocked",
+    "slope bottom",
+    "landing",
+    "railing"
+  ],
+  "files": [
+    "stairs_types.py",
+    "stairs_props.py",
+    "stairs_ops.py"
+  ],
+  "source": {
+    "project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT"
+  }
+}

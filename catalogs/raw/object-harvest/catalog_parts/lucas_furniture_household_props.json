@@ -1,0 +1,5685 @@
+[
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.chair.dining",
+    "name": "Dining Chair",
+    "category": "furniture/chairs",
+    "description": "Four-leg dining chair with slatted or solid back.",
+    "tags": [
+      "chair",
+      "dining",
+      "seating",
+      "furniture"
+    ],
+    "variants": [
+      "dining"
+    ],
+    "source_file": "candidates/roomicon/chairs/chair_types.py",
+    "notes": "Roomicon generate_chair type=dining"
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.chair.normal",
+    "name": "Side Chair",
+    "category": "furniture/chairs",
+    "description": "Simple four-leg side chair.",
+    "tags": [
+      "chair",
+      "normal",
+      "seating",
+      "furniture"
+    ],
+    "variants": [
+      "normal"
+    ],
+    "source_file": "candidates/roomicon/chairs/chair_types.py",
+    "notes": "Roomicon generate_chair type=normal"
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.chair.office",
+    "name": "Office Chair",
+    "category": "furniture/chairs",
+    "description": "Swivel office chair with column and oval back.",
+    "tags": [
+      "chair",
+      "office",
+      "seating",
+      "furniture"
+    ],
+    "variants": [
+      "office"
+    ],
+    "source_file": "candidates/roomicon/chairs/chair_types.py",
+    "notes": "Roomicon generate_chair type=office"
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.chair.armchair",
+    "name": "Armchair",
+    "category": "furniture/chairs",
+    "description": "Upholstered armchair with box or leg base.",
+    "tags": [
+      "chair",
+      "armchair",
+      "seating",
+      "furniture"
+    ],
+    "variants": [
+      "armchair"
+    ],
+    "source_file": "candidates/roomicon/chairs/chair_types.py",
+    "notes": "Roomicon generate_chair type=armchair"
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.chair.stool",
+    "name": "Stool",
+    "category": "furniture/chairs",
+    "description": "Backless stool with round or square seat.",
+    "tags": [
+      "chair",
+      "stool",
+      "seating",
+      "furniture"
+    ],
+    "variants": [
+      "stool"
+    ],
+    "source_file": "candidates/roomicon/chairs/chair_types.py",
+    "notes": "Roomicon generate_chair type=stool"
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.chair.bench",
+    "name": "Bench",
+    "category": "furniture/chairs",
+    "description": "Long seating bench with optional back.",
+    "tags": [
+      "chair",
+      "bench",
+      "seating",
+      "furniture"
+    ],
+    "variants": [
+      "bench"
+    ],
+    "source_file": "candidates/roomicon/chairs/chair_types.py",
+    "notes": "Roomicon generate_chair type=bench"
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.dining",
+    "name": "Dining Table",
+    "category": "furniture/tables",
+    "description": "Rectangular dining table with four legs.",
+    "tags": [
+      "table",
+      "dining",
+      "furniture"
+    ],
+    "variants": [
+      "dining"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.coffee",
+    "name": "Coffee Table",
+    "category": "furniture/tables",
+    "description": "Low coffee table with legs or panel sides.",
+    "tags": [
+      "table",
+      "coffee",
+      "furniture"
+    ],
+    "variants": [
+      "coffee"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.desk",
+    "name": "Desk",
+    "category": "furniture/tables",
+    "description": "Work desk with optional back panel.",
+    "tags": [
+      "table",
+      "desk",
+      "furniture"
+    ],
+    "variants": [
+      "desk"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.nightstand",
+    "name": "Nightstand Table",
+    "category": "furniture/tables",
+    "description": "Small bedside table with shelf.",
+    "tags": [
+      "table",
+      "nightstand",
+      "furniture"
+    ],
+    "variants": [
+      "nightstand"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.round",
+    "name": "Round Table",
+    "category": "furniture/tables",
+    "description": "Round table on pedestal or legs.",
+    "tags": [
+      "table",
+      "round",
+      "furniture"
+    ],
+    "variants": [
+      "round"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.radial",
+    "name": "Radial Pedestal Table",
+    "category": "furniture/tables",
+    "description": "Round top on tripod/cross/plate pedestal.",
+    "tags": [
+      "table",
+      "radial",
+      "furniture"
+    ],
+    "variants": [
+      "radial"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.bar",
+    "name": "Bar Table",
+    "category": "furniture/tables",
+    "description": "Tall bar / pub table.",
+    "tags": [
+      "table",
+      "bar",
+      "furniture"
+    ],
+    "variants": [
+      "bar"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.table.tea",
+    "name": "Tea Table",
+    "category": "furniture/tables",
+    "description": "Small low tea table.",
+    "tags": [
+      "table",
+      "tea",
+      "furniture"
+    ],
+    "variants": [
+      "tea"
+    ],
+    "source_file": "candidates/roomicon/tables/table_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.panel_bed",
+    "name": "Panel Bed",
+    "category": "furniture/beds",
+    "description": "Bed with panel headboard and mattress.",
+    "tags": [
+      "furniture",
+      "panel_bed"
+    ],
+    "variants": [
+      "panel_bed"
+    ],
+    "source_file": "candidates/roomicon/seating/seating_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.single_bed",
+    "name": "Single Bed",
+    "category": "furniture/beds",
+    "description": "Single-width bed frame + mattress.",
+    "tags": [
+      "furniture",
+      "single_bed"
+    ],
+    "variants": [
+      "single_bed"
+    ],
+    "source_file": "candidates/roomicon/seating/seating_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.double_bed",
+    "name": "Double Bed",
+    "category": "furniture/beds",
+    "description": "Double-width bed frame + mattress.",
+    "tags": [
+      "furniture",
+      "double_bed"
+    ],
+    "variants": [
+      "double_bed"
+    ],
+    "source_file": "candidates/roomicon/seating/seating_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.bunk_bed",
+    "name": "Bunk Bed",
+    "category": "furniture/beds",
+    "description": "Two-level bunk bed with guard rail.",
+    "tags": [
+      "furniture",
+      "bunk_bed"
+    ],
+    "variants": [
+      "bunk_bed"
+    ],
+    "source_file": "candidates/roomicon/seating/seating_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.sofa",
+    "name": "Sofa",
+    "category": "furniture/sofas",
+    "description": "Upholstered sofa with base and back.",
+    "tags": [
+      "furniture",
+      "sofa"
+    ],
+    "variants": [
+      "sofa"
+    ],
+    "source_file": "candidates/roomicon/seating/seating_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.daybed",
+    "name": "Daybed",
+    "category": "furniture/sofas",
+    "description": "Daybed with side arms and cushion.",
+    "tags": [
+      "furniture",
+      "daybed"
+    ],
+    "variants": [
+      "daybed"
+    ],
+    "source_file": "candidates/roomicon/seating/seating_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.wardrobe.single",
+    "name": "Single Wardrobe",
+    "category": "furniture/wardrobes",
+    "description": "Single-door wardrobe body with shelves.",
+    "tags": [
+      "wardrobe",
+      "storage",
+      "single"
+    ],
+    "variants": [
+      "single"
+    ],
+    "source_file": "candidates/roomicon/wardrobes/wardrobe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.wardrobe.double",
+    "name": "Double Wardrobe",
+    "category": "furniture/wardrobes",
+    "description": "Two-door wardrobe with divider.",
+    "tags": [
+      "wardrobe",
+      "storage",
+      "double"
+    ],
+    "variants": [
+      "double"
+    ],
+    "source_file": "candidates/roomicon/wardrobes/wardrobe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.wardrobe.with_drawers",
+    "name": "Wardrobe With Drawers",
+    "category": "furniture/wardrobes",
+    "description": "Wardrobe carcass plus drawer stack.",
+    "tags": [
+      "wardrobe",
+      "storage",
+      "with_drawers"
+    ],
+    "variants": [
+      "with_drawers"
+    ],
+    "source_file": "candidates/roomicon/wardrobes/wardrobe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.wardrobe.nightstand",
+    "name": "Nightstand Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Small nightstand with door/drawers.",
+    "tags": [
+      "wardrobe",
+      "storage",
+      "nightstand"
+    ],
+    "variants": [
+      "nightstand"
+    ],
+    "source_file": "candidates/roomicon/wardrobes/wardrobe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.wardrobe.dresser",
+    "name": "Dresser",
+    "category": "furniture/cabinets",
+    "description": "Chest of drawers / dresser.",
+    "tags": [
+      "wardrobe",
+      "storage",
+      "dresser"
+    ],
+    "variants": [
+      "dresser"
+    ],
+    "source_file": "candidates/roomicon/wardrobes/wardrobe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.shelf.single",
+    "name": "Single Wall Shelf",
+    "category": "furniture/shelves",
+    "description": "One floating shelf board.",
+    "tags": [
+      "shelf",
+      "single"
+    ],
+    "variants": [
+      "single"
+    ],
+    "source_file": "candidates/roomicon/shelves/shelf_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.shelf.multi",
+    "name": "Multi-Board Shelf",
+    "category": "furniture/shelves",
+    "description": "Stacked horizontal shelf boards.",
+    "tags": [
+      "shelf",
+      "multi"
+    ],
+    "variants": [
+      "multi"
+    ],
+    "source_file": "candidates/roomicon/shelves/shelf_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.shelf.bracket",
+    "name": "Bracket Shelf",
+    "category": "furniture/shelves",
+    "description": "Shelf board with visible brackets.",
+    "tags": [
+      "shelf",
+      "bracket"
+    ],
+    "variants": [
+      "bracket"
+    ],
+    "source_file": "candidates/roomicon/shelves/shelf_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.shelf.box",
+    "name": "Box Shelf",
+    "category": "furniture/shelves",
+    "description": "Open box shelf with back and sides.",
+    "tags": [
+      "shelf",
+      "box"
+    ],
+    "variants": [
+      "box"
+    ],
+    "source_file": "candidates/roomicon/shelves/shelf_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.pendant",
+    "name": "Pendant Ceiling Lamp",
+    "category": "household/lamps",
+    "description": "Hanging pendant ceiling light.",
+    "tags": [
+      "lamp",
+      "light",
+      "pendant"
+    ],
+    "variants": [
+      "pendant"
+    ],
+    "source_file": "candidates/roomicon/lamps/ceiling_lamps.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.flush",
+    "name": "Flush Ceiling Lamp",
+    "category": "household/lamps",
+    "description": "Flush-mount ceiling fixture.",
+    "tags": [
+      "lamp",
+      "light",
+      "flush"
+    ],
+    "variants": [
+      "flush"
+    ],
+    "source_file": "candidates/roomicon/lamps/ceiling_lamps.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.floor",
+    "name": "Floor Lamp",
+    "category": "household/lamps",
+    "description": "Standing floor lamp.",
+    "tags": [
+      "lamp",
+      "light",
+      "floor"
+    ],
+    "variants": [
+      "floor"
+    ],
+    "source_file": "candidates/roomicon/lamps/floor_lamps.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.arc",
+    "name": "Arc Floor Lamp",
+    "category": "household/lamps",
+    "description": "Arched standing floor lamp.",
+    "tags": [
+      "lamp",
+      "light",
+      "arc"
+    ],
+    "variants": [
+      "arc"
+    ],
+    "source_file": "candidates/roomicon/lamps/floor_lamps.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.tabletop_classic",
+    "name": "Classic Table Lamp",
+    "category": "household/lamps",
+    "description": "Classic tabletop lamp with shade.",
+    "tags": [
+      "lamp",
+      "light",
+      "tabletop_classic"
+    ],
+    "variants": [
+      "tabletop_classic"
+    ],
+    "source_file": "candidates/roomicon/lamps/tabletop.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.nightlight",
+    "name": "Nightstand Lamp",
+    "category": "household/lamps",
+    "description": "Small nightstand lamp.",
+    "tags": [
+      "lamp",
+      "light",
+      "nightlight"
+    ],
+    "variants": [
+      "nightlight"
+    ],
+    "source_file": "candidates/roomicon/lamps/tabletop.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.sconce",
+    "name": "Wall Sconce",
+    "category": "household/lamps",
+    "description": "Wall-mounted sconce.",
+    "tags": [
+      "lamp",
+      "light",
+      "sconce"
+    ],
+    "variants": [
+      "sconce"
+    ],
+    "source_file": "candidates/roomicon/lamps/wall_lamps.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.bottle",
+    "name": "Bottle",
+    "category": "props/kitchenware",
+    "description": "Lathed bottle from profile curve.",
+    "tags": [
+      "kitchenware",
+      "bottle"
+    ],
+    "variants": [
+      "bottle"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/bottles.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.coffee_cup",
+    "name": "Coffee Cup",
+    "category": "props/kitchenware",
+    "description": "Coffee cup with handle and optional saucer.",
+    "tags": [
+      "kitchenware",
+      "coffee_cup"
+    ],
+    "variants": [
+      "coffee_cup"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/cups.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.tea_cup",
+    "name": "Tea Cup",
+    "category": "props/kitchenware",
+    "description": "Tea cup with handle.",
+    "tags": [
+      "kitchenware",
+      "tea_cup"
+    ],
+    "variants": [
+      "tea_cup"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/cups.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.mug",
+    "name": "Mug",
+    "category": "props/kitchenware",
+    "description": "Cylindrical mug with handle.",
+    "tags": [
+      "kitchenware",
+      "mug"
+    ],
+    "variants": [
+      "mug"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/cups.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.tumbler",
+    "name": "Tumbler Glass",
+    "category": "props/kitchenware",
+    "description": "Short tumbler drinking glass.",
+    "tags": [
+      "kitchenware",
+      "tumbler"
+    ],
+    "variants": [
+      "tumbler"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/glasses.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.highball",
+    "name": "Highball Glass",
+    "category": "props/kitchenware",
+    "description": "Tall highball glass.",
+    "tags": [
+      "kitchenware",
+      "highball"
+    ],
+    "variants": [
+      "highball"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/glasses.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.wineglass",
+    "name": "Wine Glass",
+    "category": "props/kitchenware",
+    "description": "Stemmed wine glass.",
+    "tags": [
+      "kitchenware",
+      "wineglass"
+    ],
+    "variants": [
+      "wineglass"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/glasses.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.dinner_plate",
+    "name": "Dinner Plate",
+    "category": "props/kitchenware",
+    "description": "Dinner plate from profile.",
+    "tags": [
+      "kitchenware",
+      "dinner_plate"
+    ],
+    "variants": [
+      "dinner_plate"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/plates.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.soup_plate",
+    "name": "Soup Plate",
+    "category": "props/kitchenware",
+    "description": "Deep soup plate.",
+    "tags": [
+      "kitchenware",
+      "soup_plate"
+    ],
+    "variants": [
+      "soup_plate"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/plates.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.dessert_plate",
+    "name": "Dessert Plate",
+    "category": "props/kitchenware",
+    "description": "Small dessert plate.",
+    "tags": [
+      "kitchenware",
+      "dessert_plate"
+    ],
+    "variants": [
+      "dessert_plate"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/plates.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.vase_classic",
+    "name": "Classic Vase",
+    "category": "props/kitchenware",
+    "description": "Classic spun vase.",
+    "tags": [
+      "kitchenware",
+      "vase_classic"
+    ],
+    "variants": [
+      "vase_classic"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/vases.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.vase_cylinder",
+    "name": "Cylinder Vase",
+    "category": "props/kitchenware",
+    "description": "Cylindrical vase.",
+    "tags": [
+      "kitchenware",
+      "vase_cylinder"
+    ],
+    "variants": [
+      "vase_cylinder"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/vases.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.kitchenware.vase_bottle",
+    "name": "Bottle Vase",
+    "category": "props/kitchenware",
+    "description": "Bottle-shaped vase.",
+    "tags": [
+      "kitchenware",
+      "vase_bottle"
+    ],
+    "variants": [
+      "vase_bottle"
+    ],
+    "source_file": "candidates/roomicon/kitchenware/vases.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.clock.round_wall",
+    "name": "Round Wall Clock",
+    "category": "household/clocks",
+    "description": "Round analog wall clock with hands.",
+    "tags": [
+      "clock",
+      "round_wall"
+    ],
+    "variants": [
+      "round_wall"
+    ],
+    "source_file": "candidates/roomicon/clocks/clock_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.clock.square_wall",
+    "name": "Square Wall Clock",
+    "category": "household/clocks",
+    "description": "Square analog wall clock.",
+    "tags": [
+      "clock",
+      "square_wall"
+    ],
+    "variants": [
+      "square_wall"
+    ],
+    "source_file": "candidates/roomicon/clocks/clock_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.clock.alarm",
+    "name": "Alarm Clock",
+    "category": "household/clocks",
+    "description": "Tabletop alarm clock with bells.",
+    "tags": [
+      "clock",
+      "alarm"
+    ],
+    "variants": [
+      "alarm"
+    ],
+    "source_file": "candidates/roomicon/clocks/clock_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.clock.grandfather",
+    "name": "Grandfather Clock",
+    "category": "household/clocks",
+    "description": "Tall case / grandfather clock.",
+    "tags": [
+      "clock",
+      "grandfather"
+    ],
+    "variants": [
+      "grandfather"
+    ],
+    "source_file": "candidates/roomicon/clocks/clock_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.candle.single",
+    "name": "Candle",
+    "category": "props/candles",
+    "description": "Single standing candle with wick.",
+    "tags": [
+      "candle",
+      "single"
+    ],
+    "variants": [
+      "single"
+    ],
+    "source_file": "candidates/roomicon/candles/candle_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.candle.candlestick",
+    "name": "Candlestick",
+    "category": "props/candles",
+    "description": "Candle in a candlestick holder.",
+    "tags": [
+      "candle",
+      "candlestick"
+    ],
+    "variants": [
+      "candlestick"
+    ],
+    "source_file": "candidates/roomicon/candles/candle_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.candle.group",
+    "name": "Candle Group",
+    "category": "props/candles",
+    "description": "Cluster of candles on a tray.",
+    "tags": [
+      "candle",
+      "group"
+    ],
+    "variants": [
+      "group"
+    ],
+    "source_file": "candidates/roomicon/candles/candle_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.candle.tealight",
+    "name": "Tealight",
+    "category": "props/candles",
+    "description": "Tealight in aluminum cup.",
+    "tags": [
+      "candle",
+      "tealight"
+    ],
+    "variants": [
+      "tealight"
+    ],
+    "source_file": "candidates/roomicon/candles/candle_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.curtain.straight",
+    "name": "Straight Curtain",
+    "category": "household/textiles",
+    "description": "Flat hanging curtain pair on a rod.",
+    "tags": [
+      "curtain",
+      "straight"
+    ],
+    "variants": [
+      "straight"
+    ],
+    "source_file": "candidates/roomicon/curtains/curtain_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.curtain.gathered",
+    "name": "Gathered Curtain",
+    "category": "household/textiles",
+    "description": "Gathered / pleated curtains.",
+    "tags": [
+      "curtain",
+      "gathered"
+    ],
+    "variants": [
+      "gathered"
+    ],
+    "source_file": "candidates/roomicon/curtains/curtain_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.curtain.sheer",
+    "name": "Sheer Curtain",
+    "category": "household/textiles",
+    "description": "Sheer inner curtain layer.",
+    "tags": [
+      "curtain",
+      "sheer"
+    ],
+    "variants": [
+      "sheer"
+    ],
+    "source_file": "candidates/roomicon/curtains/curtain_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.cushion.square",
+    "name": "Square Cushion",
+    "category": "props/textiles",
+    "description": "Square throw pillow.",
+    "tags": [
+      "cushion",
+      "pillow",
+      "square"
+    ],
+    "variants": [
+      "square"
+    ],
+    "source_file": "candidates/roomicon/cushions/cushion_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.cushion.rectangle",
+    "name": "Rectangle Cushion",
+    "category": "props/textiles",
+    "description": "Rectangular lumbar cushion.",
+    "tags": [
+      "cushion",
+      "pillow",
+      "rectangle"
+    ],
+    "variants": [
+      "rectangle"
+    ],
+    "source_file": "candidates/roomicon/cushions/cushion_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.mirror.rectangle",
+    "name": "Rectangular Mirror",
+    "category": "household/mirrors",
+    "description": "Rect framed wall mirror.",
+    "tags": [
+      "mirror",
+      "rectangle"
+    ],
+    "variants": [
+      "rectangle"
+    ],
+    "source_file": "candidates/roomicon/mirrors/mirror_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.mirror.round",
+    "name": "Round Mirror",
+    "category": "household/mirrors",
+    "description": "Round framed mirror.",
+    "tags": [
+      "mirror",
+      "round"
+    ],
+    "variants": [
+      "round"
+    ],
+    "source_file": "candidates/roomicon/mirrors/mirror_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.mirror.oval",
+    "name": "Oval Mirror",
+    "category": "household/mirrors",
+    "description": "Oval framed mirror.",
+    "tags": [
+      "mirror",
+      "oval"
+    ],
+    "variants": [
+      "oval"
+    ],
+    "source_file": "candidates/roomicon/mirrors/mirror_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.mirror.arched",
+    "name": "Arched Mirror",
+    "category": "household/mirrors",
+    "description": "Arched-top framed mirror.",
+    "tags": [
+      "mirror",
+      "arched"
+    ],
+    "variants": [
+      "arched"
+    ],
+    "source_file": "candidates/roomicon/mirrors/mirror_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.mirror.with_shelf",
+    "name": "Mirror With Shelf",
+    "category": "household/mirrors",
+    "description": "Wall mirror with bottom shelf.",
+    "tags": [
+      "mirror",
+      "with_shelf"
+    ],
+    "variants": [
+      "with_shelf"
+    ],
+    "source_file": "candidates/roomicon/mirrors/mirror_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.painting.framed",
+    "name": "Framed Painting",
+    "category": "household/decor",
+    "description": "Framed canvas painting with simple or beveled frame and procedural canvas.",
+    "tags": [
+      "painting",
+      "art",
+      "frame"
+    ],
+    "variants": [
+      "simple",
+      "bevel"
+    ],
+    "source_file": "candidates/roomicon/paintings/painting_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.photoframe.tabletop_simple",
+    "name": "Tabletop Photo Frame",
+    "category": "household/decor",
+    "description": "Simple tabletop photo frame with stand.",
+    "tags": [
+      "photoframe",
+      "tabletop_simple"
+    ],
+    "variants": [
+      "tabletop_simple"
+    ],
+    "source_file": "candidates/roomicon/photoframes/photoframe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.photoframe.tabletop_bevel",
+    "name": "Beveled Tabletop Photo Frame",
+    "category": "household/decor",
+    "description": "Beveled tabletop photo frame.",
+    "tags": [
+      "photoframe",
+      "tabletop_bevel"
+    ],
+    "variants": [
+      "tabletop_bevel"
+    ],
+    "source_file": "candidates/roomicon/photoframes/photoframe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.photoframe.wall_simple",
+    "name": "Wall Photo Frame",
+    "category": "household/decor",
+    "description": "Simple wall-mounted photo frame.",
+    "tags": [
+      "photoframe",
+      "wall_simple"
+    ],
+    "variants": [
+      "wall_simple"
+    ],
+    "source_file": "candidates/roomicon/photoframes/photoframe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.photoframe.wall_bevel",
+    "name": "Beveled Wall Photo Frame",
+    "category": "household/decor",
+    "description": "Beveled wall-mounted photo frame.",
+    "tags": [
+      "photoframe",
+      "wall_bevel"
+    ],
+    "variants": [
+      "wall_bevel"
+    ],
+    "source_file": "candidates/roomicon/photoframes/photoframe_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plant.succulent",
+    "name": "Potted Succulent",
+    "category": "props/plants",
+    "description": "Succulent in a pot.",
+    "tags": [
+      "plant",
+      "pot",
+      "succulent"
+    ],
+    "variants": [
+      "succulent"
+    ],
+    "source_file": "candidates/roomicon/plants/plant_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plant.ficus",
+    "name": "Potted Ficus",
+    "category": "props/plants",
+    "description": "Ficus-like indoor plant in a pot.",
+    "tags": [
+      "plant",
+      "pot",
+      "ficus"
+    ],
+    "variants": [
+      "ficus"
+    ],
+    "source_file": "candidates/roomicon/plants/plant_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plant.cactus",
+    "name": "Potted Cactus",
+    "category": "props/plants",
+    "description": "Cactus in a pot.",
+    "tags": [
+      "plant",
+      "pot",
+      "cactus"
+    ],
+    "variants": [
+      "cactus"
+    ],
+    "source_file": "candidates/roomicon/plants/plant_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plant.fern",
+    "name": "Potted Fern",
+    "category": "props/plants",
+    "description": "Fern in a pot.",
+    "tags": [
+      "plant",
+      "pot",
+      "fern"
+    ],
+    "variants": [
+      "fern"
+    ],
+    "source_file": "candidates/roomicon/plants/plant_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plushtoy.bear",
+    "name": "Plush Bear",
+    "category": "props/toys",
+    "description": "Stuffed bear toy with eyes and simple limbs.",
+    "tags": [
+      "toy",
+      "plush",
+      "bear"
+    ],
+    "variants": [
+      "bear"
+    ],
+    "source_file": "candidates/roomicon/plushtoys/plushtoy_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plushtoy.bunny",
+    "name": "Plush Bunny",
+    "category": "props/toys",
+    "description": "Stuffed bunny toy with eyes and simple limbs.",
+    "tags": [
+      "toy",
+      "plush",
+      "bunny"
+    ],
+    "variants": [
+      "bunny"
+    ],
+    "source_file": "candidates/roomicon/plushtoys/plushtoy_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plushtoy.penguin",
+    "name": "Plush Penguin",
+    "category": "props/toys",
+    "description": "Stuffed penguin toy with eyes and simple limbs.",
+    "tags": [
+      "toy",
+      "plush",
+      "penguin"
+    ],
+    "variants": [
+      "penguin"
+    ],
+    "source_file": "candidates/roomicon/plushtoys/plushtoy_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.plushtoy.duck",
+    "name": "Plush Duck",
+    "category": "props/toys",
+    "description": "Stuffed duck toy with eyes and simple limbs.",
+    "tags": [
+      "toy",
+      "plush",
+      "duck"
+    ],
+    "variants": [
+      "duck"
+    ],
+    "source_file": "candidates/roomicon/plushtoys/plushtoy_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.book.single",
+    "name": "Single Book",
+    "category": "props/books",
+    "description": "One hardcover book.",
+    "tags": [
+      "book",
+      "single"
+    ],
+    "variants": [
+      "single"
+    ],
+    "source_file": "candidates/roomicon/booksets/bookset_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.book.row",
+    "name": "Book Row",
+    "category": "props/books",
+    "description": "Row of books on a shelf.",
+    "tags": [
+      "book",
+      "row"
+    ],
+    "variants": [
+      "row"
+    ],
+    "source_file": "candidates/roomicon/booksets/bookset_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.book.stack",
+    "name": "Book Stack",
+    "category": "props/books",
+    "description": "Horizontal stack of books.",
+    "tags": [
+      "book",
+      "stack"
+    ],
+    "variants": [
+      "stack"
+    ],
+    "source_file": "candidates/roomicon/booksets/bookset_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.book.leaning",
+    "name": "Leaning Books",
+    "category": "props/books",
+    "description": "Books leaning against a support.",
+    "tags": [
+      "book",
+      "leaning"
+    ],
+    "variants": [
+      "leaning"
+    ],
+    "source_file": "candidates/roomicon/booksets/bookset_types.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Roomicon",
+    "repo": "https://github.com/neurospiritus/roomicon",
+    "commit": "2dcd3d1",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.rug.procedural",
+    "name": "Procedural Rug",
+    "category": "furniture/rugs",
+    "description": "Floor rug with procedural pattern.",
+    "tags": [
+      "rug",
+      "carpet"
+    ],
+    "variants": [
+      "procedural"
+    ],
+    "source_file": "candidates/roomicon/rugs/generate.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.chair.dining.infinigen",
+    "name": "Infinigen Chair",
+    "category": "furniture/chairs",
+    "description": "Procedural dining/side chair factory.",
+    "tags": [
+      "chair"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/seating/chairs/chair.py",
+    "notes": "Factory/class: ChairFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.chair.bar.infinigen",
+    "name": "Infinigen Bar Chair",
+    "category": "furniture/chairs",
+    "description": "Tall bar stool / bar chair factory.",
+    "tags": [
+      "chair",
+      "bar",
+      "stool"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/seating/chairs/bar_chair.py",
+    "notes": "Factory/class: BarChairFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.chair.office.infinigen",
+    "name": "Infinigen Office Chair",
+    "category": "furniture/chairs",
+    "description": "Swivel office chair factory.",
+    "tags": [
+      "chair",
+      "office"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/seating/chairs/office_chair.py",
+    "notes": "Factory/class: OfficeChairFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.sofa.infinigen",
+    "name": "Infinigen Sofa",
+    "category": "furniture/sofas",
+    "description": "Parametric sofa with seat count and cushion variation.",
+    "tags": [
+      "sofa"
+    ],
+    "variants": [
+      "seat_count"
+    ],
+    "source_file": "candidates/infinigen/seating/sofa.py",
+    "notes": "Factory/class: SofaFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.bed.infinigen",
+    "name": "Infinigen Bed",
+    "category": "furniture/beds",
+    "description": "Composed bed factory (frame + mattress + pillows).",
+    "tags": [
+      "bed"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/seating/bed.py",
+    "notes": "Factory/class: BedFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.bedframe.infinigen",
+    "name": "Infinigen Bedframe",
+    "category": "furniture/beds",
+    "description": "Bed frame only.",
+    "tags": [
+      "bed",
+      "frame"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/seating/bedframe.py",
+    "notes": "Factory/class: BedFrameFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.mattress.infinigen",
+    "name": "Infinigen Mattress",
+    "category": "furniture/beds",
+    "description": "Procedural mattress.",
+    "tags": [
+      "mattress"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/seating/mattress.py",
+    "notes": "Factory/class: MattressFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.pillow.infinigen",
+    "name": "Infinigen Pillow",
+    "category": "props/textiles",
+    "description": "Bed pillow.",
+    "tags": [
+      "pillow"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/seating/pillow.py",
+    "notes": "Factory/class: PillowFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.table.dining.infinigen",
+    "name": "Infinigen Dining Table",
+    "category": "furniture/tables",
+    "description": "Dining table with interchangeable legs and stretchers.",
+    "tags": [
+      "table",
+      "dining"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tables/dining_table.py",
+    "notes": "Factory/class: TableDiningFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.table.cocktail.infinigen",
+    "name": "Infinigen Cocktail Table",
+    "category": "furniture/tables",
+    "description": "Cocktail / cafe table factory.",
+    "tags": [
+      "table",
+      "cocktail"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tables/cocktail_table.py",
+    "notes": "Factory/class: TableCocktailFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.table.top.infinigen",
+    "name": "Infinigen Table Top",
+    "category": "furniture/tables",
+    "description": "Standalone table-top generator used by table factories.",
+    "tags": [
+      "table",
+      "top"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tables/table_top.py",
+    "notes": "Factory/class: table top. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.shelf.bookcase.infinigen",
+    "name": "Infinigen Bookcase",
+    "category": "furniture/shelves",
+    "description": "Simple bookcase factory.",
+    "tags": [
+      "shelf",
+      "bookcase"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/simple_bookcase.py",
+    "notes": "Factory/class: SimpleBookcaseFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.shelf.cell.infinigen",
+    "name": "Infinigen Cell Shelf",
+    "category": "furniture/shelves",
+    "description": "Cubicle / cell shelf unit.",
+    "tags": [
+      "shelf",
+      "cell"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/cell_shelf.py",
+    "notes": "Factory/class: CellShelfFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.shelf.large.infinigen",
+    "name": "Infinigen Large Shelf",
+    "category": "furniture/shelves",
+    "description": "Large open shelf unit.",
+    "tags": [
+      "shelf"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/large_shelf.py",
+    "notes": "Factory/class: LargeShelfFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.shelf.triangle.infinigen",
+    "name": "Infinigen Triangle Shelf",
+    "category": "furniture/shelves",
+    "description": "Corner / triangle shelf.",
+    "tags": [
+      "shelf",
+      "corner"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/triangle_shelf.py",
+    "notes": "Factory/class: TriangleShelfFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.cabinet.kitchen.infinigen",
+    "name": "Infinigen Kitchen Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Kitchen cabinet with doors and drawers.",
+    "tags": [
+      "cabinet",
+      "kitchen"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/kitchen_cabinet.py",
+    "notes": "Factory/class: KitchenCabinetFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.cabinet.single.infinigen",
+    "name": "Infinigen Single Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Single cabinet-with-door generator.",
+    "tags": [
+      "cabinet"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/single_cabinet.py",
+    "notes": "Factory/class: SingleCabinetFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.cabinet.body.infinigen",
+    "name": "Infinigen Cabinet Body",
+    "category": "furniture/cabinets",
+    "description": "Generic cabinet carcass.",
+    "tags": [
+      "cabinet"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/cabinet.py",
+    "notes": "Factory/class: cabinet. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.counter.kitchen_space.infinigen",
+    "name": "Infinigen Kitchen Counter Run",
+    "category": "furniture/cabinets",
+    "description": "Kitchen counter run / space factory.",
+    "tags": [
+      "counter",
+      "kitchen"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/kitchen_space.py",
+    "notes": "Factory/class: KitchenSpaceFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.countertop.infinigen",
+    "name": "Infinigen Countertop",
+    "category": "furniture/cabinets",
+    "description": "Kitchen countertop slab.",
+    "tags": [
+      "countertop"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/countertop.py",
+    "notes": "Factory/class: countertop. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.desk.simple.infinigen",
+    "name": "Infinigen Desk",
+    "category": "furniture/desks",
+    "description": "Simple desk factory.",
+    "tags": [
+      "desk"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/simple_desk.py",
+    "notes": "Factory/class: SimpleDeskFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.cabinet.doors.infinigen",
+    "name": "Infinigen Cabinet Doors",
+    "category": "furniture/cabinets",
+    "description": "Cabinet door generator used by storage factories.",
+    "tags": [
+      "door",
+      "cabinet"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/doors.py",
+    "notes": "Factory/class: cabinet doors. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.cabinet.drawers.infinigen",
+    "name": "Infinigen Drawers",
+    "category": "furniture/cabinets",
+    "description": "Drawer box generator.",
+    "tags": [
+      "drawer"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/shelves/drawers.py",
+    "notes": "Factory/class: drawers. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.appliance.fridge.infinigen",
+    "name": "Infinigen Beverage Fridge",
+    "category": "household/appliances",
+    "description": "Beverage refrigerator factory.",
+    "tags": [
+      "fridge",
+      "appliance"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/appliances/beverage_fridge.py",
+    "notes": "Factory/class: BeverageFridgeFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.appliance.dishwasher.infinigen",
+    "name": "Infinigen Dishwasher",
+    "category": "household/appliances",
+    "description": "Dishwasher factory.",
+    "tags": [
+      "dishwasher",
+      "appliance"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/appliances/dishwasher.py",
+    "notes": "Factory/class: DishwasherFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.appliance.microwave.infinigen",
+    "name": "Infinigen Microwave",
+    "category": "household/appliances",
+    "description": "Microwave oven factory.",
+    "tags": [
+      "microwave",
+      "appliance"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/appliances/microwave.py",
+    "notes": "Factory/class: MicrowaveFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.appliance.oven.infinigen",
+    "name": "Infinigen Oven",
+    "category": "household/appliances",
+    "description": "Kitchen oven / range factory.",
+    "tags": [
+      "oven",
+      "appliance"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/appliances/oven.py",
+    "notes": "Factory/class: OvenFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.appliance.toaster.infinigen",
+    "name": "Infinigen Toaster",
+    "category": "household/appliances",
+    "description": "Toaster factory.",
+    "tags": [
+      "toaster",
+      "appliance"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/appliances/toaster.py",
+    "notes": "Factory/class: ToasterFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.electronics.tv.infinigen",
+    "name": "Infinigen TV",
+    "category": "household/electronics",
+    "description": "Television set factory.",
+    "tags": [
+      "tv",
+      "monitor"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/appliances/tv.py",
+    "notes": "Factory/class: TVFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "bathroom.sink.infinigen",
+    "name": "Infinigen Bathroom Sink",
+    "category": "household/bathroom",
+    "description": "Wall or counter bathroom sink.",
+    "tags": [
+      "sink",
+      "bathroom"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/bathroom/bathroom_sink.py",
+    "notes": "Factory/class: BathroomSinkFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "bathroom.bathtub.infinigen",
+    "name": "Infinigen Bathtub",
+    "category": "household/bathroom",
+    "description": "Bathtub factory.",
+    "tags": [
+      "bathtub",
+      "bathroom"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/bathroom/bathtub.py",
+    "notes": "Factory/class: BathtubFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "bathroom.toilet.infinigen",
+    "name": "Infinigen Toilet",
+    "category": "household/bathroom",
+    "description": "Toilet factory.",
+    "tags": [
+      "toilet",
+      "bathroom"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/bathroom/toilet.py",
+    "notes": "Factory/class: ToiletFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "bathroom.hardware.infinigen",
+    "name": "Infinigen Bathroom Hardware",
+    "category": "household/bathroom",
+    "description": "Bathroom hardware (tap/holders) factory.",
+    "tags": [
+      "tap",
+      "faucet",
+      "hardware"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/bathroom/hardware.py",
+    "notes": "Factory/class: HardwareFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.lamp.desk_floor.infinigen",
+    "name": "Infinigen Desk/Floor Lamp",
+    "category": "household/lamps",
+    "description": "Desk or floor lamp factory.",
+    "tags": [
+      "lamp"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/lamp/lamp.py",
+    "notes": "Factory/class: LampFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.lamp.ceiling_classic.infinigen",
+    "name": "Infinigen Classic Ceiling Lamp",
+    "category": "household/lamps",
+    "description": "Classic ceiling lamp factory.",
+    "tags": [
+      "lamp",
+      "ceiling"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/lamp/ceiling_classic_lamp.py",
+    "notes": "Factory/class: CeilingClassicLampFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.lamp.ceiling.infinigen",
+    "name": "Infinigen Ceiling Lights",
+    "category": "household/lamps",
+    "description": "Ceiling light fixtures factory.",
+    "tags": [
+      "lamp",
+      "ceiling"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/lamp/ceiling_lights.py",
+    "notes": "Factory/class: CeilingLightsFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.book.infinigen",
+    "name": "Infinigen Book",
+    "category": "props/books",
+    "description": "Procedural book decoration.",
+    "tags": [
+      "book"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/table_decorations/book.py",
+    "notes": "Factory/class: BookFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.sink.kitchen.infinigen",
+    "name": "Infinigen Kitchen Sink",
+    "category": "household/kitchen",
+    "description": "Kitchen sink factory (table decoration module).",
+    "tags": [
+      "sink",
+      "kitchen"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/table_decorations/sink.py",
+    "notes": "Factory/class: SinkFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.vase.infinigen",
+    "name": "Infinigen Vase",
+    "category": "props/decor",
+    "description": "Decorative vase factory.",
+    "tags": [
+      "vase"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/table_decorations/vase.py",
+    "notes": "Factory/class: VaseFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.aquarium.infinigen",
+    "name": "Infinigen Aquarium Tank",
+    "category": "props/decor",
+    "description": "Aquarium tank factory.",
+    "tags": [
+      "aquarium",
+      "tank"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/decor/aquarium_tank.py",
+    "notes": "Factory/class: AquariumTankFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.range_hood.infinigen",
+    "name": "Infinigen Range Hood",
+    "category": "household/appliances",
+    "description": "Kitchen range hood.",
+    "tags": [
+      "rangehood",
+      "kitchen"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/wall_decorations/range_hood.py",
+    "notes": "Factory/class: RangeHoodFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.wall_art.infinigen",
+    "name": "Infinigen Wall Art",
+    "category": "household/decor",
+    "description": "Wall art / picture factory.",
+    "tags": [
+      "art",
+      "wall"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/wall_decorations/wall_art.py",
+    "notes": "Factory/class: WallArtFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.shelf.wall.infinigen",
+    "name": "Infinigen Wall Shelf",
+    "category": "furniture/shelves",
+    "description": "Wall-mounted shelf decoration.",
+    "tags": [
+      "shelf",
+      "wall"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/wall_decorations/wall_shelf.py",
+    "notes": "Factory/class: WallShelfFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.balloon.infinigen",
+    "name": "Infinigen Balloon Cluster",
+    "category": "props/decor",
+    "description": "Decorative balloon cluster.",
+    "tags": [
+      "balloon"
+    ],
+    "variants": [],
+    "source_file": "src/infinigen/assets/objects/wall_decorations/balloon.py",
+    "notes": "Factory/class: BalloonFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.basket.infinigen",
+    "name": "Infinigen Basket",
+    "category": "props/containers",
+    "description": "Storage basket.",
+    "tags": [
+      "basket"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/organizer/basket.py",
+    "notes": "Factory/class: BasketFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.hook.infinigen",
+    "name": "Infinigen Hook",
+    "category": "props/hardware",
+    "description": "Wall hook.",
+    "tags": [
+      "hook"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/organizer/hook.py",
+    "notes": "Factory/class: HookFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.plate_rack.infinigen",
+    "name": "Infinigen Plate Rack",
+    "category": "household/kitchen",
+    "description": "Plate rack / drying rack.",
+    "tags": [
+      "platerack",
+      "kitchen"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/organizer/plate_rack.py",
+    "notes": "Factory/class: PlateOnRackBaseFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.rug.infinigen",
+    "name": "Infinigen Rug",
+    "category": "furniture/rugs",
+    "description": "Procedural rug.",
+    "tags": [
+      "rug"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/elements/rug.py",
+    "notes": "Factory/class: RugFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "architecture.pillar.infinigen",
+    "name": "Infinigen Indoor Pillar",
+    "category": "architecture/columns",
+    "description": "Indoor pillar / column.",
+    "tags": [
+      "pillar",
+      "column"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/elements/pillars.py",
+    "notes": "Factory/class: PillarFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "architecture.window.infinigen",
+    "name": "Infinigen Window",
+    "category": "architecture/windows",
+    "description": "Window factory with sliding/awning/casement/glassblock/bay variants.",
+    "tags": [
+      "window"
+    ],
+    "variants": [
+      "sliding",
+      "awning",
+      "casement",
+      "glassblock",
+      "bay"
+    ],
+    "source_file": "candidates/infinigen/windows/window.py",
+    "notes": "Factory/class: WindowFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.textile.blanket.infinigen",
+    "name": "Infinigen Blanket",
+    "category": "props/textiles",
+    "description": "Folded / draped blanket.",
+    "tags": [
+      "blanket"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/clothes/blanket.py",
+    "notes": "Factory/class: BlanketFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.clothes.pants.infinigen",
+    "name": "Infinigen Pants",
+    "category": "props/clothes",
+    "description": "Procedural pants garment.",
+    "tags": [
+      "pants",
+      "clothes"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/clothes/pants.py",
+    "notes": "Factory/class: PantsFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.clothes.shirt.infinigen",
+    "name": "Infinigen Shirt",
+    "category": "props/clothes",
+    "description": "Procedural shirt garment.",
+    "tags": [
+      "shirt",
+      "clothes"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/clothes/shirt.py",
+    "notes": "Factory/class: ShirtFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "household.textile.towel.infinigen",
+    "name": "Infinigen Towel",
+    "category": "props/textiles",
+    "description": "Towel factory.",
+    "tags": [
+      "towel"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/clothes/towel.py",
+    "notes": "Factory/class: TowelFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.bottle.infinigen",
+    "name": "Infinigen Bottle",
+    "category": "props/tableware",
+    "description": "Procedural bottle tableware factory.",
+    "tags": [
+      "tableware",
+      "bottle"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/bottle.py",
+    "notes": "Factory/class: BottleFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.bowl.infinigen",
+    "name": "Infinigen Bowl",
+    "category": "props/tableware",
+    "description": "Procedural bowl tableware factory.",
+    "tags": [
+      "tableware",
+      "bowl"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/bowl.py",
+    "notes": "Factory/class: BowlFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.can.infinigen",
+    "name": "Infinigen Can",
+    "category": "props/tableware",
+    "description": "Procedural can tableware factory.",
+    "tags": [
+      "tableware",
+      "can"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/can.py",
+    "notes": "Factory/class: CanFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.chopsticks.infinigen",
+    "name": "Infinigen Chopsticks",
+    "category": "props/tableware",
+    "description": "Procedural chopsticks tableware factory.",
+    "tags": [
+      "tableware",
+      "chopsticks"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/chopsticks.py",
+    "notes": "Factory/class: ChopsticksFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.cup.infinigen",
+    "name": "Infinigen Cup",
+    "category": "props/tableware",
+    "description": "Procedural cup tableware factory.",
+    "tags": [
+      "tableware",
+      "cup"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/cup.py",
+    "notes": "Factory/class: CupFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.food_bag.infinigen",
+    "name": "Infinigen Food Bag",
+    "category": "props/tableware",
+    "description": "Procedural food bag tableware factory.",
+    "tags": [
+      "tableware",
+      "food_bag"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/food_bag.py",
+    "notes": "Factory/class: Food BagFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.food_box.infinigen",
+    "name": "Infinigen Food Box",
+    "category": "props/tableware",
+    "description": "Procedural food box tableware factory.",
+    "tags": [
+      "tableware",
+      "food_box"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/food_box.py",
+    "notes": "Factory/class: Food BoxFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.fork.infinigen",
+    "name": "Infinigen Fork",
+    "category": "props/tableware",
+    "description": "Procedural fork tableware factory.",
+    "tags": [
+      "tableware",
+      "fork"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/fork.py",
+    "notes": "Factory/class: ForkFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.fruit_container.infinigen",
+    "name": "Infinigen Fruit Container",
+    "category": "props/tableware",
+    "description": "Procedural fruit container tableware factory.",
+    "tags": [
+      "tableware",
+      "fruit_container"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/fruit_container.py",
+    "notes": "Factory/class: Fruit ContainerFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.jar.infinigen",
+    "name": "Infinigen Jar",
+    "category": "props/tableware",
+    "description": "Procedural jar tableware factory.",
+    "tags": [
+      "tableware",
+      "jar"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/jar.py",
+    "notes": "Factory/class: JarFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.knife.infinigen",
+    "name": "Infinigen Knife",
+    "category": "props/tableware",
+    "description": "Procedural knife tableware factory.",
+    "tags": [
+      "tableware",
+      "knife"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/knife.py",
+    "notes": "Factory/class: KnifeFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.lid.infinigen",
+    "name": "Infinigen Lid",
+    "category": "props/tableware",
+    "description": "Procedural lid tableware factory.",
+    "tags": [
+      "tableware",
+      "lid"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/lid.py",
+    "notes": "Factory/class: LidFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.pan.infinigen",
+    "name": "Infinigen Pan",
+    "category": "props/tableware",
+    "description": "Procedural pan tableware factory.",
+    "tags": [
+      "tableware",
+      "pan"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/pan.py",
+    "notes": "Factory/class: PanFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.plant_container.infinigen",
+    "name": "Infinigen Plant Pot",
+    "category": "props/tableware",
+    "description": "Procedural plant pot tableware factory.",
+    "tags": [
+      "tableware",
+      "plant_container"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/plant_container.py",
+    "notes": "Factory/class: Plant PotFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.plate.infinigen",
+    "name": "Infinigen Plate",
+    "category": "props/tableware",
+    "description": "Procedural plate tableware factory.",
+    "tags": [
+      "tableware",
+      "plate"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/plate.py",
+    "notes": "Factory/class: PlateFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.pot.infinigen",
+    "name": "Infinigen Cooking Pot",
+    "category": "props/tableware",
+    "description": "Procedural cooking pot tableware factory.",
+    "tags": [
+      "tableware",
+      "pot"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/pot.py",
+    "notes": "Factory/class: Cooking PotFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.spoon.infinigen",
+    "name": "Infinigen Spoon",
+    "category": "props/tableware",
+    "description": "Procedural spoon tableware factory.",
+    "tags": [
+      "tableware",
+      "spoon"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/spoon.py",
+    "notes": "Factory/class: SpoonFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.tableware.wineglass.infinigen",
+    "name": "Infinigen Wineglass",
+    "category": "props/tableware",
+    "description": "Procedural wineglass tableware factory.",
+    "tags": [
+      "tableware",
+      "wineglass"
+    ],
+    "variants": [],
+    "source_file": "candidates/infinigen/tableware/wineglass.py",
+    "notes": "Factory/class: WineglassFactory. Tightly coupled to Infinigen AssetFactory + geometry nodes, but each file is a concrete object generator."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "architecture.window.sliding.infinigen",
+    "name": "Infinigen Sliding Window",
+    "category": "architecture/windows",
+    "description": "WindowFactory variant: sliding.",
+    "tags": [
+      "window",
+      "sliding"
+    ],
+    "variants": [
+      "sliding"
+    ],
+    "source_file": "candidates/infinigen/windows/window.py",
+    "notes": "Semantic variant of WindowFactory from Infinigen Indoors paper Table 10."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "architecture.window.awning.infinigen",
+    "name": "Infinigen Awning Window",
+    "category": "architecture/windows",
+    "description": "WindowFactory variant: awning.",
+    "tags": [
+      "window",
+      "awning"
+    ],
+    "variants": [
+      "awning"
+    ],
+    "source_file": "candidates/infinigen/windows/window.py",
+    "notes": "Semantic variant of WindowFactory from Infinigen Indoors paper Table 10."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "architecture.window.casement.infinigen",
+    "name": "Infinigen Casement Window",
+    "category": "architecture/windows",
+    "description": "WindowFactory variant: casement.",
+    "tags": [
+      "window",
+      "casement"
+    ],
+    "variants": [
+      "casement"
+    ],
+    "source_file": "candidates/infinigen/windows/window.py",
+    "notes": "Semantic variant of WindowFactory from Infinigen Indoors paper Table 10."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "architecture.window.glassblock.infinigen",
+    "name": "Infinigen Glassblock Window",
+    "category": "architecture/windows",
+    "description": "WindowFactory variant: glassblock.",
+    "tags": [
+      "window",
+      "glassblock"
+    ],
+    "variants": [
+      "glassblock"
+    ],
+    "source_file": "candidates/infinigen/windows/window.py",
+    "notes": "Semantic variant of WindowFactory from Infinigen Indoors paper Table 10."
+  },
+  {
+    "source_project": "Infinigen / Infinigen Indoors",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "medium",
+    "id": "architecture.window.bay.infinigen",
+    "name": "Infinigen Bay Window",
+    "category": "architecture/windows",
+    "description": "WindowFactory variant: bay.",
+    "tags": [
+      "window",
+      "bay"
+    ],
+    "variants": [
+      "bay"
+    ],
+    "source_file": "candidates/infinigen/windows/window.py",
+    "notes": "Semantic variant of WindowFactory from Infinigen Indoors paper Table 10."
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.cabinet.kitchen.archimesh",
+    "name": "Archimesh Kitchen Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Parametric floor/wall kitchen cabinet with inventory export.",
+    "tags": [
+      "cabinet",
+      "kitchen"
+    ],
+    "variants": [
+      "floor",
+      "wall"
+    ],
+    "source_file": "candidates/archimesh/achm_kitchen_maker.py",
+    "notes": "Official Blender bundled addon, isolated maker module."
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.shelf.archimesh",
+    "name": "Archimesh Shelves",
+    "category": "furniture/shelves",
+    "description": "Parametric shelf unit generator.",
+    "tags": [
+      "shelf"
+    ],
+    "variants": [],
+    "source_file": "candidates/archimesh/achm_shelves_maker.py",
+    "notes": "Official Blender bundled addon, isolated maker module."
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.book.archimesh",
+    "name": "Archimesh Books",
+    "category": "props/books",
+    "description": "Generates rows of books for shelves.",
+    "tags": [
+      "book"
+    ],
+    "variants": [],
+    "source_file": "candidates/archimesh/achm_books_maker.py",
+    "notes": "Official Blender bundled addon, isolated maker module."
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.lamp.archimesh",
+    "name": "Archimesh Lamp",
+    "category": "household/lamps",
+    "description": "Parametric lamp generator.",
+    "tags": [
+      "lamp"
+    ],
+    "variants": [],
+    "source_file": "candidates/archimesh/achm_lamp_maker.py",
+    "notes": "Official Blender bundled addon, isolated maker module."
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.curtain.archimesh",
+    "name": "Archimesh Curtain",
+    "category": "household/textiles",
+    "description": "Japanese / roller curtain generator.",
+    "tags": [
+      "curtain"
+    ],
+    "variants": [
+      "japanese",
+      "roller"
+    ],
+    "source_file": "candidates/archimesh/achm_curtain_maker.py",
+    "notes": "Official Blender bundled addon, isolated maker module."
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "household.blind.venetian.archimesh",
+    "name": "Archimesh Venetian Blind",
+    "category": "household/textiles",
+    "description": "Venetian blind generator.",
+    "tags": [
+      "blind",
+      "window"
+    ],
+    "variants": [],
+    "source_file": "candidates/archimesh/achm_venetian_maker.py",
+    "notes": "Official Blender bundled addon, isolated maker module."
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.cabinet.kitchen.floor.archimesh",
+    "name": "Archimesh Floor Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Floor-standing kitchen cabinet.",
+    "tags": [
+      "cabinet",
+      "kitchen",
+      "base"
+    ],
+    "variants": [
+      "floor"
+    ],
+    "source_file": "candidates/archimesh/achm_kitchen_maker.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Archimesh",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "furniture.cabinet.kitchen.wall.archimesh",
+    "name": "Archimesh Wall Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Wall-hung kitchen cabinet.",
+    "tags": [
+      "cabinet",
+      "kitchen",
+      "upper"
+    ],
+    "variants": [
+      "wall"
+    ],
+    "source_file": "candidates/archimesh/achm_kitchen_maker.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.cabinet.standard.homebuilder",
+    "name": "Home Builder Standard Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Parametric standard kitchen/bath cabinet with inserts.",
+    "tags": [
+      "cabinet"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_cabinets.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.cabinet.stacked.homebuilder",
+    "name": "Home Builder Stacked Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Stacked (base+upper) cabinet product.",
+    "tags": [
+      "cabinet",
+      "stacked"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_cabinets.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.cabinet.blind_corner.homebuilder",
+    "name": "Home Builder Blind Corner Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Blind corner cabinet.",
+    "tags": [
+      "cabinet",
+      "corner"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_cabinets.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.cabinet.carcass.homebuilder",
+    "name": "Home Builder Cabinet Carcass",
+    "category": "furniture/cabinets",
+    "description": "Cabinet carcass construction generator.",
+    "tags": [
+      "cabinet",
+      "carcass"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_cabinet_carcass.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.cabinet.exterior.homebuilder",
+    "name": "Home Builder Cabinet Exteriors",
+    "category": "furniture/cabinets",
+    "description": "Doors/drawer fronts for cabinets.",
+    "tags": [
+      "cabinet",
+      "door"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_cabinet_exteriors.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.cabinet.interior.homebuilder",
+    "name": "Home Builder Cabinet Interiors",
+    "category": "furniture/cabinets",
+    "description": "Shelves/dividers/inserts inside cabinets.",
+    "tags": [
+      "cabinet",
+      "shelf",
+      "insert"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_cabinet_interiors.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.countertop.homebuilder",
+    "name": "Home Builder Countertop",
+    "category": "furniture/cabinets",
+    "description": "Parametric countertop.",
+    "tags": [
+      "countertop"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_countertops.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.drawerbox.homebuilder",
+    "name": "Home Builder Drawer Box",
+    "category": "furniture/cabinets",
+    "description": "Drawer box construction.",
+    "tags": [
+      "drawer"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_drawer_box.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "household.appliance.range.homebuilder",
+    "name": "Home Builder Range",
+    "category": "household/appliances",
+    "description": "Kitchen range / stove product.",
+    "tags": [
+      "range",
+      "stove",
+      "oven"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_appliances.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "household.appliance.refrigerator.homebuilder",
+    "name": "Home Builder Refrigerator",
+    "category": "household/appliances",
+    "description": "Refrigerator product.",
+    "tags": [
+      "fridge"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_appliances.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "household.appliance.dishwasher.homebuilder",
+    "name": "Home Builder Dishwasher",
+    "category": "household/appliances",
+    "description": "Dishwasher product.",
+    "tags": [
+      "dishwasher"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/cabinets/data_appliances.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.closet.starter.homebuilder",
+    "name": "Home Builder Closet Starter",
+    "category": "furniture/wardrobes",
+    "description": "Closet starter section.",
+    "tags": [
+      "closet"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/closets/data_closets.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.closet.corner.homebuilder",
+    "name": "Home Builder Closet Corner",
+    "category": "furniture/wardrobes",
+    "description": "Inside-corner closet section.",
+    "tags": [
+      "closet",
+      "corner"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/closets/data_closets.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "furniture.closet.inserts.homebuilder",
+    "name": "Home Builder Closet Inserts",
+    "category": "furniture/wardrobes",
+    "description": "Rods, shelves, drawers dropped into closet openings.",
+    "tags": [
+      "closet",
+      "insert"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/closets/data_closet_inserts.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "architecture.door.swing.homebuilder",
+    "name": "Home Builder Swing Door",
+    "category": "architecture/doors",
+    "description": "Hinged interior door that cuts wall openings.",
+    "tags": [
+      "door"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/doors_windows/data_doors_windows.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "architecture.door.sliding.homebuilder",
+    "name": "Home Builder Sliding Door",
+    "category": "architecture/doors",
+    "description": "Sliding door product.",
+    "tags": [
+      "door",
+      "sliding"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/doors_windows/data_doors_windows.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "Library_Home_Builder",
+    "repo": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "id": "architecture.window.standard.homebuilder",
+    "name": "Home Builder Window",
+    "category": "architecture/windows",
+    "description": "Standard window that cuts wall openings.",
+    "tags": [
+      "window"
+    ],
+    "variants": [],
+    "source_file": "candidates/home_builder/doors_windows/data_doors_windows.py",
+    "notes": "PyClone library: parametric but tightly coupled to Home Builder placement runtime."
+  },
+  {
+    "source_project": "blender_furniture_builder",
+    "repo": "https://github.com/mikhailefimov/blender_furniture_builder",
+    "commit": "",
+    "license": "unspecified-review",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "id": "furniture.cabinet.programmatic.furniture_builder",
+    "name": "Programmatic Cabinet",
+    "category": "furniture/cabinets",
+    "description": "Cabinet class: sections with doors, shelves, work surface; emits BOM.",
+    "tags": [
+      "cabinet",
+      "section",
+      "doors",
+      "shelves"
+    ],
+    "variants": [
+      "section"
+    ],
+    "source_file": "candidates/furniture_builder/furniture_lib.py",
+    "notes": "Self-contained Python library. License not declared in file header — review before shipping. Author Mikhail Efimov."
+  },
+  {
+    "source_project": "blender_furniture_builder",
+    "repo": "https://github.com/mikhailefimov/blender_furniture_builder",
+    "commit": "",
+    "license": "unspecified-review",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.hardware.handle.furniture_builder",
+    "name": "Cabinet Handle",
+    "category": "props/hardware",
+    "description": "Handle hardware primitive used on cabinets.",
+    "tags": [
+      "handle",
+      "hardware"
+    ],
+    "variants": [],
+    "source_file": "candidates/furniture_builder/furniture_lib.py",
+    "notes": ""
+  },
+  {
+    "source_project": "blender_furniture_builder",
+    "repo": "https://github.com/mikhailefimov/blender_furniture_builder",
+    "commit": "",
+    "license": "unspecified-review",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.hardware.hinge.furniture_builder",
+    "name": "Cabinet Hinge",
+    "category": "props/hardware",
+    "description": "Hinge hardware primitive.",
+    "tags": [
+      "hinge",
+      "hardware"
+    ],
+    "variants": [],
+    "source_file": "candidates/furniture_builder/furniture_lib.py",
+    "notes": ""
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "furniture.chair.office.mobility",
+    "name": "Articulated Office Chair",
+    "category": "furniture/chairs",
+    "description": "OfficeChairFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "officechairfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory OfficeChairFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "furniture.chair.bar.mobility",
+    "name": "Articulated Bar Chair",
+    "category": "furniture/chairs",
+    "description": "BarChairFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "barchairfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory BarChairFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "household.appliance.fridge.mobility",
+    "name": "Articulated Beverage Fridge",
+    "category": "household/appliances",
+    "description": "BeverageFridgeFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "beveragefridgefactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory BeverageFridgeFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "household.appliance.dishwasher.mobility",
+    "name": "Articulated Dishwasher",
+    "category": "household/appliances",
+    "description": "DishwasherFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "dishwasherfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory DishwasherFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "household.appliance.microwave.mobility",
+    "name": "Articulated Microwave",
+    "category": "household/appliances",
+    "description": "MicrowaveFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "microwavefactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory MicrowaveFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "household.appliance.oven.mobility",
+    "name": "Articulated Oven",
+    "category": "household/appliances",
+    "description": "OvenFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "ovenfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory OvenFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "household.electronics.tv.mobility",
+    "name": "Articulated TV",
+    "category": "household/electronics",
+    "description": "TVFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "tvfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory TVFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "bathroom.tap.mobility",
+    "name": "Articulated Tap",
+    "category": "household/bathroom",
+    "description": "TapFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "tapfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory TapFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "bathroom.toilet.mobility",
+    "name": "Articulated Toilet",
+    "category": "household/bathroom",
+    "description": "ToiletFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "toiletfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory ToiletFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "architecture.door.lite.mobility",
+    "name": "Articulated Lite Door",
+    "category": "architecture/doors",
+    "description": "LiteDoorFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "litedoorfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory LiteDoorFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "household.lamp.mobility",
+    "name": "Articulated Lamp",
+    "category": "household/lamps",
+    "description": "LampFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "lampfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory LampFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "household.plate_rack.mobility",
+    "name": "Articulated Plate Rack",
+    "category": "household/kitchen",
+    "description": "PlateOnRackBaseFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "plateonrackbasefactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory PlateOnRackBaseFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "furniture.cabinet.kitchen.mobility",
+    "name": "Articulated Kitchen Cabinet",
+    "category": "furniture/cabinets",
+    "description": "KitchenCabinetFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "kitchencabinetfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory KitchenCabinetFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "prop.vase.mobility",
+    "name": "Articulated Vase",
+    "category": "props/decor",
+    "description": "VaseFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "vasefactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory VaseFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "prop.bottle.mobility",
+    "name": "Articulated Bottle",
+    "category": "props/containers",
+    "description": "BottleFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "bottlefactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory BottleFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "furniture.table.cocktail.mobility",
+    "name": "Articulated Cocktail Table",
+    "category": "furniture/tables",
+    "description": "TableCocktailFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "tablecocktailfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory TableCocktailFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "furniture.table.dining.mobility",
+    "name": "Articulated Dining Table",
+    "category": "furniture/tables",
+    "description": "TableDiningFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "tablediningfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory TableDiningFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "prop.pot.mobility",
+    "name": "Articulated Cooking Pot",
+    "category": "props/kitchenware",
+    "description": "PotFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "potfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory PotFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "prop.pan.mobility",
+    "name": "Articulated Pan",
+    "category": "props/kitchenware",
+    "description": "PanFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "panfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory PanFactory)"
+  },
+  {
+    "source_project": "Infinite-Mobility",
+    "repo": "https://github.com/InternRobotics/Infinite-Mobility",
+    "commit": "",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy",
+      "infinigen"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Do not treat as independent geometry author — wraps Infinigen factories with joint export. Keep as mobility-aware sibling, not a geometry duplicate for adapter work.",
+    "id": "architecture.window.mobility",
+    "name": "Articulated Window",
+    "category": "architecture/windows",
+    "description": "WindowFactory emits articulated URDF (openable doors, rotating seats, etc.).",
+    "tags": [
+      "articulated",
+      "urdf",
+      "windowfactory"
+    ],
+    "variants": [],
+    "source_file": "https://github.com/InternRobotics/Infinite-Mobility (factory WindowFactory)"
+  },
+  {
+    "source_project": "Blender-Bottle-Builder",
+    "repo": "https://github.com/search?q=blender+bottle+builder",
+    "commit": "",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.bottle.bottle_builder",
+    "name": "Bottle Builder Bottle",
+    "category": "props/containers",
+    "description": "Blender addon that builds bottles from profiles.",
+    "tags": [
+      "bottle",
+      "container"
+    ],
+    "variants": [],
+    "source_file": "candidates/bottle_builder",
+    "notes": "Profile-based bottle solid. Confirm license before copying further."
+  },
+  {
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.teapot.extra_objects",
+    "name": "Utah Teapot",
+    "category": "props/kitchenware",
+    "description": "Classic teapot mesh generator bundled in Extra Objects.",
+    "tags": [
+      "teapot",
+      "prop"
+    ],
+    "variants": [],
+    "source_file": "candidates/extra_objects",
+    "notes": "Recognizable kitchen prop, not a primitive torus/gear."
+  },
+  {
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.gem.extra_objects",
+    "name": "Gemstone",
+    "category": "props/decor",
+    "description": "Parametric cut gemstone.",
+    "tags": [
+      "gem",
+      "jewel"
+    ],
+    "variants": [],
+    "source_file": "candidates/extra_objects",
+    "notes": ""
+  },
+  {
+    "source_project": "PalletDataGenerator",
+    "repo": "https://github.com/boubakriibrahim/PalletDataGenerator",
+    "commit": "",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "id": "prop.pallet.palletdatagenerator",
+    "name": "Synthetic Pallet",
+    "category": "props/industrial",
+    "description": "Blender library that generates warehouse pallets and box stacks for CV datasets.",
+    "tags": [
+      "pallet",
+      "warehouse",
+      "crate"
+    ],
+    "variants": [
+      "single",
+      "warehouse"
+    ],
+    "source_file": "palletdatagenerator package",
+    "notes": "Useful prop.warehouse.pallet candidate. Verify license on GitHub before copying sources."
+  },
+  {
+    "source_project": "dojo-recursive-bins",
+    "repo": "https://github.com/node-dojo/dojo-recursive-bins",
+    "commit": "",
+    "license": "review-needed",
+    "language": "Geometry Nodes",
+    "runtime": "Blender",
+    "dependencies": [],
+    "estimated_reuse": "hard",
+    "id": "prop.bin.recursive_drawer",
+    "name": "Recursive Drawer Bins",
+    "category": "props/containers",
+    "description": "Geometry Nodes generator that fills a drawer with recursive storage bins.",
+    "tags": [
+      "bin",
+      "drawer",
+      "storage"
+    ],
+    "variants": [
+      "recursive",
+      "grid"
+    ],
+    "source_file": "dojo-recursive-bins .blend geometry nodes",
+    "notes": "GN-based; treat as reference. License not clearly SPDX in README."
+  },
+  {
+    "source_project": "storage_grid",
+    "repo": "https://github.com/Roger-random/storage_grid",
+    "commit": "",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.tray.storage_grid",
+    "name": "Dovetail Storage Tray",
+    "category": "props/containers",
+    "description": "CadQuery parametric storage trays on a rectangular grid with optional dovetails.",
+    "tags": [
+      "tray",
+      "organizer",
+      "grid"
+    ],
+    "variants": [
+      "solid",
+      "thickwall"
+    ],
+    "source_file": "dovetailstoragegrid.py",
+    "notes": ""
+  },
+  {
+    "source_project": "cad-skill / gridfinity",
+    "repo": "https://github.com/flowful-ai/cad-skill",
+    "commit": "",
+    "license": "review-needed",
+    "language": "Python",
+    "runtime": "pure-python",
+    "dependencies": [
+      "cadquery"
+    ],
+    "estimated_reuse": "easy",
+    "id": "prop.bin.gridfinity",
+    "name": "Gridfinity Bin",
+    "category": "props/containers",
+    "description": "Parametric Gridfinity storage bin (base, lip, magnets, compartments).",
+    "tags": [
+      "bin",
+      "gridfinity",
+      "storage"
+    ],
+    "variants": [
+      "magnet",
+      "compartments"
+    ],
+    "source_file": "gridfinity.py",
+    "notes": ""
+  },
+  {
+    "id": "prop.book.bookgen",
+    "name": "BookGen Shelf Books",
+    "category": "props/books",
+    "description": "Dedicated Blender addon that fills shelves with randomized parametric books (width/height/depth, cover thickness, hinge, spline curl).",
+    "tags": [
+      "book",
+      "shelf"
+    ],
+    "variants": [
+      "row"
+    ],
+    "source_project": "BookGen",
+    "repo": "https://github.com/oweissbarth/bookGen",
+    "source_file": "https://github.com/oweissbarth/bookGen",
+    "commit": "",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Best isolated book generator. Commit of latest release 1.0.7 is 8c90891. Source not copied yet."
+  },
+  {
+    "id": "prop.gem.brilliant.extra_objects",
+    "name": "Round Brilliant Gem",
+    "category": "props/decor",
+    "description": "Round brilliant cut gemstone.",
+    "tags": [
+      "gem",
+      "jewel"
+    ],
+    "variants": [],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_round_brilliant.py",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.vehicle.spaceship",
+    "name": "Procedural Spaceship",
+    "category": "props/vehicles",
+    "description": "Classic SpaceshipGenerator: randomized sci-fi hull from boxes/cylinders.",
+    "tags": [
+      "spaceship",
+      "vehicle"
+    ],
+    "variants": [],
+    "source_project": "SpaceshipGenerator",
+    "repo": "https://github.com/a1studmuffin/SpaceshipGenerator",
+    "source_file": "candidates/spaceship/spaceship_generator.py",
+    "commit": "",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Recognizable vehicle/prop, not a building. Good adapter reference."
+  },
+  {
+    "id": "industrial.pipe.joint.extra_objects",
+    "name": "Pipe Joint",
+    "category": "industrial/pipes",
+    "description": "Elbow/tee/n-joint pipe generator from Extra Objects.",
+    "tags": [
+      "pipe",
+      "joint",
+      "elbow"
+    ],
+    "variants": [
+      "elbow",
+      "tee",
+      "njoint"
+    ],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_pipe_joint.py",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Industrial pipe fitting object, not a loft helper."
+  },
+  {
+    "id": "industrial.beam.extra_objects",
+    "name": "Structural Beam",
+    "category": "industrial/steel",
+    "description": "Parametric I/C/L beam builder.",
+    "tags": [
+      "beam",
+      "steel"
+    ],
+    "variants": [
+      "I",
+      "C",
+      "L"
+    ],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_beam_builder.py",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "architecture.wall.factory.extra_objects",
+    "name": "Wall Factory",
+    "category": "architecture/walls",
+    "description": "Parametric wall generator.",
+    "tags": [
+      "wall"
+    ],
+    "variants": [],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/Wallfactory.py",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Borderline architecture — included as wall object generator."
+  },
+  {
+    "id": "architecture.masonry.blocks.extra_objects",
+    "name": "Masonry Blocks",
+    "category": "architecture/walls",
+    "description": "Block/brick masonry generator.",
+    "tags": [
+      "brick",
+      "block",
+      "masonry"
+    ],
+    "variants": [],
+    "source_project": "Add Mesh Extra Objects",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/Blocks.py",
+    "commit": "",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "industrial.pipe.blender_pipes",
+    "name": "Pipes Generator",
+    "category": "industrial/pipes",
+    "description": "Procedural industrial pipe runs for Blender.",
+    "tags": [
+      "pipe",
+      "industrial"
+    ],
+    "variants": [],
+    "source_project": "pipes-generator-blender",
+    "repo": "https://github.com/bruchansky/pipes-generator-blender",
+    "source_file": "candidates/pipes_generator/pipes-generator.py",
+    "commit": "",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.toy.lego_brick",
+    "name": "Lego Brick",
+    "category": "props/toys",
+    "description": "Parametric LEGO-like brick (CadQuery official example Ex100).",
+    "tags": [
+      "lego",
+      "brick",
+      "toy"
+    ],
+    "variants": [
+      "2x4"
+    ],
+    "source_project": "CadQuery",
+    "repo": "https://github.com/CadQuery/cadquery",
+    "source_file": "candidates/cadquery/examples/Ex100_Lego_Brick.py",
+    "license": "Apache-2.0",
+    "runtime": "pure-python",
+    "estimated_reuse": "easy",
+    "notes": "Recognizable toy brick, not a CAD tutorial block.",
+    "commit": "",
+    "language": "Python",
+    "dependencies": []
+  },
+  {
+    "id": "industrial.bearing.cq_warehouse",
+    "name": "Parametric Bearing",
+    "category": "industrial/machinery",
+    "description": "cq_warehouse parametric rolling bearing.",
+    "tags": [
+      "bearing",
+      "machinery"
+    ],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/bearing.py",
+    "license": "Apache-2.0",
+    "runtime": "pure-python",
+    "estimated_reuse": "medium",
+    "dependencies": [
+      "cadquery",
+      "cq_warehouse"
+    ],
+    "variants": [],
+    "commit": "",
+    "language": "Python",
+    "notes": ""
+  },
+  {
+    "id": "industrial.fastener.cq_warehouse",
+    "name": "Parametric Fastener",
+    "category": "industrial/fasteners",
+    "description": "cq_warehouse parametric screws/bolts/nuts.",
+    "tags": [
+      "bolt",
+      "screw",
+      "nut"
+    ],
+    "variants": [
+      "screw",
+      "bolt",
+      "nut"
+    ],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/fastener.py",
+    "license": "Apache-2.0",
+    "runtime": "pure-python",
+    "estimated_reuse": "medium",
+    "dependencies": [
+      "cadquery",
+      "cq_warehouse"
+    ],
+    "commit": "",
+    "language": "Python",
+    "notes": ""
+  },
+  {
+    "id": "industrial.sprocket.cq_warehouse",
+    "name": "Parametric Sprocket",
+    "category": "industrial/machinery",
+    "description": "cq_warehouse sprocket generator.",
+    "tags": [
+      "sprocket",
+      "chain"
+    ],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/sprocket.py",
+    "license": "Apache-2.0",
+    "runtime": "pure-python",
+    "estimated_reuse": "easy",
+    "dependencies": [
+      "cadquery",
+      "cq_warehouse"
+    ],
+    "variants": [],
+    "commit": "",
+    "language": "Python",
+    "notes": ""
+  },
+  {
+    "id": "industrial.chain.cq_warehouse",
+    "name": "Parametric Chain",
+    "category": "industrial/machinery",
+    "description": "cq_warehouse roller chain generator.",
+    "tags": [
+      "chain"
+    ],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/chain.py",
+    "license": "Apache-2.0",
+    "runtime": "pure-python",
+    "estimated_reuse": "medium",
+    "dependencies": [
+      "cadquery",
+      "cq_warehouse"
+    ],
+    "variants": [],
+    "commit": "",
+    "language": "Python",
+    "notes": ""
+  },
+  {
+    "id": "industrial.thread.cq_warehouse",
+    "name": "Parametric Thread",
+    "category": "industrial/fasteners",
+    "description": "cq_warehouse thread form generator.",
+    "tags": [
+      "thread"
+    ],
+    "source_project": "cq_warehouse",
+    "repo": "https://github.com/gumyr/cq_warehouse",
+    "source_file": "candidates/cq_warehouse/thread.py",
+    "license": "Apache-2.0",
+    "runtime": "pure-python",
+    "estimated_reuse": "medium",
+    "dependencies": [
+      "cadquery",
+      "cq_warehouse"
+    ],
+    "variants": [],
+    "commit": "",
+    "language": "Python",
+    "notes": ""
+  }
+]

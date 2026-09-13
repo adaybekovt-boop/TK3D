@@ -1,0 +1,28 @@
+{
+  "id": "architecture.floor_system",
+  "name_ru": "Этажи, плиты и колонны",
+  "meaning_ru": "Экструзия этажей из floorplan: стены, плиты перекрытия и опциональные колонны.",
+  "not_this_ru": null,
+  "tags": [
+    "floor",
+    "этаж",
+    "slab",
+    "walls",
+    "columns"
+  ],
+  "variants": [
+    "multi-floor",
+    "slab",
+    "columns",
+    "decorative columns"
+  ],
+  "files": [
+    "floor_types.py"
+  ],
+  "source": {
+    "project": "Building Tools",
+    "repo": "https://github.com/ranjian0/building_tools",
+    "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+    "license": "MIT"
+  }
+}

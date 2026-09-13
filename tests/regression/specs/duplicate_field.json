@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "duplicate_field",
+  "scene_id": "silently_overwritten_without_strict_loading",
+  "seed": 1,
+  "entities": []
+}

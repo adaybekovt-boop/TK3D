@@ -1,0 +1,392 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://geoforge.local/schemas/scene-1.0.schema.json",
+  "title": "GeoForge SceneSpec 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "scene_id", "seed", "entities"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "scene_id": {"$ref": "#/$defs/id"},
+    "seed": {"type": "integer"},
+    "units": {"enum": ["m", "cm", "mm"]},
+    "entities": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/entity"}
+    },
+    "quality": {"$ref": "#/$defs/quality"},
+    "output": {"$ref": "#/$defs/output"}
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+    },
+    "positive": {"type": "number", "exclusiveMinimum": 0},
+    "nonnegative": {"type": "number", "minimum": 0},
+    "transform": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "position": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {"type": "number"}
+        },
+        "yaw_deg": {"type": "number"}
+      }
+    },
+    "roomOpening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "wall", "offset", "width", "height"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"enum": ["door", "window"]},
+        "wall": {"enum": ["south", "north", "west", "east"]},
+        "offset": {"type": "number"},
+        "width": {"$ref": "#/$defs/positive"},
+        "height": {"$ref": "#/$defs/positive"},
+        "bottom": {"$ref": "#/$defs/nonnegative"}
+      }
+    },
+    "wallOpening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "offset", "width", "height"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"enum": ["door", "window"]},
+        "offset": {"type": "number"},
+        "width": {"$ref": "#/$defs/positive"},
+        "height": {"$ref": "#/$defs/positive"},
+        "bottom": {"$ref": "#/$defs/nonnegative"}
+      }
+    },
+    "baseEntity": {
+      "type": "object",
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "transform": {"$ref": "#/$defs/transform"}
+      }
+    },
+    "entity": {
+      "oneOf": [
+        {"$ref": "#/$defs/boxEntity"},
+        {"$ref": "#/$defs/wallEntity"},
+        {"$ref": "#/$defs/roomEntity"},
+        {"$ref": "#/$defs/floorEntity"},
+        {"$ref": "#/$defs/ceilingEntity"},
+        {"$ref": "#/$defs/stairsEntity"},
+        {"$ref": "#/$defs/beamEntity"},
+        {"$ref": "#/$defs/columnEntity"},
+        {"$ref": "#/$defs/climbableLadderEntity"},
+        {"$ref": "#/$defs/railingEntity"},
+        {"$ref": "#/$defs/balconyEntity"},
+        {"$ref": "#/$defs/roadEntity"},
+        {"$ref": "#/$defs/deskEntity"}
+      ]
+    },
+    "boxEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "box"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "depth", "height"],
+          "properties": {
+            "width": {"$ref": "#/$defs/positive"},
+            "depth": {"$ref": "#/$defs/positive"},
+            "height": {"$ref": "#/$defs/positive"}
+          }
+        }
+      }
+    },
+    "wallEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "wall"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["length", "height", "thickness"],
+          "properties": {
+            "length": {"$ref": "#/$defs/positive"},
+            "height": {"$ref": "#/$defs/positive"},
+            "thickness": {"$ref": "#/$defs/positive"},
+            "openings": {"type": "array", "items": {"$ref": "#/$defs/wallOpening"}}
+          }
+        }
+      }
+    },
+    "roomEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "room"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "length", "height", "wall_thickness", "floor_thickness"],
+          "properties": {
+            "width": {"$ref": "#/$defs/positive"},
+            "length": {"$ref": "#/$defs/positive"},
+            "height": {"$ref": "#/$defs/positive"},
+            "wall_thickness": {"$ref": "#/$defs/positive"},
+            "floor_thickness": {"$ref": "#/$defs/positive"},
+            "ceiling": {"type": "boolean"},
+            "ceiling_thickness": {"$ref": "#/$defs/positive"},
+            "size_mode": {"const": "CLEAR_INTERIOR"},
+            "openings": {"type": "array", "items": {"$ref": "#/$defs/roomOpening"}}
+          }
+        }
+      }
+    },
+    "slabParams": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "length", "thickness"],
+      "properties": {
+        "width": {"$ref": "#/$defs/positive"},
+        "length": {"$ref": "#/$defs/positive"},
+        "thickness": {"$ref": "#/$defs/positive"}
+      }
+    },
+    "floorEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "floor"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {"$ref": "#/$defs/slabParams"}
+      }
+    },
+    "ceilingEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "ceiling"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {"$ref": "#/$defs/slabParams"}
+      }
+    },
+    "stairsEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "straight_stairs"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "run", "rise"],
+          "properties": {
+            "width": {"$ref": "#/$defs/positive"},
+            "run": {"$ref": "#/$defs/positive"},
+            "rise": {"$ref": "#/$defs/positive"},
+            "max_riser": {"$ref": "#/$defs/positive"},
+            "min_tread": {"$ref": "#/$defs/positive"}
+          }
+        }
+      }
+    },
+    "beamEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "beam"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["length", "width", "height"],
+          "properties": {
+            "length": {"$ref": "#/$defs/positive"},
+            "width": {"$ref": "#/$defs/positive"},
+            "height": {"$ref": "#/$defs/positive"}
+          }
+        }
+      }
+    },
+    "columnEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "column"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "depth", "height"],
+          "properties": {
+            "width": {"$ref": "#/$defs/positive"},
+            "depth": {"$ref": "#/$defs/positive"},
+            "height": {"$ref": "#/$defs/positive"}
+          }
+        }
+      }
+    },
+    "climbableLadderEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "climbable_ladder"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["height", "width"],
+          "properties": {
+            "height": {"$ref": "#/$defs/positive"},
+            "width": {"$ref": "#/$defs/positive"},
+            "rung_spacing": {"$ref": "#/$defs/positive"},
+            "rail_radius": {"$ref": "#/$defs/positive"},
+            "rung_radius": {"$ref": "#/$defs/positive"},
+            "lean_deg": {"type": "number"}
+          }
+        }
+      }
+    },
+    "railingEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "railing"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["length", "height"],
+          "properties": {
+            "length": {"$ref": "#/$defs/positive"},
+            "height": {"$ref": "#/$defs/positive"},
+            "post_size": {"$ref": "#/$defs/positive"},
+            "rail_thickness": {"$ref": "#/$defs/positive"},
+            "post_spacing": {"$ref": "#/$defs/positive"},
+            "rail_count": {"type": "integer", "minimum": 1},
+            "fill": {"enum": ["posts", "rails", "wall"]},
+            "bottom_rail": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "balconyEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "balcony"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "depth"],
+          "properties": {
+            "width": {"$ref": "#/$defs/positive"},
+            "depth": {"$ref": "#/$defs/positive"},
+            "slab_thickness": {"$ref": "#/$defs/positive"},
+            "has_railing": {"type": "boolean"},
+            "rail_height": {"$ref": "#/$defs/positive"},
+            "post_size": {"$ref": "#/$defs/positive"},
+            "post_spacing": {"$ref": "#/$defs/positive"}
+          }
+        }
+      }
+    },
+    "roadEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "road"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["length", "width"],
+          "properties": {
+            "length": {"$ref": "#/$defs/positive"},
+            "width": {"$ref": "#/$defs/positive"},
+            "thickness": {"$ref": "#/$defs/positive"},
+            "sidewalks": {"type": "boolean"},
+            "sidewalk_width": {"$ref": "#/$defs/positive"},
+            "sidewalk_height": {"$ref": "#/$defs/positive"},
+            "shoulders": {"type": "boolean"},
+            "shoulder_width": {"$ref": "#/$defs/positive"}
+          }
+        }
+      }
+    },
+    "deskEntity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "params"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "kind": {"const": "desk"},
+        "transform": {"$ref": "#/$defs/transform"},
+        "params": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "depth", "height"],
+          "properties": {
+            "width": {"$ref": "#/$defs/positive"},
+            "depth": {"$ref": "#/$defs/positive"},
+            "height": {"$ref": "#/$defs/positive"},
+            "thickness": {"$ref": "#/$defs/positive"},
+            "leg_size": {"$ref": "#/$defs/positive"},
+            "leg_inset": {"$ref": "#/$defs/positive"}
+          }
+        }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "profile": {"const": "production"},
+        "min_feature_size": {"$ref": "#/$defs/positive"}
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "save_blend": {"type": "boolean"},
+        "blend": {"type": "string", "minLength": 1},
+        "report": {"type": "string", "minLength": 1},
+        "manifest": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

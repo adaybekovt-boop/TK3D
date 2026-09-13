@@ -1,0 +1,23 @@
+{
+  "id": "geometry.procfunc.random",
+  "name_ru": "Детерминированная вариативность",
+  "meaning_ru": "Распределения случайных параметров для процедурных генераторов.",
+  "not_this_ru": null,
+  "tags": [
+    "random",
+    "procedural variation",
+    "uniform",
+    "gaussian",
+    "seed"
+  ],
+  "variants": [],
+  "files": [
+    "random.py"
+  ],
+  "source": {
+    "project": "ProcFunc",
+    "repo": "https://github.com/princeton-vl/procfunc",
+    "commit": "7ff982e89c58ce16fe4b0028d14661c0be77b6b7",
+    "license": "BSD-3-Clause"
+  }
+}

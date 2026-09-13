@@ -1,0 +1,687 @@
+{
+  "format_version": 1,
+  "purpose": "Searchable donor-code library for GeoForge. Select by semantic meaning, then adapt into GeoForge registry.",
+  "python_file_count": 30,
+  "generator_groups": [
+    {
+      "id": "architecture.stairs.walkable",
+      "name_ru": "Обычная лестница со ступенями",
+      "meaning_ru": "Лестница, по которой человек поднимается ногами между этажами.",
+      "not_this_ru": "Не вертикальная приставная лестница с перекладинами.",
+      "tags": [
+        "лестница",
+        "ступени",
+        "этаж",
+        "walkable stairs",
+        "landing",
+        "railing"
+      ],
+      "variants": [
+        "filled",
+        "blocked",
+        "slope bottom",
+        "landing",
+        "railing"
+      ],
+      "files": [
+        "architecture/stairs_walkable/stairs_types.py",
+        "architecture/stairs_walkable/stairs_props.py",
+        "architecture/stairs_walkable/stairs_ops.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.stairs.climbable_ladder",
+      "name_ru": "Вертикальная/наклонная лестница с перекладинами",
+      "meaning_ru": "Лестница, по которой карабкаются руками и ногами; две стойки и перекладины.",
+      "not_this_ru": "Не обычный лестничный марш со ступенями.",
+      "tags": [
+        "ladder",
+        "лестница",
+        "перекладины",
+        "climbable",
+        "vertical ladder"
+      ],
+      "variants": [
+        "lean angle",
+        "rung pitch",
+        "rail gap"
+      ],
+      "files": [
+        "architecture/stairs_climbable_ladder/climbable_parametric_ladder.py"
+      ],
+      "source": {
+        "project": "GeoForge original",
+        "repo": null,
+        "commit": null,
+        "license": "project-owned generated code"
+      }
+    },
+    {
+      "id": "architecture.door",
+      "name_ru": "Дверь и дверной проём",
+      "meaning_ru": "Параметрическая дверь/проём в стене с рамой.",
+      "tags": [
+        "door",
+        "дверь",
+        "doorway",
+        "frame",
+        "arch"
+      ],
+      "variants": [
+        "single",
+        "double",
+        "arched",
+        "frame depth",
+        "door depth"
+      ],
+      "files": [
+        "architecture/doors/door_types.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.window",
+      "name_ru": "Окно",
+      "meaning_ru": "Параметрическое окно в стене с рамой.",
+      "tags": [
+        "window",
+        "окно",
+        "frame",
+        "circular",
+        "arched"
+      ],
+      "variants": [
+        "rectangular",
+        "circular",
+        "arched",
+        "array"
+      ],
+      "files": [
+        "architecture/windows/window_types.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.floor_system",
+      "name_ru": "Этажи, плиты и колонны",
+      "meaning_ru": "Экструзия этажей из floorplan: стены, плиты перекрытия и опциональные колонны.",
+      "tags": [
+        "floor",
+        "этаж",
+        "slab",
+        "walls",
+        "columns"
+      ],
+      "variants": [
+        "multi-floor",
+        "slab",
+        "columns",
+        "decorative columns"
+      ],
+      "files": [
+        "architecture/floors/floor_types.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.floorplan",
+      "name_ru": "План здания",
+      "meaning_ru": "Генерация формы основания/плана здания.",
+      "tags": [
+        "floorplan",
+        "план",
+        "layout",
+        "building footprint"
+      ],
+      "variants": [
+        "rectangular",
+        "circular",
+        "composite",
+        "H-shaped",
+        "random"
+      ],
+      "files": [
+        "architecture/floorplans/floorplan_types.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.balcony",
+      "name_ru": "Балкон",
+      "meaning_ru": "Балкон из выбранной поверхности, с глубиной и опциональным ограждением.",
+      "tags": [
+        "balcony",
+        "балкон",
+        "railing"
+      ],
+      "variants": [
+        "single",
+        "grouped",
+        "with railing"
+      ],
+      "files": [
+        "architecture/balconies/balcony_types.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.railing",
+      "name_ru": "Перила и ограждения",
+      "meaning_ru": "Стойки, верхняя/нижняя рейка и заполнение ограждения.",
+      "tags": [
+        "railing",
+        "перила",
+        "ограждение",
+        "posts",
+        "rails"
+      ],
+      "variants": [
+        "posts",
+        "rails",
+        "wall fill",
+        "sloped"
+      ],
+      "files": [
+        "architecture/railings/railing.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "infrastructure.road",
+      "name_ru": "Дорога",
+      "meaning_ru": "Прямая или изогнутая дорога с обочинами и тротуарами.",
+      "tags": [
+        "road",
+        "дорога",
+        "sidewalk",
+        "shoulder",
+        "curve"
+      ],
+      "variants": [
+        "straight",
+        "curved",
+        "sidewalk",
+        "shoulders"
+      ],
+      "files": [
+        "infrastructure/roads/road.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "furniture.chair.general",
+      "name_ru": "Обычный стул",
+      "meaning_ru": "Процедурный стул с разными ножками, спинками, перекладинами и подлокотниками.",
+      "tags": [
+        "chair",
+        "стул",
+        "furniture",
+        "arms",
+        "backrest"
+      ],
+      "variants": [
+        "whole back",
+        "partial back",
+        "horizontal bars",
+        "vertical bars",
+        "arms"
+      ],
+      "files": [
+        "furniture/chairs/chair.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "furniture.chair.office",
+      "name_ru": "Офисное кресло",
+      "meaning_ru": "Офисное кресло: центральная стойка или колёсная база.",
+      "tags": [
+        "office chair",
+        "офисное кресло",
+        "wheeled",
+        "seat"
+      ],
+      "variants": [
+        "single stand",
+        "wheeled"
+      ],
+      "files": [
+        "furniture/chairs/office_chair.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "furniture.chair.bar",
+      "name_ru": "Барный стул",
+      "meaning_ru": "Высокий барный стул с несколькими вариантами опоры.",
+      "tags": [
+        "bar chair",
+        "bar stool",
+        "барный стул"
+      ],
+      "variants": [
+        "straight legs",
+        "single stand",
+        "wheeled"
+      ],
+      "files": [
+        "furniture/chairs/bar_chair.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "furniture.desk.simple",
+      "name_ru": "Простой стол / рабочий стол",
+      "meaning_ru": "Столешница и четыре ножки; также вариант маленького приставного столика.",
+      "tags": [
+        "desk",
+        "table",
+        "стол",
+        "рабочий стол",
+        "side table"
+      ],
+      "variants": [
+        "desk",
+        "side table"
+      ],
+      "files": [
+        "furniture/desks/simple_desk.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "furniture.table.top",
+      "name_ru": "Параметрическая столешница",
+      "meaning_ru": "Генерация формы столешницы с профилем и скруглением.",
+      "tags": [
+        "tabletop",
+        "столешница",
+        "table",
+        "profile"
+      ],
+      "variants": [
+        "n-gon profile",
+        "aspect ratio",
+        "fillet",
+        "thickness"
+      ],
+      "files": [
+        "furniture/tables/table_top.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "furniture.table.stretcher",
+      "name_ru": "Перекладина/распорка стола",
+      "meaning_ru": "Генератор цилиндрической/многогранной распорки для мебели.",
+      "tags": [
+        "stretcher",
+        "перекладина",
+        "table support"
+      ],
+      "variants": [
+        "n-gon",
+        "profile width"
+      ],
+      "files": [
+        "furniture/tables/strechers.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "furniture.kitchen.countertop",
+      "name_ru": "Кухонная столешница",
+      "meaning_ru": "Строит общую столешницу поверх набора шкафов/столов по их геометрии.",
+      "tags": [
+        "countertop",
+        "кухонная столешница",
+        "kitchen",
+        "shapely"
+      ],
+      "variants": [
+        "merged surfaces",
+        "different heights",
+        "extrusion"
+      ],
+      "files": [
+        "furniture/kitchen/countertop.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "furniture.kitchen.space",
+      "name_ru": "Кухонный гарнитур / остров",
+      "meaning_ru": "Композиция нижних и верхних кухонных шкафов; умеет вариант острова.",
+      "tags": [
+        "kitchen",
+        "кухня",
+        "cabinets",
+        "island"
+      ],
+      "variants": [
+        "wall kitchen",
+        "kitchen island"
+      ],
+      "files": [
+        "furniture/kitchen/kitchen_space.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "electronics.tv_monitor",
+      "name_ru": "Телевизор / монитор",
+      "meaning_ru": "Параметрический экран с корпусом и вариантами подставки.",
+      "tags": [
+        "TV",
+        "monitor",
+        "телевизор",
+        "монитор",
+        "screen"
+      ],
+      "variants": [
+        "TV",
+        "monitor",
+        "two-legged",
+        "single stand"
+      ],
+      "files": [
+        "electronics/tv_monitor/tv.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "decor.aquarium",
+      "name_ru": "Аквариум",
+      "meaning_ru": "Стеклянный аквариум с рамкой и процедурным содержимым.",
+      "tags": [
+        "aquarium",
+        "аквариум",
+        "glass tank"
+      ],
+      "variants": [
+        "wet",
+        "dry"
+      ],
+      "files": [
+        "decor/aquarium/aquarium_tank.py"
+      ],
+      "source": {
+        "project": "Infinigen",
+        "repo": "https://github.com/princeton-vl/infinigen",
+        "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "geometry.procfunc.primitives",
+      "name_ru": "Базовые 3D-примитивы",
+      "meaning_ru": "Создание mesh из numpy и базовых Blender primitives.",
+      "tags": [
+        "primitive",
+        "mesh",
+        "cube",
+        "sphere",
+        "cylinder",
+        "cone",
+        "torus",
+        "grid"
+      ],
+      "files": [
+        "geometry/procfunc/primitives_mesh.py"
+      ],
+      "source": {
+        "project": "ProcFunc",
+        "repo": "https://github.com/princeton-vl/procfunc",
+        "commit": "7ff982e89c58ce16fe4b0028d14661c0be77b6b7",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "geometry.procfunc.object_ops",
+      "name_ru": "Операции с объектами",
+      "meaning_ru": "Transform, join, duplicate, shading, curve↔mesh.",
+      "tags": [
+        "object ops",
+        "join",
+        "duplicate",
+        "transform",
+        "curve to mesh"
+      ],
+      "files": [
+        "geometry/procfunc/object_ops.py"
+      ],
+      "source": {
+        "project": "ProcFunc",
+        "repo": "https://github.com/princeton-vl/procfunc",
+        "commit": "7ff982e89c58ce16fe4b0028d14661c0be77b6b7",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "geometry.procfunc.collection",
+      "name_ru": "Группировка объектов",
+      "meaning_ru": "Создание collections и перенос объектов вместе с дочерними объектами.",
+      "tags": [
+        "collection",
+        "group objects",
+        "scene organization"
+      ],
+      "files": [
+        "geometry/procfunc/collection.py"
+      ],
+      "source": {
+        "project": "ProcFunc",
+        "repo": "https://github.com/princeton-vl/procfunc",
+        "commit": "7ff982e89c58ce16fe4b0028d14661c0be77b6b7",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "geometry.procfunc.curve",
+      "name_ru": "Операции с кривыми",
+      "meaning_ru": "Базовая операция subdivision кривых.",
+      "tags": [
+        "curve",
+        "subdivide"
+      ],
+      "files": [
+        "geometry/procfunc/curve.py"
+      ],
+      "source": {
+        "project": "ProcFunc",
+        "repo": "https://github.com/princeton-vl/procfunc",
+        "commit": "7ff982e89c58ce16fe4b0028d14661c0be77b6b7",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "geometry.procfunc.random",
+      "name_ru": "Детерминированная вариативность",
+      "meaning_ru": "Распределения случайных параметров для процедурных генераторов.",
+      "tags": [
+        "random",
+        "procedural variation",
+        "uniform",
+        "gaussian",
+        "seed"
+      ],
+      "files": [
+        "geometry/procfunc/random.py"
+      ],
+      "source": {
+        "project": "ProcFunc",
+        "repo": "https://github.com/princeton-vl/procfunc",
+        "commit": "7ff982e89c58ce16fe4b0028d14661c0be77b6b7",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "id": "shared.building_tools.arch",
+      "name_ru": "Арочные проёмы",
+      "meaning_ru": "Вспомогательная геометрия арок для дверей/окон.",
+      "tags": [
+        "arch",
+        "арка",
+        "door",
+        "window"
+      ],
+      "files": [
+        "_shared/building_tools/arch.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "shared.building_tools.frame",
+      "name_ru": "Глубина рам",
+      "meaning_ru": "Вспомогательная экструзия дверных/оконных рам.",
+      "tags": [
+        "frame",
+        "door",
+        "window",
+        "extrude"
+      ],
+      "files": [
+        "_shared/building_tools/frame.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "shared.building_tools.array",
+      "name_ru": "Массив одинаковых элементов",
+      "meaning_ru": "Распределение нескольких дверей/окон по поверхности.",
+      "tags": [
+        "array",
+        "repeat",
+        "doors",
+        "windows"
+      ],
+      "files": [
+        "_shared/building_tools/array.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "shared.building_tools.sizeoffset",
+      "name_ru": "Размер и смещение",
+      "meaning_ru": "Ограничение размеров и позиции элемента внутри родительской поверхности.",
+      "tags": [
+        "size",
+        "offset",
+        "bounds",
+        "door",
+        "window"
+      ],
+      "files": [
+        "_shared/building_tools/sizeoffset.py"
+      ],
+      "source": {
+        "project": "Building Tools",
+        "repo": "https://github.com/ranjian0/building_tools",
+        "commit": "0216534645b15b3f8aac0bd1d7e6674e2972b9b3",
+        "license": "MIT"
+      }
+    }
+  ],
+  "unclassified_python_files": []
+}

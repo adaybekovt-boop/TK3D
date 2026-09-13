@@ -1,0 +1,892 @@
+{
+  "format_version": 1,
+  "generators": [
+    {
+      "id": "geometry.box",
+      "name": "Box",
+      "meaning": "Axis-aligned rectangular solid.",
+      "not_this": "Not furniture or a room.",
+      "tags": [
+        "box",
+        "cube",
+        "prism",
+        "solid"
+      ],
+      "aliases": [
+        "rectangular solid"
+      ],
+      "variants": [],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "box",
+      "vendor_group": null,
+      "source_file": "src/geoforge/builders/architecture.py",
+      "origin": {
+        "project": "GeoForge V1",
+        "repo": null,
+        "commit": null,
+        "license": "MIT"
+      },
+      "limitations": "Axis-aligned box only."
+    },
+    {
+      "id": "architecture.wall",
+      "name": "Wall",
+      "meaning": "Straight wall. Door and window openings are cut by analytical solid splitting.",
+      "not_this": "Not a room and not a standalone door or window object.",
+      "tags": [
+        "wall",
+        "стена",
+        "opening",
+        "door",
+        "window"
+      ],
+      "aliases": [
+        "partition"
+      ],
+      "variants": [
+        "openings"
+      ],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "wall",
+      "vendor_group": null,
+      "source_file": "src/geoforge/builders/architecture.py",
+      "origin": {
+        "project": "GeoForge V1",
+        "repo": null,
+        "commit": null,
+        "license": "MIT"
+      },
+      "limitations": "Straight axis-aligned wall only."
+    },
+    {
+      "id": "architecture.room",
+      "name": "Room",
+      "meaning": "Rectangular CLEAR_INTERIOR room with coordinated floor, walls, optional ceiling, and openings.",
+      "not_this": "Not a multi-building floorplan extrusion.",
+      "tags": [
+        "room",
+        "комната",
+        "interior",
+        "walls",
+        "floor",
+        "ceiling"
+      ],
+      "aliases": [
+        "interior room"
+      ],
+      "variants": [
+        "door",
+        "window",
+        "ceiling"
+      ],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "room",
+      "vendor_group": null,
+      "source_file": "src/geoforge/builders/architecture.py",
+      "origin": {
+        "project": "GeoForge V1",
+        "repo": null,
+        "commit": null,
+        "license": "MIT"
+      },
+      "limitations": "Rectangular CLEAR_INTERIOR rooms only."
+    },
+    {
+      "id": "architecture.floor",
+      "name": "Floor slab",
+      "meaning": "Single floor slab whose top face is the entity level datum.",
+      "not_this": "Not a multi-storey Building Tools floor system.",
+      "tags": [
+        "floor",
+        "этаж",
+        "slab",
+        "плита"
+      ],
+      "aliases": [
+        "floor slab"
+      ],
+      "variants": [],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "floor",
+      "vendor_group": null,
+      "source_file": "src/geoforge/builders/architecture.py",
+      "origin": {
+        "project": "GeoForge V1",
+        "repo": null,
+        "commit": null,
+        "license": "MIT"
+      },
+      "limitations": "One rectangular slab. For multi-floor extrusion see architecture.floor_system (REFERENCE)."
+    },
+    {
+      "id": "architecture.ceiling",
+      "name": "Ceiling slab",
+      "meaning": "Ceiling slab extending upward from the entity level datum.",
+      "tags": [
+        "ceiling",
+        "потолок",
+        "slab"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "ceiling",
+      "vendor_group": null,
+      "source_file": "src/geoforge/builders/architecture.py",
+      "origin": {
+        "project": "GeoForge V1",
+        "repo": null,
+        "commit": null,
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.stairs.walkable",
+      "name": "Walkable stairs",
+      "meaning": "Stairs used to walk between floors. A person steps on treads with their feet.",
+      "not_this": "Not a climbable ladder with two rails and rungs.",
+      "tags": [
+        "stairs",
+        "steps",
+        "floor",
+        "landing",
+        "walkable",
+        "staircase",
+        "tread",
+        "ступени",
+        "лестница"
+      ],
+      "aliases": [
+        "straight stairs",
+        "stair flight",
+        "между этажами",
+        "промышленная лестница",
+        "industrial stairs"
+      ],
+      "variants": [
+        "straight",
+        "landing",
+        "railing"
+      ],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "straight_stairs",
+      "vendor_group": "architecture.stairs.walkable",
+      "source_file": "src/geoforge/builders/circulation.py",
+      "limitations": "V1 is one straight filled flight. Donor landing/railing variants remain REFERENCE."
+    },
+    {
+      "id": "architecture.beam",
+      "name": "Beam",
+      "meaning": "Straight rectangular beam aligned to local +X.",
+      "tags": [
+        "beam",
+        "балка",
+        "lintel"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "beam",
+      "vendor_group": null,
+      "source_file": "src/geoforge/builders/architecture.py",
+      "origin": {
+        "project": "GeoForge V1",
+        "repo": null,
+        "commit": null,
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.column",
+      "name": "Column",
+      "meaning": "Straight rectangular column aligned to local +Z.",
+      "tags": [
+        "column",
+        "колонна",
+        "pillar"
+      ],
+      "aliases": [
+        "pillar"
+      ],
+      "variants": [],
+      "backend": "geoforge",
+      "status": "NATIVE",
+      "adapter": null,
+      "kind": "column",
+      "vendor_group": null,
+      "source_file": "src/geoforge/builders/architecture.py",
+      "origin": {
+        "project": "GeoForge V1",
+        "repo": null,
+        "commit": null,
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "architecture.stairs.climbable_ladder",
+      "name": "Climbable ladder",
+      "meaning": "Two rails plus rungs. A person climbs with hands and feet.",
+      "not_this": "Not a walkable stair flight with treads between floors.",
+      "tags": [
+        "ladder",
+        "лестница",
+        "перекладины",
+        "climbable",
+        "vertical ladder",
+        "rungs"
+      ],
+      "aliases": [
+        "parametric ladder",
+        "leaning ladder",
+        "приставная лестница"
+      ],
+      "variants": [
+        "lean angle",
+        "rung pitch",
+        "rail gap"
+      ],
+      "backend": "geoforge_adapter",
+      "status": "ADAPTED",
+      "adapter": "ClimbableLadderBuilder",
+      "kind": "climbable_ladder",
+      "vendor_group": "architecture.stairs.climbable_ladder",
+      "source_file": "vendor/generator_library/architecture/stairs_climbable_ladder/climbable_parametric_ladder.py",
+      "limitations": "Rails and rungs are square-section MeshDraft solids. Donor feet/bisect are omitted."
+    },
+    {
+      "id": "architecture.balcony",
+      "name": "Balcony",
+      "meaning": "Balcony slab projecting from a wall, with optional three-sided railing.",
+      "not_this": "Not a full Building Tools face-operator on an existing mesh.",
+      "tags": [
+        "balcony",
+        "балкон",
+        "railing"
+      ],
+      "aliases": [
+        "deck",
+        "terrace slab"
+      ],
+      "variants": [
+        "single",
+        "grouped",
+        "with railing"
+      ],
+      "backend": "geoforge_adapter",
+      "status": "ADAPTED",
+      "adapter": "BalconyBuilder",
+      "kind": "balcony",
+      "vendor_group": "architecture.balcony",
+      "source_file": "vendor/generator_library/architecture/balconies/balcony_types.py",
+      "limitations": "Standalone slab in +Y. Donor grouped-face and parent-bmesh operators were not copied."
+    },
+    {
+      "id": "architecture.railing",
+      "name": "Railing",
+      "meaning": "Posts, top/bottom rail, and post/rail/wall fill. Used as a guard or handrail.",
+      "not_this": "Not walkable stairs and not a balcony slab.",
+      "tags": [
+        "railing",
+        "перила",
+        "ограждение",
+        "posts",
+        "rails"
+      ],
+      "aliases": [
+        "guardrail",
+        "handrail",
+        "banister"
+      ],
+      "variants": [
+        "posts",
+        "rails",
+        "wall fill",
+        "sloped"
+      ],
+      "backend": "geoforge_adapter",
+      "status": "ADAPTED",
+      "adapter": "RailingBuilder",
+      "kind": "railing",
+      "vendor_group": "architecture.railing",
+      "source_file": "vendor/generator_library/architecture/railings/railing.py",
+      "limitations": "Straight run only. Donor bmesh-on-face / sloped edge-to-cylinder path stays REFERENCE."
+    },
+    {
+      "id": "infrastructure.road",
+      "name": "Road",
+      "meaning": "Straight road with optional sidewalks and shoulders.",
+      "not_this": "Not a Blender Array/Curve modifier road.",
+      "tags": [
+        "road",
+        "дорога",
+        "sidewalk",
+        "shoulder",
+        "curve"
+      ],
+      "aliases": [
+        "street",
+        "carriageway"
+      ],
+      "variants": [
+        "straight",
+        "curved",
+        "sidewalk",
+        "shoulders"
+      ],
+      "backend": "geoforge_adapter",
+      "status": "ADAPTED",
+      "adapter": "RoadBuilder",
+      "kind": "road",
+      "vendor_group": "infrastructure.road",
+      "source_file": "vendor/generator_library/infrastructure/roads/road.py",
+      "limitations": "Straight extruded profile only. Donor curve/Array modifier path is not used."
+    },
+    {
+      "id": "furniture.desk.simple",
+      "name": "Simple desk",
+      "meaning": "Tabletop and four legs. Also covers a small side table.",
+      "not_this": "Not an Infinigen Geometry Nodes desk.",
+      "tags": [
+        "desk",
+        "table",
+        "стол",
+        "рабочий стол",
+        "side table"
+      ],
+      "aliases": [
+        "work desk",
+        "writing desk"
+      ],
+      "variants": [
+        "desk",
+        "side table"
+      ],
+      "backend": "geoforge_adapter",
+      "status": "ADAPTED",
+      "adapter": "SimpleDeskBuilder",
+      "kind": "desk",
+      "vendor_group": "furniture.desk.simple",
+      "source_file": "vendor/generator_library/furniture/desks/simple_desk.py",
+      "limitations": "Square-section legs. Donor Geometry Nodes / materials were not imported."
+    },
+    {
+      "id": "architecture.door",
+      "name": "Door",
+      "meaning": "Parametric door and doorway with a frame.",
+      "tags": [
+        "door",
+        "дверь",
+        "doorway",
+        "frame",
+        "arch"
+      ],
+      "aliases": [],
+      "variants": [
+        "single",
+        "double",
+        "arched",
+        "frame depth",
+        "door depth"
+      ],
+      "backend": "building_tools",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "architecture.door",
+      "source_file": "vendor/generator_library/architecture/doors/door_types.py",
+      "dependency_reason": "Requires Building Tools parent-face bmesh operators, material groups, and addon utils. V1 rooms/walls already cut door openings natively.",
+      "limitations": "Use architecture.room or architecture.wall openings for a working doorway."
+    },
+    {
+      "id": "architecture.window",
+      "name": "Window",
+      "meaning": "Parametric window in a wall with a frame.",
+      "tags": [
+        "window",
+        "окно",
+        "frame",
+        "circular",
+        "arched"
+      ],
+      "aliases": [],
+      "variants": [
+        "rectangular",
+        "circular",
+        "arched",
+        "array"
+      ],
+      "backend": "building_tools",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "architecture.window",
+      "source_file": "vendor/generator_library/architecture/windows/window_types.py",
+      "dependency_reason": "Requires Building Tools parent-face bmesh operators and addon utils. V1 rooms/walls already cut window openings natively."
+    },
+    {
+      "id": "architecture.floor_system",
+      "name": "Floor system",
+      "meaning": "Extrude storeys from a floorplan: walls, slabs, optional columns.",
+      "tags": [
+        "floor",
+        "этаж",
+        "slab",
+        "walls",
+        "columns"
+      ],
+      "aliases": [],
+      "variants": [
+        "multi-floor",
+        "slab",
+        "columns",
+        "decorative columns"
+      ],
+      "backend": "building_tools",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "architecture.floor_system",
+      "source_file": "vendor/generator_library/architecture/floors/floor_types.py",
+      "dependency_reason": "Depends on Building Tools floorplan mesh, material groups, and extrusion helpers. Prefer NATIVE architecture.floor / architecture.room / architecture.column."
+    },
+    {
+      "id": "architecture.floorplan",
+      "name": "Floorplan",
+      "meaning": "Generate a building footprint / plan shape.",
+      "tags": [
+        "floorplan",
+        "план",
+        "layout",
+        "building footprint"
+      ],
+      "aliases": [],
+      "variants": [
+        "rectangular",
+        "circular",
+        "composite",
+        "H-shaped",
+        "random"
+      ],
+      "backend": "building_tools",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "architecture.floorplan",
+      "source_file": "vendor/generator_library/architecture/floorplans/floorplan_types.py",
+      "dependency_reason": "Building Tools floorplan generator; needs the addon utility stack. Not a GeoForge V1 entity."
+    },
+    {
+      "id": "furniture.chair.general",
+      "name": "Chair",
+      "meaning": "Procedural chair with legs, back, bars, and optional arms.",
+      "tags": [
+        "chair",
+        "стул",
+        "furniture",
+        "arms",
+        "backrest"
+      ],
+      "aliases": [],
+      "variants": [
+        "whole back",
+        "partial back",
+        "horizontal bars",
+        "vertical bars",
+        "arms"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "furniture.chair.general",
+      "source_file": "vendor/generator_library/furniture/chairs/chair.py",
+      "dependency_reason": "Infinigen Geometry Nodes factory. Cannot be isolated without the Infinigen runtime."
+    },
+    {
+      "id": "furniture.chair.office",
+      "name": "Office chair",
+      "meaning": "Office chair with a central stand or wheeled base.",
+      "tags": [
+        "office chair",
+        "офисное кресло",
+        "wheeled",
+        "seat"
+      ],
+      "aliases": [],
+      "variants": [
+        "single stand",
+        "wheeled"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "furniture.chair.office",
+      "source_file": "vendor/generator_library/furniture/chairs/office_chair.py",
+      "dependency_reason": "Infinigen Geometry Nodes factory. Cannot be isolated without the Infinigen runtime."
+    },
+    {
+      "id": "furniture.chair.bar",
+      "name": "Bar chair",
+      "meaning": "Tall bar stool with several support variants.",
+      "tags": [
+        "bar chair",
+        "bar stool",
+        "барный стул"
+      ],
+      "aliases": [],
+      "variants": [
+        "straight legs",
+        "single stand",
+        "wheeled"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "furniture.chair.bar",
+      "source_file": "vendor/generator_library/furniture/chairs/bar_chair.py",
+      "dependency_reason": "Infinigen Geometry Nodes factory. Cannot be isolated without the Infinigen runtime."
+    },
+    {
+      "id": "furniture.table.top",
+      "name": "Table top",
+      "meaning": "Parametric tabletop with profile and fillet.",
+      "tags": [
+        "tabletop",
+        "столешница",
+        "table",
+        "profile"
+      ],
+      "aliases": [],
+      "variants": [
+        "n-gon profile",
+        "aspect ratio",
+        "fillet",
+        "thickness"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "furniture.table.top",
+      "source_file": "vendor/generator_library/furniture/tables/table_top.py",
+      "dependency_reason": "Infinigen Geometry Nodes. Prefer furniture.desk.simple when a working table is needed."
+    },
+    {
+      "id": "furniture.table.stretcher",
+      "name": "Table stretcher",
+      "meaning": "Cylindrical or polygonal stretcher for furniture.",
+      "tags": [
+        "stretcher",
+        "перекладина",
+        "table support"
+      ],
+      "aliases": [],
+      "variants": [
+        "n-gon",
+        "profile width"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "furniture.table.stretcher",
+      "source_file": "vendor/generator_library/furniture/tables/strechers.py",
+      "dependency_reason": "Infinigen helper, not a standalone object generator."
+    },
+    {
+      "id": "furniture.kitchen.countertop",
+      "name": "Kitchen countertop",
+      "meaning": "Merged countertop over a set of cabinets, using their geometry.",
+      "tags": [
+        "countertop",
+        "кухонная столешница",
+        "kitchen",
+        "shapely"
+      ],
+      "aliases": [],
+      "variants": [
+        "merged surfaces",
+        "different heights",
+        "extrusion"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "furniture.kitchen.countertop",
+      "source_file": "vendor/generator_library/furniture/kitchen/countertop.py",
+      "dependency_reason": "Needs Infinigen cabinet geometry plus Shapely. Not isolatable."
+    },
+    {
+      "id": "furniture.kitchen.space",
+      "name": "Kitchen space",
+      "meaning": "Composition of lower and upper kitchen cabinets, including an island variant.",
+      "tags": [
+        "kitchen",
+        "кухня",
+        "cabinets",
+        "island"
+      ],
+      "aliases": [],
+      "variants": [
+        "wall kitchen",
+        "kitchen island"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "furniture.kitchen.space",
+      "source_file": "vendor/generator_library/furniture/kitchen/kitchen_space.py",
+      "dependency_reason": "Full Infinigen kitchen factory. Not isolatable."
+    },
+    {
+      "id": "electronics.tv_monitor",
+      "name": "TV / monitor",
+      "meaning": "Parametric screen with a housing and stand variants.",
+      "tags": [
+        "TV",
+        "monitor",
+        "телевизор",
+        "монитор",
+        "screen"
+      ],
+      "aliases": [],
+      "variants": [
+        "TV",
+        "monitor",
+        "two-legged",
+        "single stand"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "electronics.tv_monitor",
+      "source_file": "vendor/generator_library/electronics/tv_monitor/tv.py",
+      "dependency_reason": "Infinigen Geometry Nodes factory. Cannot be isolated without the Infinigen runtime."
+    },
+    {
+      "id": "decor.aquarium",
+      "name": "Aquarium",
+      "meaning": "Glass tank with a frame and procedural contents.",
+      "tags": [
+        "aquarium",
+        "аквариум",
+        "glass tank"
+      ],
+      "aliases": [],
+      "variants": [
+        "wet",
+        "dry"
+      ],
+      "backend": "infinigen",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "decor.aquarium",
+      "source_file": "vendor/generator_library/decor/aquarium/aquarium_tank.py",
+      "dependency_reason": "Infinigen factory with procedural contents. Not isolatable."
+    },
+    {
+      "id": "geometry.procfunc.primitives",
+      "name": "ProcFunc primitives",
+      "meaning": "Create meshes from numpy and basic Blender primitives.",
+      "tags": [
+        "primitive",
+        "mesh",
+        "cube",
+        "sphere",
+        "cylinder",
+        "cone",
+        "torus",
+        "grid"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "procfunc",
+      "status": "REFERENCE",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "geometry.procfunc.primitives",
+      "source_file": "vendor/generator_library/geometry/procfunc/primitives_mesh.py",
+      "dependency_reason": "ProcFunc/Blender primitive helpers. Prefer NATIVE geometry.box for a working solid."
+    },
+    {
+      "id": "geometry.procfunc.object_ops",
+      "name": "ProcFunc object ops",
+      "meaning": "Transform, join, duplicate, shading, curve to mesh.",
+      "tags": [
+        "object ops",
+        "join",
+        "duplicate",
+        "transform",
+        "curve to mesh"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "procfunc",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "geometry.procfunc.object_ops",
+      "source_file": "vendor/generator_library/geometry/procfunc/object_ops.py",
+      "dependency_reason": "Operator toolkit, not a standalone 3D object generator."
+    },
+    {
+      "id": "geometry.procfunc.collection",
+      "name": "ProcFunc collections",
+      "meaning": "Create collections and move objects with their children.",
+      "tags": [
+        "collection",
+        "group objects",
+        "scene organization"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "procfunc",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "geometry.procfunc.collection",
+      "source_file": "vendor/generator_library/geometry/procfunc/collection.py",
+      "dependency_reason": "Scene-organization helper, not a generator."
+    },
+    {
+      "id": "geometry.procfunc.curve",
+      "name": "ProcFunc curves",
+      "meaning": "Basic curve subdivision.",
+      "tags": [
+        "curve",
+        "subdivide"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "procfunc",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "geometry.procfunc.curve",
+      "source_file": "vendor/generator_library/geometry/procfunc/curve.py",
+      "dependency_reason": "Curve helper, not a generator."
+    },
+    {
+      "id": "geometry.procfunc.random",
+      "name": "ProcFunc random",
+      "meaning": "Deterministic random parameter distributions.",
+      "tags": [
+        "random",
+        "procedural variation",
+        "uniform",
+        "gaussian",
+        "seed"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "procfunc",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "geometry.procfunc.random",
+      "source_file": "vendor/generator_library/geometry/procfunc/random.py",
+      "dependency_reason": "RNG helper, not a generator."
+    },
+    {
+      "id": "shared.building_tools.arch",
+      "name": "Arch helper",
+      "meaning": "Arch geometry helper for doors and windows.",
+      "tags": [
+        "arch",
+        "арка",
+        "door",
+        "window"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "building_tools",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "shared.building_tools.arch",
+      "source_file": "vendor/generator_library/_shared/building_tools/arch.py",
+      "dependency_reason": "Shared helper, not a standalone generator."
+    },
+    {
+      "id": "shared.building_tools.frame",
+      "name": "Frame helper",
+      "meaning": "Door/window frame extrusion helper.",
+      "tags": [
+        "frame",
+        "door",
+        "window",
+        "extrude"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "building_tools",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "shared.building_tools.frame",
+      "source_file": "vendor/generator_library/_shared/building_tools/frame.py",
+      "dependency_reason": "Shared helper, not a standalone generator."
+    },
+    {
+      "id": "shared.building_tools.array",
+      "name": "Array helper",
+      "meaning": "Repeat doors or windows across a surface.",
+      "tags": [
+        "array",
+        "repeat",
+        "doors",
+        "windows"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "building_tools",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "shared.building_tools.array",
+      "source_file": "vendor/generator_library/_shared/building_tools/array.py",
+      "dependency_reason": "Shared helper, not a standalone generator."
+    },
+    {
+      "id": "shared.building_tools.sizeoffset",
+      "name": "Size/offset helper",
+      "meaning": "Clamp size and position of an element inside a parent face.",
+      "tags": [
+        "size",
+        "offset",
+        "bounds",
+        "door",
+        "window"
+      ],
+      "aliases": [],
+      "variants": [],
+      "backend": "building_tools",
+      "status": "UNSUPPORTED",
+      "adapter": null,
+      "kind": null,
+      "vendor_group": "shared.building_tools.sizeoffset",
+      "source_file": "vendor/generator_library/_shared/building_tools/sizeoffset.py",
+      "dependency_reason": "Shared helper, not a standalone generator."
+    }
+  ]
+}

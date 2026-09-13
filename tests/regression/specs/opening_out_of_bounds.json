@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "regression_opening_bounds",
+  "seed": 1,
+  "units": "m",
+  "entities": [
+    {
+      "id": "wall.bad",
+      "kind": "wall",
+      "params": {
+        "length": 4.0,
+        "height": 3.0,
+        "thickness": 0.2,
+        "openings": [
+          {
+            "id": "door.bad",
+            "kind": "door",
+            "offset": 3.8,
+            "width": 1.0,
+            "height": 2.1
+          }
+        ]
+      }
+    }
+  ]
+}
+

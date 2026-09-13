@@ -1,0 +1,3603 @@
+[
+  {
+    "id": "nature.tree.generic",
+    "name": "Infinigen Space-Colonization Tree",
+    "category": "nature/trees",
+    "description": "Generic recursive + space-colonization tree skeleton with GN radius and leaf instancing.",
+    "tags": [
+      "tree",
+      "space-colonization",
+      "branches",
+      "nature"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/tree.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Core TreeParams + skinning. Species look comes from treeconfigs.py."
+  },
+  {
+    "id": "nature.tree.pine",
+    "name": "Infinigen Pine Tree",
+    "category": "nature/trees",
+    "description": "Pine config: dense non-symmetric twigs, random azimuth rotations, short needles.",
+    "tags": [
+      "tree",
+      "pine",
+      "conifer",
+      "needles"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/treeconfigs.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "pine_tree() + pinetwig_config."
+  },
+  {
+    "id": "nature.tree.palm",
+    "name": "Infinigen Palm Tree",
+    "category": "nature/trees",
+    "description": "Single leaning trunk with palmtwig fan leaves pulled downward.",
+    "tags": [
+      "tree",
+      "palm",
+      "tropical"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/treeconfigs.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "palm_tree() + palmtwig_config."
+  },
+  {
+    "id": "nature.tree.baobab",
+    "name": "Infinigen Baobab Tree",
+    "category": "nature/trees",
+    "description": "Thick-trunk baobab with wide attraction volume at the crown.",
+    "tags": [
+      "tree",
+      "baobab",
+      "savanna"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/treeconfigs.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.bamboo",
+    "name": "Infinigen Bamboo Culm",
+    "category": "nature/trees",
+    "description": "Tall segmented bamboo with hanging twigs and thin internodes.",
+    "tags": [
+      "tree",
+      "bamboo",
+      "culm"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/treeconfigs.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.shrub",
+    "name": "Infinigen Shrub",
+    "category": "nature/trees",
+    "description": "Low multi-stem shrub using shrubtwig_config.",
+    "tags": [
+      "shrub",
+      "bush",
+      "nature"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/treeconfigs.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "shrub() factory."
+  },
+  {
+    "id": "nature.tree.random",
+    "name": "Infinigen Randomized Tree",
+    "category": "nature/trees",
+    "description": "Randomized twig topology (generate_twig_config) for non-species-specific deciduous trees.",
+    "tags": [
+      "tree",
+      "deciduous",
+      "random"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/treeconfigs.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.flowering",
+    "name": "Infinigen Flowering Tree",
+    "category": "nature/trees",
+    "description": "Tree with blossom/flower geometry attached to twigs.",
+    "tags": [
+      "tree",
+      "blossom",
+      "flower"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/trees/tree_flower.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.coconut",
+    "name": "Infinigen Coconut Palm",
+    "category": "nature/trees",
+    "description": "Dedicated tropical coconut palm generator with fronds.",
+    "tags": [
+      "tree",
+      "coconut",
+      "palm",
+      "tropical"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tropic_plants/coconut_tree.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.tropical_palm",
+    "name": "Infinigen Tropical Palm",
+    "category": "nature/trees",
+    "description": "Second palm implementation in tropic_plants with dedicated leaf modules.",
+    "tags": [
+      "tree",
+      "palm",
+      "tropical"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tropic_plants/palm_tree.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.banana",
+    "name": "Infinigen Banana Plant",
+    "category": "nature/plants",
+    "description": "Banana / musa-like plant with large ribbed leaves.",
+    "tags": [
+      "banana",
+      "plant",
+      "tropical",
+      "leaves"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tropic_plants/leaf_banana_tree.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.palm_leaf",
+    "name": "Infinigen Palm Frond",
+    "category": "nature/plants",
+    "description": "Standalone palm frond / leaf plant generator.",
+    "tags": [
+      "palm",
+      "frond",
+      "leaf"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tropic_plants/leaf_palm_plant.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.fallen",
+    "name": "Infinigen Fallen Tree",
+    "category": "nature/trees",
+    "description": "Fallen/logged trunk lying on ground.",
+    "tags": [
+      "tree",
+      "fallen",
+      "dead",
+      "log"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/deformed_trees/fallen.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.hollow",
+    "name": "Infinigen Hollow Tree",
+    "category": "nature/trees",
+    "description": "Standing hollow/rotted cavity trunk.",
+    "tags": [
+      "tree",
+      "hollow",
+      "dead"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/deformed_trees/hollow.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.rotten",
+    "name": "Infinigen Rotten Tree",
+    "category": "nature/trees",
+    "description": "Rotten standing tree with decayed bark/volume.",
+    "tags": [
+      "tree",
+      "rotten",
+      "dead"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/deformed_trees/rotten.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.stump",
+    "name": "Infinigen Truncated Stump",
+    "category": "nature/trees",
+    "description": "Cut/truncated tree stump.",
+    "tags": [
+      "tree",
+      "stump",
+      "dead"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/deformed_trees/truncated.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.cactus.columnar",
+    "name": "Infinigen Columnar Cactus",
+    "category": "nature/cactus",
+    "description": "Saguaro-like multi-arm columnar cactus.",
+    "tags": [
+      "cactus",
+      "saguaro",
+      "desert"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/cactus/columnar.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.cactus.globular",
+    "name": "Infinigen Globular Cactus",
+    "category": "nature/cactus",
+    "description": "Barrel/globular cactus.",
+    "tags": [
+      "cactus",
+      "barrel",
+      "desert"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/cactus/globular.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.cactus.prickly_pear",
+    "name": "Infinigen Prickly Pear",
+    "category": "nature/cactus",
+    "description": "Opuntia pad cactus.",
+    "tags": [
+      "cactus",
+      "prickly-pear",
+      "opuntia"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/cactus/pricky_pear.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.cactus.kalidium",
+    "name": "Infinigen Kalidium-like Succulent",
+    "category": "nature/cactus",
+    "description": "Branching succulent / saltwort-like plant.",
+    "tags": [
+      "succulent",
+      "desert"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/cactus/kalidium.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.blender",
+    "name": "Infinigen Blender Rock",
+    "category": "nature/rocks",
+    "description": "Displaced-icosphere / modifier rock.",
+    "tags": [
+      "rock",
+      "boulder",
+      "displace"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/rocks/blender_rock.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.boulder",
+    "name": "Infinigen Boulder",
+    "category": "nature/rocks",
+    "description": "Large boulder generator.",
+    "tags": [
+      "rock",
+      "boulder"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/rocks/boulder.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.glowing",
+    "name": "Infinigen Glowing Rock",
+    "category": "nature/rocks",
+    "description": "Emissive/crystal-like glowing rocks.",
+    "tags": [
+      "rock",
+      "crystal",
+      "emissive"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/rocks/glowing_rocks.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.pile",
+    "name": "Infinigen Rock Pile",
+    "category": "nature/rocks",
+    "description": "Clustered pile of rocks.",
+    "tags": [
+      "rock",
+      "pile",
+      "rubble"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/rocks/pile.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.dandelion",
+    "name": "Infinigen Dandelion",
+    "category": "nature/plants",
+    "description": "Full dandelion with seed head.",
+    "tags": [
+      "dandelion",
+      "flower",
+      "weed"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/grassland/dandelion.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.flower",
+    "name": "Infinigen Flower",
+    "category": "nature/plants",
+    "description": "Generic procedural flower (petals/seed).",
+    "tags": [
+      "flower",
+      "petal"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/grassland/flower.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.flowerplant",
+    "name": "Infinigen Flowering Plant",
+    "category": "nature/plants",
+    "description": "Multi-stem flowering plant.",
+    "tags": [
+      "flower",
+      "plant"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/grassland/flowerplant.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.grass_tuft",
+    "name": "Infinigen Grass Tuft",
+    "category": "nature/plants",
+    "description": "Clump of grass blades.",
+    "tags": [
+      "grass",
+      "tuft"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/grassland/grass_tuft.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.fern",
+    "name": "Infinigen Fern",
+    "category": "nature/plants",
+    "description": "Procedural fern fronds.",
+    "tags": [
+      "fern",
+      "frond"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/small_plants/fern.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.snake_plant",
+    "name": "Infinigen Snake Plant",
+    "category": "nature/plants",
+    "description": "Sansevieria / snake plant.",
+    "tags": [
+      "snake-plant",
+      "houseplant"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/small_plants/snake_plant.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.spider_plant",
+    "name": "Infinigen Spider Plant",
+    "category": "nature/plants",
+    "description": "Chlorophytum spider plant.",
+    "tags": [
+      "spider-plant",
+      "houseplant"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/small_plants/spider_plant.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.succulent",
+    "name": "Infinigen Succulent",
+    "category": "nature/plants",
+    "description": "Rosette succulent.",
+    "tags": [
+      "succulent",
+      "houseplant"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/small_plants/succulent.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.leaf_grass",
+    "name": "Infinigen Numbered-Leaf Grass",
+    "category": "nature/plants",
+    "description": "Few-leaf grass plant.",
+    "tags": [
+      "grass",
+      "plant"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/small_plants/num_leaf_grass.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.agave",
+    "name": "Infinigen Agave",
+    "category": "nature/plants",
+    "description": "Agave rosette.",
+    "tags": [
+      "agave",
+      "succulent",
+      "desert"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/monocot/agave.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.banana_monocot",
+    "name": "Infinigen Banana Monocot",
+    "category": "nature/plants",
+    "description": "Banana plant via monocot growth.",
+    "tags": [
+      "banana",
+      "tropical"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/monocot/banana.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.grasses",
+    "name": "Infinigen Monocot Grasses",
+    "category": "nature/plants",
+    "description": "General grass blades via monocot growth.",
+    "tags": [
+      "grass"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/monocot/grasses.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.kelp",
+    "name": "Infinigen Kelp",
+    "category": "nature/plants",
+    "description": "Underwater kelp fronds.",
+    "tags": [
+      "kelp",
+      "underwater",
+      "seaweed"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/monocot/kelp.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.prop.pinecone",
+    "name": "Infinigen Pinecone",
+    "category": "nature/plants",
+    "description": "Procedural pinecone.",
+    "tags": [
+      "pinecone",
+      "prop"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/monocot/pinecone.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.tussock",
+    "name": "Infinigen Tussock Grass",
+    "category": "nature/plants",
+    "description": "Tussock grass clump.",
+    "tags": [
+      "grass",
+      "tussock"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/monocot/tussock.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.plant.veratrum",
+    "name": "Infinigen Veratrum",
+    "category": "nature/plants",
+    "description": "False hellebore / veratrum plant.",
+    "tags": [
+      "veratrum",
+      "herb"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/monocot/veratrum.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.mushroom.generic",
+    "name": "Infinigen Mushroom",
+    "category": "nature/plants",
+    "description": "Procedural mushroom with separate cap + stem + growth modules.",
+    "tags": [
+      "mushroom",
+      "fungi"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/mushroom/generate.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Cap/stem parameterized in cap.py and stem.py."
+  },
+  {
+    "id": "nature.coral.elkhorn",
+    "name": "Infinigen Elkhorn Coral",
+    "category": "nature/underwater",
+    "description": "Elkhorn branching coral.",
+    "tags": [
+      "coral",
+      "elkhorn",
+      "underwater"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/corals/elkhorn.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.coral.fan",
+    "name": "Infinigen Fan Coral",
+    "category": "nature/underwater",
+    "description": "Sea-fan coral.",
+    "tags": [
+      "coral",
+      "fan"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/corals/fan.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.coral.star",
+    "name": "Infinigen Star Coral",
+    "category": "nature/underwater",
+    "description": "Star/massive coral.",
+    "tags": [
+      "coral",
+      "star"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/corals/star.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.coral.tree",
+    "name": "Infinigen Tree Coral",
+    "category": "nature/underwater",
+    "description": "Tree-like branching coral.",
+    "tags": [
+      "coral",
+      "tree"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/corals/tree.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.coral.tube",
+    "name": "Infinigen Tube Coral",
+    "category": "nature/underwater",
+    "description": "Tube/organ-pipe coral.",
+    "tags": [
+      "coral",
+      "tube"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/corals/tube.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.coral.diff_growth",
+    "name": "Infinigen Differential-Growth Coral",
+    "category": "nature/underwater",
+    "description": "Differential growth coral morphology.",
+    "tags": [
+      "coral",
+      "diff-growth"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/corals/diff_growth.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.coral.reaction_diffusion",
+    "name": "Infinigen RD Coral",
+    "category": "nature/underwater",
+    "description": "Reaction-diffusion patterned coral.",
+    "tags": [
+      "coral",
+      "reaction-diffusion"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/corals/reaction_diffusion.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.apple",
+    "name": "Infinigen Apple",
+    "category": "props/food",
+    "description": "Procedural apple.",
+    "tags": [
+      "apple",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/apple.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.blackberry",
+    "name": "Infinigen Blackberry",
+    "category": "props/food",
+    "description": "Procedural blackberry cluster.",
+    "tags": [
+      "blackberry",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/blackberry.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.coconut_green",
+    "name": "Infinigen Green Coconut",
+    "category": "props/food",
+    "description": "Green coconut.",
+    "tags": [
+      "coconut",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/coconutgreen.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.coconut_hairy",
+    "name": "Infinigen Hairy Coconut",
+    "category": "props/food",
+    "description": "Mature fibrous coconut.",
+    "tags": [
+      "coconut",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/coconuthairy.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.durian",
+    "name": "Infinigen Durian",
+    "category": "props/food",
+    "description": "Spiky durian.",
+    "tags": [
+      "durian",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/durian.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.pineapple",
+    "name": "Infinigen Pineapple",
+    "category": "props/food",
+    "description": "Procedural pineapple.",
+    "tags": [
+      "pineapple",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/pineapple.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.starfruit",
+    "name": "Infinigen Starfruit",
+    "category": "props/food",
+    "description": "Carambola / starfruit.",
+    "tags": [
+      "starfruit",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/starfruit.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.fruit.strawberry",
+    "name": "Infinigen Strawberry",
+    "category": "props/food",
+    "description": "Procedural strawberry.",
+    "tags": [
+      "strawberry",
+      "fruit"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/fruits/strawberry.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.creature.beetle",
+    "name": "Infinigen Beetle",
+    "category": "nature/creatures",
+    "description": "Procedural beetle.",
+    "tags": [
+      "beetle",
+      "insect"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/creatures/beetle.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.creature.bird",
+    "name": "Infinigen Bird",
+    "category": "nature/creatures",
+    "description": "Procedural bird.",
+    "tags": [
+      "bird"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/creatures/bird.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.creature.carnivore",
+    "name": "Infinigen Carnivore Quad",
+    "category": "nature/creatures",
+    "description": "Generic carnivore quadruped.",
+    "tags": [
+      "animal",
+      "carnivore"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/creatures/carnivore.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.creature.herbivore",
+    "name": "Infinigen Herbivore Quad",
+    "category": "nature/creatures",
+    "description": "Generic herbivore quadruped.",
+    "tags": [
+      "animal",
+      "herbivore"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/creatures/herbivore.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.creature.crustacean",
+    "name": "Infinigen Crustacean",
+    "category": "nature/creatures",
+    "description": "Crab/lobster-like crustacean.",
+    "tags": [
+      "crab",
+      "crustacean"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/creatures/crustacean.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.creature.fish",
+    "name": "Infinigen Fish",
+    "category": "nature/creatures",
+    "description": "Procedural fish.",
+    "tags": [
+      "fish",
+      "underwater"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/creatures/fish.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.creature.dragonfly",
+    "name": "Infinigen Dragonfly",
+    "category": "nature/creatures",
+    "description": "Articulated dragonfly.",
+    "tags": [
+      "dragonfly",
+      "insect"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/creatures/insects/dragonfly.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "household.textile.blanket",
+    "name": "Infinigen Blanket",
+    "category": "household/textiles",
+    "description": "Soft-body-ish blanket cloth.",
+    "tags": [
+      "blanket",
+      "cloth"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/clothes/blanket.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.textile.pants",
+    "name": "Infinigen Pants",
+    "category": "household/clothing",
+    "description": "Procedural pants garment.",
+    "tags": [
+      "pants",
+      "clothing"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/clothes/pants.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.textile.shirt",
+    "name": "Infinigen Shirt",
+    "category": "household/clothing",
+    "description": "Procedural shirt.",
+    "tags": [
+      "shirt",
+      "clothing"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/clothes/shirt.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.textile.towel",
+    "name": "Infinigen Towel",
+    "category": "household/textiles",
+    "description": "Hanging/folded towel.",
+    "tags": [
+      "towel",
+      "bath"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/clothes/towel.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.acer",
+    "name": "Acer / Maple",
+    "category": "nature/trees",
+    "description": "Maple (Acer) Weber-Penn parametric tree.",
+    "tags": [
+      "tree",
+      "maple",
+      "acer",
+      "deciduous"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/acer.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.apple",
+    "name": "Apple Tree",
+    "category": "nature/trees",
+    "description": "Fruiting apple tree preset.",
+    "tags": [
+      "tree",
+      "apple",
+      "orchard"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/apple.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.balsam_fir",
+    "name": "Balsam Fir",
+    "category": "nature/trees",
+    "description": "Balsam fir conifer.",
+    "tags": [
+      "tree",
+      "fir",
+      "conifer"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/balsam_fir.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.bamboo_weber",
+    "name": "Bamboo (Weber-Penn)",
+    "category": "nature/trees",
+    "description": "Bamboo clump via multi-trunk fan.",
+    "tags": [
+      "tree",
+      "bamboo"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/bamboo.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.black_oak",
+    "name": "Black Oak",
+    "category": "nature/trees",
+    "description": "Black oak deciduous tree.",
+    "tags": [
+      "tree",
+      "oak",
+      "deciduous"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/black_oak.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.black_tupelo",
+    "name": "Black Tupelo",
+    "category": "nature/trees",
+    "description": "Black tupelo / Nyssa sylvatica.",
+    "tags": [
+      "tree",
+      "tupelo",
+      "deciduous"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/black_tupelo.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.cambridge_oak",
+    "name": "Cambridge Oak",
+    "category": "nature/trees",
+    "description": "Cambridge oak variant.",
+    "tags": [
+      "tree",
+      "oak"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/cambridge_oak.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.douglas_fir",
+    "name": "Douglas Fir",
+    "category": "nature/trees",
+    "description": "Douglas fir conifer.",
+    "tags": [
+      "tree",
+      "fir",
+      "conifer"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/douglas_fir.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.european_larch",
+    "name": "European Larch",
+    "category": "nature/trees",
+    "description": "Larix decidua.",
+    "tags": [
+      "tree",
+      "larch",
+      "conifer"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/european_larch.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.fan_palm",
+    "name": "Fan Palm",
+    "category": "nature/trees",
+    "description": "Fan palm with terminal leaf fan.",
+    "tags": [
+      "tree",
+      "palm",
+      "fan-palm"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/fan_palm.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.hill_cherry",
+    "name": "Hill Cherry",
+    "category": "nature/trees",
+    "description": "Hill cherry blossom tree.",
+    "tags": [
+      "tree",
+      "cherry",
+      "blossom"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/hill_cherry.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.lombardy_poplar",
+    "name": "Lombardy Poplar",
+    "category": "nature/trees",
+    "description": "Tall columnar poplar.",
+    "tags": [
+      "tree",
+      "poplar",
+      "columnar"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/lombardy_poplar.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.palm_weber",
+    "name": "Palm (Weber-Penn)",
+    "category": "nature/trees",
+    "description": "Generic palm preset.",
+    "tags": [
+      "tree",
+      "palm"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/palm.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.quaking_aspen",
+    "name": "Quaking Aspen",
+    "category": "nature/trees",
+    "description": "Populus tremuloides.",
+    "tags": [
+      "tree",
+      "aspen",
+      "deciduous"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/quaking_aspen.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.sassafras",
+    "name": "Sassafras",
+    "category": "nature/trees",
+    "description": "Sassafras albidum.",
+    "tags": [
+      "tree",
+      "sassafras"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/sassafras.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.silver_birch",
+    "name": "Silver Birch",
+    "category": "nature/trees",
+    "description": "Betula pendula.",
+    "tags": [
+      "tree",
+      "birch",
+      "deciduous"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/silver_birch.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.small_pine",
+    "name": "Small Pine",
+    "category": "nature/trees",
+    "description": "Compact pine preset.",
+    "tags": [
+      "tree",
+      "pine",
+      "conifer"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/small_pine.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.sphere_canopy",
+    "name": "Sphere-Canopy Tree",
+    "category": "nature/trees",
+    "description": "Stylized spherical canopy tree.",
+    "tags": [
+      "tree",
+      "stylized"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/sphere_tree.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.tree.weeping_willow",
+    "name": "Weeping Willow",
+    "category": "nature/trees",
+    "description": "Salix babylonica weeping form.",
+    "tags": [
+      "tree",
+      "willow",
+      "weeping"
+    ],
+    "variants": [],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "parametric/tree_params/weeping_willow.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Weber & Penn 1995 parameters. Generator engine: parametric/gen.py. Isolated preset file is easy to port; engine is medium."
+  },
+  {
+    "id": "nature.leaf.shapes",
+    "name": "tree-gen Leaf Shape Library",
+    "category": "nature/plants",
+    "description": "10 leaf meshes: elliptic, ovate, linear, cordate, maple, palmate, spiky oak, rounded oak, rectangle, triangle + cherry/orange/magnolia blossoms.",
+    "tags": [
+      "leaf",
+      "blossom"
+    ],
+    "variants": [
+      "elliptic",
+      "ovate",
+      "linear",
+      "cordate",
+      "maple",
+      "palmate",
+      "spiky_oak",
+      "rounded_oak",
+      "rectangle",
+      "triangle",
+      "blossom.cherry",
+      "blossom.orange",
+      "blossom.magnolia"
+    ],
+    "source_project": "tree-gen",
+    "repo": "https://github.com/friggog/tree-gen",
+    "source_file": "leaf_shapes.py",
+    "commit": "01e872182a0f955349e51bb1a68ed4dfd665f81c",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.modular_oak",
+    "name": "Modular Tree Oak Preset",
+    "category": "nature/trees",
+    "description": "Node-based MTree oak preset (GoodPie fork of MaximeHerpin).",
+    "tags": [
+      "tree",
+      "oak",
+      "node-based"
+    ],
+    "variants": [],
+    "source_project": "MTree / modular_tree",
+    "repo": "https://github.com/GoodPie/modular_tree",
+    "source_file": "presets (oak)",
+    "commit": "unknown",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Addon GPL-3, core lib MIT. Blender 4.3+. Also pine and willow presets."
+  },
+  {
+    "id": "nature.tree.modular_pine",
+    "name": "Modular Tree Pine Preset",
+    "category": "nature/trees",
+    "description": "MTree pine preset.",
+    "tags": [
+      "tree",
+      "pine",
+      "conifer"
+    ],
+    "variants": [],
+    "source_project": "MTree / modular_tree",
+    "repo": "https://github.com/GoodPie/modular_tree",
+    "source_file": "presets (pine)",
+    "commit": "unknown",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.modular_willow",
+    "name": "Modular Tree Willow Preset",
+    "category": "nature/trees",
+    "description": "MTree willow preset.",
+    "tags": [
+      "tree",
+      "willow"
+    ],
+    "variants": [],
+    "source_project": "MTree / modular_tree",
+    "repo": "https://github.com/GoodPie/modular_tree",
+    "source_file": "presets (willow)",
+    "commit": "unknown",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.tbo_spacecol",
+    "name": "TBO Space-Colonization Tree",
+    "category": "nature/trees",
+    "description": "C++/Python space colonization tree addon, quad-dominant, multi-tree hedges.",
+    "tags": [
+      "tree",
+      "space-colonization"
+    ],
+    "variants": [],
+    "source_project": "TBO-Tree-Gen",
+    "repo": "https://github.com/TheBeautifulOrc/TBO-Tree-Gen",
+    "source_file": "addon + C++ core",
+    "commit": "unknown",
+    "license": "unknown",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "REVIEW license file; pre-release."
+  },
+  {
+    "id": "nature.tree.lazy_printable",
+    "name": "Lazy Tree (3D-print watertight)",
+    "category": "nature/trees",
+    "description": "Watertight printable tree with min-thickness constraints.",
+    "tags": [
+      "tree",
+      "3d-print",
+      "watertight"
+    ],
+    "variants": [],
+    "source_project": "lazy-tree",
+    "repo": "https://github.com/thelazyone/lazy-tree",
+    "source_file": "tree_mesh_functions.py",
+    "commit": "unknown",
+    "license": "unknown",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.lowpoly",
+    "name": "Low-Poly Tree Generator",
+    "category": "nature/trees",
+    "description": "Low-poly stylized tree via skin modifier + icosphere/cube leaves.",
+    "tags": [
+      "tree",
+      "lowpoly"
+    ],
+    "variants": [],
+    "source_project": "low-poly-tree-generator",
+    "repo": "https://github.com/LuFlo/low-poly-tree-generator",
+    "source_file": "addon",
+    "commit": "unknown",
+    "license": "unknown",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.arborgen_oak_growth",
+    "name": "ArborGen Growing Oak",
+    "category": "nature/trees",
+    "description": "Biological growth-animation oak script.",
+    "tags": [
+      "tree",
+      "oak",
+      "growth",
+      "animation"
+    ],
+    "variants": [],
+    "source_project": "ArborGen",
+    "repo": "https://github.com/nifets/ArborGen",
+    "source_file": "tree_gen.py",
+    "commit": "unknown",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.lsystem_8systems",
+    "name": "L-System Tree (8 grammars)",
+    "category": "nature/trees",
+    "description": "Blender L-system addon with 8 built-in systems, 2D/3D.",
+    "tags": [
+      "tree",
+      "l-system"
+    ],
+    "variants": [
+      "system1",
+      "system2",
+      "system3",
+      "system4",
+      "system5",
+      "system6",
+      "system7",
+      "system8"
+    ],
+    "source_project": "L-System",
+    "repo": "https://github.com/smaooo/L-System",
+    "source_file": "addon",
+    "commit": "unknown",
+    "license": "unknown",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.tree.sapling4",
+    "name": "Improved Sapling 4",
+    "category": "nature/trees",
+    "description": "Blender Sapling successor with alternate/opposite attachment and improved radii.",
+    "tags": [
+      "tree",
+      "sapling",
+      "weber-penn"
+    ],
+    "variants": [],
+    "source_project": "improved-sapling-tree-generator",
+    "repo": "https://github.com/abpy/improved-sapling-tree-generator",
+    "source_file": "sapling_4/",
+    "commit": "unknown",
+    "license": "GPL-2.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "Official Blender sapling was based on earlier version of this."
+  },
+  {
+    "id": "nature.tree.easy_tree_geonodes",
+    "name": "Easy Tree Geometry Nodes",
+    "category": "nature/trees",
+    "description": "One-click GN tree with wind, branch generators, custom leaf mesh.",
+    "tags": [
+      "tree",
+      "geometry-nodes"
+    ],
+    "variants": [],
+    "source_project": "Easy-Tree",
+    "repo": "https://github.com/jacobcjohnston/Easy-Tree",
+    "source_file": "addon + GN groups",
+    "commit": "unknown",
+    "license": "unknown",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "GN asset groups more than Python."
+  },
+  {
+    "id": "nature.rock.lupin_lowpoly",
+    "name": "Lupin Procedural Low-Poly Rock",
+    "category": "nature/rocks",
+    "description": "Subdiv+voronoi-displace+decimate rock, UV ready.",
+    "tags": [
+      "rock",
+      "lowpoly",
+      "voronoi"
+    ],
+    "variants": [],
+    "source_project": "Blender-Rock-Generator",
+    "repo": "https://github.com/lupin4/Blender-Rock-Generator",
+    "source_file": "procedural_rock.py",
+    "commit": "unknown",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.add_mesh_rocks",
+    "name": "add_mesh_rocks (brikbot/versluis)",
+    "category": "nature/rocks",
+    "description": "Classic Blender rock generator addon (Paul Marshall).",
+    "tags": [
+      "rock",
+      "addon"
+    ],
+    "variants": [],
+    "source_project": "Rock-Generator",
+    "repo": "https://github.com/versluis/Rock-Generator",
+    "source_file": "add_mesh_rocks/",
+    "commit": "unknown",
+    "license": "GPL-2.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.lowpoly_foo",
+    "name": "CommanderFoo Low-Poly Rock",
+    "category": "nature/rocks",
+    "description": "Modifier-stack low-poly rock addon.",
+    "tags": [
+      "rock",
+      "lowpoly"
+    ],
+    "variants": [],
+    "source_project": "blender-low-poly-rock",
+    "repo": "https://github.com/CommanderFoo/blender-low-poly-rock",
+    "source_file": "add_mesh_low_poly_rock.py",
+    "commit": "unknown",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.proc_rock_geo",
+    "name": "Proc-Rock Geological Pipeline",
+    "category": "nature/rocks",
+    "description": "Igneous/sedimentary/metamorphic mappings + PBR + LOD export.",
+    "tags": [
+      "rock",
+      "geological",
+      "pbr"
+    ],
+    "variants": [],
+    "source_project": "proc-rock",
+    "repo": "https://github.com/acfaruk/proc-rock",
+    "source_file": "C++ pipeline",
+    "commit": "unknown",
+    "license": "GPL-3.0",
+    "language": "C++",
+    "runtime": "standalone",
+    "dependencies": [
+      "C++"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.godot_proc",
+    "name": "Godot Procedural Rock",
+    "category": "nature/rocks",
+    "description": "Godot 4.4 noise-displacement rock designer.",
+    "tags": [
+      "rock",
+      "godot"
+    ],
+    "variants": [],
+    "source_project": "ProceduralRocks",
+    "repo": "https://github.com/Fyrecean/ProceduralRocks",
+    "source_file": "procedural_rock.gd",
+    "commit": "unknown",
+    "license": "MIT",
+    "language": "GDScript",
+    "runtime": "Godot",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.rock.pillars",
+    "name": "RocksNPillars",
+    "category": "nature/rocks",
+    "description": "Volume-sampled remesh rocks + grid/weight-paint pillars.",
+    "tags": [
+      "rock",
+      "pillar"
+    ],
+    "variants": [],
+    "source_project": "RocksNPillars",
+    "repo": "https://github.com/lorentzo/RocksNPillars",
+    "source_file": "Blender Python scripts",
+    "commit": "unknown",
+    "license": "MIT",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "nature.vine.ivygen_official",
+    "name": "Blender IvyGen",
+    "category": "nature/plants",
+    "description": "Official Blender add_curve_ivygen: grows ivy curves + leaves on a mesh from 3D cursor.",
+    "tags": [
+      "ivy",
+      "vine",
+      "climbing"
+    ],
+    "variants": [],
+    "source_project": "Blender official addons",
+    "repo": "https://github.com/UPBGE/blender-addons",
+    "source_file": "add_curve_ivygen.py",
+    "commit": "unknown",
+    "license": "GPL-2.0-or-later",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": "Bundled with Blender. Isolated single file."
+  },
+  {
+    "id": "nature.vine.ivyanywhere",
+    "name": "IvyAnywhere",
+    "category": "nature/plants",
+    "description": "Blender vine generator targeting buildings/stones from cursor.",
+    "tags": [
+      "ivy",
+      "vine"
+    ],
+    "variants": [],
+    "source_project": "IvyAnywhere",
+    "repo": "https://github.com/LuncyBloont/IvyAnywhere",
+    "source_file": "IvyAnyWhere.py",
+    "commit": "unknown",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "nature.vine.luft_ivygen",
+    "name": "Luft Ivy Generator (standalone)",
+    "category": "nature/plants",
+    "description": "Original Konstanz ivy grower, Qt fork. Import OBJ, grow, birth mesh.",
+    "tags": [
+      "ivy",
+      "vine"
+    ],
+    "variants": [],
+    "source_project": "ivygen",
+    "repo": "https://github.com/mattiascibien/ivygen",
+    "source_file": "C++/Qt",
+    "commit": "unknown",
+    "license": "GPL-2.0",
+    "language": "C++",
+    "runtime": "standalone",
+    "dependencies": [
+      "Qt"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "nature.vine.unity_procedural_ivy",
+    "name": "Unity Procedural Ivy",
+    "category": "nature/plants",
+    "description": "Runtime/editor ivy growing along surfaces (fork of Real Ivy 2).",
+    "tags": [
+      "ivy",
+      "vine",
+      "unity"
+    ],
+    "variants": [],
+    "source_project": "ProceduralIvy",
+    "repo": "https://github.com/Team-Crescendo-Games/ProceduralIvy",
+    "source_file": "Unity package",
+    "commit": "unknown",
+    "license": "MIT",
+    "language": "C#",
+    "runtime": "Unity",
+    "dependencies": [
+      "Unity URP"
+    ],
+    "estimated_reuse": "hard",
+    "notes": ""
+  },
+  {
+    "id": "prop.pallet.wood",
+    "name": "Infinigen Warehouse Pallet",
+    "category": "props/industrial",
+    "description": "Procedural wood pallet.",
+    "tags": [
+      "pallet",
+      "warehouse",
+      "crate"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/warehouses/pallet.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "industrial.rack.warehouse",
+    "name": "Infinigen Warehouse Rack",
+    "category": "industrial/storage",
+    "description": "Warehouse rack / pallet racking.",
+    "tags": [
+      "rack",
+      "warehouse",
+      "shelf"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/warehouses/rack.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.column.pillar",
+    "name": "Infinigen Pillar",
+    "category": "buildings/elements",
+    "description": "Architectural pillar/column.",
+    "tags": [
+      "pillar",
+      "column"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/pillars.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.bottle.generic",
+    "name": "Infinigen Bottle",
+    "category": "props/tableware",
+    "description": "Soda/wine/beer/juice bottle family.",
+    "tags": [
+      "bottle",
+      "glass"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/bottle.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.bowl",
+    "name": "Infinigen Bowl",
+    "category": "props/tableware",
+    "description": "Table bowl.",
+    "tags": [
+      "bowl",
+      "dishware"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/bowl.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.can",
+    "name": "Infinigen Can",
+    "category": "props/tableware",
+    "description": "Food/drink can.",
+    "tags": [
+      "can",
+      "tin"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/can.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.chopsticks",
+    "name": "Infinigen Chopsticks",
+    "category": "props/tableware",
+    "description": "Chopstick pair.",
+    "tags": [
+      "chopsticks",
+      "utensil"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/chopsticks.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.cup",
+    "name": "Infinigen Cup",
+    "category": "props/tableware",
+    "description": "Drinking cup.",
+    "tags": [
+      "cup",
+      "mug"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/cup.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.food_bag",
+    "name": "Infinigen Food Bag",
+    "category": "props/tableware",
+    "description": "Soft food bag package.",
+    "tags": [
+      "bag",
+      "packaging"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/food_bag.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.food_box",
+    "name": "Infinigen Food Box",
+    "category": "props/tableware",
+    "description": "Cardboard food box.",
+    "tags": [
+      "box",
+      "packaging"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/food_box.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.fork",
+    "name": "Infinigen Fork",
+    "category": "props/tableware",
+    "description": "Table fork.",
+    "tags": [
+      "fork",
+      "utensil"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/fork.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.jar",
+    "name": "Infinigen Jar",
+    "category": "props/tableware",
+    "description": "Glass jar.",
+    "tags": [
+      "jar"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/jar.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.knife",
+    "name": "Infinigen Knife",
+    "category": "props/tableware",
+    "description": "Table/chef/cleaver knife family.",
+    "tags": [
+      "knife",
+      "utensil"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/knife.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.lid",
+    "name": "Infinigen Lid",
+    "category": "props/tableware",
+    "description": "Pot/jar lid.",
+    "tags": [
+      "lid"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/lid.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.pan",
+    "name": "Infinigen Pan",
+    "category": "props/tableware",
+    "description": "Frying pan.",
+    "tags": [
+      "pan",
+      "cookware"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/pan.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.plant_pot",
+    "name": "Infinigen Plant Container",
+    "category": "props/tableware",
+    "description": "Flower pot / planter.",
+    "tags": [
+      "pot",
+      "planter"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/plant_container.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.plate",
+    "name": "Infinigen Plate",
+    "category": "props/tableware",
+    "description": "Dinner plate.",
+    "tags": [
+      "plate",
+      "dishware"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/plate.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.pot",
+    "name": "Infinigen Cooking Pot",
+    "category": "props/tableware",
+    "description": "Cooking pot.",
+    "tags": [
+      "pot",
+      "cookware"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/pot.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.spoon",
+    "name": "Infinigen Spoon",
+    "category": "props/tableware",
+    "description": "Table spoon.",
+    "tags": [
+      "spoon",
+      "utensil"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/spoon.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "prop.wineglass",
+    "name": "Infinigen Wineglass",
+    "category": "props/tableware",
+    "description": "Stemmed wineglass.",
+    "tags": [
+      "wineglass",
+      "glass"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/tableware/wineglass.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "easy",
+    "notes": ""
+  },
+  {
+    "id": "household.lamp.ceiling_classic",
+    "name": "Infinigen Ceiling Classic Lamp",
+    "category": "household/lighting",
+    "description": "Classic hanging ceiling fixture.",
+    "tags": [
+      "lamp",
+      "ceiling"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/lamp/ceiling_classic_lamp.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.lamp.ceiling_light",
+    "name": "Infinigen Ceiling Light",
+    "category": "household/lighting",
+    "description": "Modern ceiling light / flush fixture.",
+    "tags": [
+      "lamp",
+      "ceiling"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/lamp/ceiling_lights.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.lamp.desk_or_floor",
+    "name": "Infinigen Lamp Factory",
+    "category": "household/lighting",
+    "description": "Parametric desk/floor lamp (lamp.py).",
+    "tags": [
+      "lamp",
+      "desk",
+      "floor"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/lamp/lamp.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.stairs.cantilever",
+    "name": "Infinigen Cantilever Stairs",
+    "category": "buildings/stairs",
+    "description": "Cantilever staircase.",
+    "tags": [
+      "stairs",
+      "cantilever"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/staircases/cantilever.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.stairs.curved",
+    "name": "Infinigen Curved Stairs",
+    "category": "buildings/stairs",
+    "description": "Curved staircase.",
+    "tags": [
+      "stairs",
+      "curved"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/staircases/curved.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.stairs.l_shaped",
+    "name": "Infinigen L-Shaped Stairs",
+    "category": "buildings/stairs",
+    "description": "L-shaped staircase.",
+    "tags": [
+      "stairs",
+      "L"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/staircases/l_shaped.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.stairs.spiral",
+    "name": "Infinigen Spiral Stairs",
+    "category": "buildings/stairs",
+    "description": "Spiral staircase.",
+    "tags": [
+      "stairs",
+      "spiral"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/staircases/spiral.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.stairs.straight",
+    "name": "Infinigen Straight Stairs",
+    "category": "buildings/stairs",
+    "description": "Straight staircase with rails.",
+    "tags": [
+      "stairs",
+      "straight"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/staircases/straight.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "building.stairs.u_shaped",
+    "name": "Infinigen U-Shaped Stairs",
+    "category": "buildings/stairs",
+    "description": "U-shaped staircase.",
+    "tags": [
+      "stairs",
+      "U"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/elements/staircases/u_shaped.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.bathroom.sink",
+    "name": "Infinigen Bathroom Sink",
+    "category": "household/bathroom",
+    "description": "Standing/vanity sink.",
+    "tags": [
+      "sink",
+      "bathroom"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/bathroom/bathroom_sink.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.bathroom.bathtub",
+    "name": "Infinigen Bathtub",
+    "category": "household/bathroom",
+    "description": "Procedural bathtub.",
+    "tags": [
+      "bathtub",
+      "bathroom"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/bathroom/bathtub.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.bathroom.toilet",
+    "name": "Infinigen Toilet",
+    "category": "household/bathroom",
+    "description": "Procedural toilet.",
+    "tags": [
+      "toilet",
+      "bathroom"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/bathroom/toilet.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.bathroom.hardware",
+    "name": "Infinigen Bathroom Hardware",
+    "category": "household/bathroom",
+    "description": "Faucet/tap hardware.",
+    "tags": [
+      "faucet",
+      "tap",
+      "bathroom"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/bathroom/hardware.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.appliance.fridge_beverage",
+    "name": "Infinigen Beverage Fridge",
+    "category": "household/appliances",
+    "description": "Under-counter beverage fridge.",
+    "tags": [
+      "fridge",
+      "appliance"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/appliances/beverage_fridge.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.appliance.dishwasher",
+    "name": "Infinigen Dishwasher",
+    "category": "household/appliances",
+    "description": "Articulated dishwasher.",
+    "tags": [
+      "dishwasher",
+      "appliance"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/appliances/dishwasher.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.appliance.microwave",
+    "name": "Infinigen Microwave",
+    "category": "household/appliances",
+    "description": "Counter microwave.",
+    "tags": [
+      "microwave",
+      "appliance"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/appliances/microwave.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.appliance.oven",
+    "name": "Infinigen Oven",
+    "category": "household/appliances",
+    "description": "Kitchen oven/range.",
+    "tags": [
+      "oven",
+      "appliance"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/appliances/oven.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.appliance.toaster",
+    "name": "Infinigen Toaster",
+    "category": "household/appliances",
+    "description": "Articulated toaster.",
+    "tags": [
+      "toaster",
+      "appliance"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/appliances/toaster.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "household.appliance.tv",
+    "name": "Infinigen Television",
+    "category": "household/appliances",
+    "description": "Flat-screen TV.",
+    "tags": [
+      "tv",
+      "monitor"
+    ],
+    "variants": [],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/appliances/tv.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": ""
+  },
+  {
+    "id": "prop.basket",
+    "name": "Infinigen Basket",
+    "category": "props/storage",
+    "description": "Woven/procedural basket.",
+    "tags": [
+      "basket",
+      "storage"
+    ],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/organizer/basket.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "estimated_reuse": "easy",
+    "variants": [],
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "prop.hook",
+    "name": "Infinigen Wall Hook",
+    "category": "props/hardware",
+    "description": "Wall hook / hanger.",
+    "tags": [
+      "hook",
+      "hanger"
+    ],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/organizer/hook.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "estimated_reuse": "easy",
+    "variants": [],
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "prop.plate_rack",
+    "name": "Infinigen Plate Rack",
+    "category": "household/kitchen",
+    "description": "Dish drying / plate rack.",
+    "tags": [
+      "rack",
+      "dishes",
+      "kitchen"
+    ],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/organizer/plate_rack.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "estimated_reuse": "easy",
+    "variants": [],
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "nature.leaf.generic",
+    "name": "Infinigen Generic Leaf",
+    "category": "nature/plants",
+    "description": "Parametric leaf mesh used by trees/plants.",
+    "tags": [
+      "leaf"
+    ],
+    "source_project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "source_file": "src/infinigen/assets/objects/leaves/leaf.py",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause",
+    "estimated_reuse": "easy",
+    "variants": [],
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "prop.teapot.utah",
+    "name": "Utah Teapot (Extra Objects)",
+    "category": "props/kitchen",
+    "description": "Classic Utah teapot mesh generator from Blender Extra Objects.",
+    "tags": [
+      "teapot",
+      "prop"
+    ],
+    "source_project": "blender-addons extra_objects",
+    "repo": "https://projects.blender.org/blender/blender-addons",
+    "source_file": "add_mesh_extra_objects/add_mesh_teapot.py",
+    "commit": "unknown",
+    "license": "GPL-2.0-or-later",
+    "estimated_reuse": "easy",
+    "notes": "Real recognizable object, unlike gears/torusknot. File already copied to candidates/extra_objects/.",
+    "variants": [],
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ]
+  },
+  {
+    "id": "nature.mushroom.proc_shrooms",
+    "name": "Proc-Shrooms Blender Addon",
+    "category": "nature/plants",
+    "description": "Blender plugin generating multiple mushroom styles with noise mutation.",
+    "tags": [
+      "mushroom",
+      "fungi",
+      "addon"
+    ],
+    "variants": [],
+    "source_project": "proc-shrooms",
+    "repo": "https://github.com/leafar-tb/proc-shrooms",
+    "source_file": "addon operators",
+    "commit": "unknown",
+    "license": "unknown",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "medium",
+    "notes": "License file not verified — also list in REJECTED review-needed."
+  },
+  {
+    "id": "nature.growth.surface",
+    "name": "GrowthNodes Organic Surface Growth",
+    "category": "nature/plants",
+    "description": "Iterative organic growth on polygonal surfaces (fungal/geological/moss-like).",
+    "tags": [
+      "growth",
+      "moss",
+      "fungal",
+      "displacement"
+    ],
+    "variants": [],
+    "source_project": "GrowthNodes",
+    "repo": "https://github.com/hsab/GrowthNodes",
+    "source_file": "addon",
+    "commit": "unknown",
+    "license": "GPL-3.0",
+    "language": "Python",
+    "runtime": "Blender",
+    "dependencies": [
+      "bpy"
+    ],
+    "estimated_reuse": "hard",
+    "notes": "Useful as moss/lichen/fungal covering reference, not a single object factory."
+  }
+]

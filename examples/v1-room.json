@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "example",
+  "seed": 41837,
+  "units": "m",
+  "entities": [
+    {
+      "id": "room.main",
+      "kind": "room",
+      "transform": {
+        "position": [0, 0, 0],
+        "yaw_deg": 0
+      },
+      "params": {
+        "width": 12,
+        "length": 20,
+        "height": 3.2,
+        "wall_thickness": 0.18,
+        "floor_thickness": 0.2,
+        "ceiling": true,
+        "openings": [
+          {
+            "id": "entry",
+            "kind": "door",
+            "wall": "south",
+            "offset": 4.0,
+            "width": 1.0,
+            "height": 2.1
+          },
+          {
+            "id": "window.east",
+            "kind": "window",
+            "wall": "east",
+            "offset": 8.0,
+            "width": 1.8,
+            "height": 1.2,
+            "bottom": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "id": "stairs.main",
+      "kind": "straight_stairs",
+      "transform": {
+        "position": [2, 4, 0],
+        "yaw_deg": 90
+      },
+      "params": {
+        "width": 1.2,
+        "run": 4.2,
+        "rise": 3.2,
+        "max_riser": 0.18,
+        "min_tread": 0.2
+      }
+    },
+    {
+      "id": "beam.main",
+      "kind": "beam",
+      "transform": {
+        "position": [0, 0, 3.2]
+      },
+      "params": {
+        "length": 4.0,
+        "width": 0.2,
+        "height": 0.3
+      }
+    },
+    {
+      "id": "column.main",
+      "kind": "column",
+      "params": {
+        "width": 0.3,
+        "depth": 0.3,
+        "height": 3.2
+      }
+    }
+  ],
+  "quality": {
+    "profile": "production",
+    "min_feature_size": 0.02
+  },
+  "output": {
+    "save_blend": true,
+    "blend": "example.blend",
+    "report": "build-report.json",
+    "manifest": "build-manifest.json"
+  }
+}
+

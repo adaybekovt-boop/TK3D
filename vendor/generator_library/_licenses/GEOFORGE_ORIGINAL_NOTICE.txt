@@ -1,0 +1,1 @@
+The climbable ladder example was generated specifically for the GeoForge project and is not harvested from a third-party repository.

@@ -1,0 +1,25 @@
+{
+  "id": "furniture.chair.bar",
+  "name_ru": "Барный стул",
+  "meaning_ru": "Высокий барный стул с несколькими вариантами опоры.",
+  "not_this_ru": null,
+  "tags": [
+    "bar chair",
+    "bar stool",
+    "барный стул"
+  ],
+  "variants": [
+    "straight legs",
+    "single stand",
+    "wheeled"
+  ],
+  "files": [
+    "bar_chair.py"
+  ],
+  "source": {
+    "project": "Infinigen",
+    "repo": "https://github.com/princeton-vl/infinigen",
+    "commit": "3f58bb886bb1bda681d41240344fe3126ac0e9bd",
+    "license": "BSD-3-Clause"
+  }
+}

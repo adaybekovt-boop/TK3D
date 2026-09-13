@@ -1,0 +1,27 @@
+{
+  "id": "architecture.stairs.climbable_ladder",
+  "name_ru": "Вертикальная/наклонная лестница с перекладинами",
+  "meaning_ru": "Лестница, по которой карабкаются руками и ногами; две стойки и перекладины.",
+  "not_this_ru": "Не обычный лестничный марш со ступенями.",
+  "tags": [
+    "ladder",
+    "лестница",
+    "перекладины",
+    "climbable",
+    "vertical ladder"
+  ],
+  "variants": [
+    "lean angle",
+    "rung pitch",
+    "rail gap"
+  ],
+  "files": [
+    "climbable_parametric_ladder.py"
+  ],
+  "source": {
+    "project": "GeoForge original",
+    "repo": null,
+    "commit": null,
+    "license": "project-owned generated code"
+  }
+}

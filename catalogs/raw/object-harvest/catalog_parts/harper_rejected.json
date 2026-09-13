@@ -1,0 +1,56 @@
+[
+  {
+    "id": "rejected.scenecity",
+    "name": "SceneCity",
+    "reason": "Commercial city addon; not reusable public generators.",
+    "license": "proprietary"
+  },
+  {
+    "id": "rejected.pbg2",
+    "name": "PBG 2",
+    "reason": "Paid Geometry Nodes product.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.skyscrapx",
+    "name": "SkyscrapX",
+    "reason": "Paid itch.io addon.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.superhive.fence",
+    "name": "Superhive procedural fence packs",
+    "reason": "Paid storefront products.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.superhive.structures",
+    "name": "Procedural Structures Bundle",
+    "reason": "Paid poles/pipes/scaffolding bundle; no pinned public repo.",
+    "license": "paid-store"
+  },
+  {
+    "id": "rejected.industrial.pbg.paid",
+    "name": "Industrial PBG Quad Lab",
+    "reason": "Paid Superhive addon.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.archipack2.paid",
+    "name": "Archipack 2.x paid features",
+    "reason": "Kitchen and several 2.x features commercial.",
+    "license": "commercial"
+  },
+  {
+    "id": "rejected.extraobjects.primitives",
+    "name": "Extra Objects math primitives",
+    "reason": "gears/torusknot/star/pyramid/honeycomb/menger/supertoroid are not object types.",
+    "license": "GPL-2.0-or-later"
+  },
+  {
+    "id": "rejected.buildingnodes.durman",
+    "name": "BuildingNodes",
+    "reason": "Requires artist panel meshes; node style system not a typed object generator.",
+    "repo": "https://github.com/Durman/BuildingNodes"
+  }
+]

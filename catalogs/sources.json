@@ -1,0 +1,1139 @@
+{
+  "format_version": 1,
+  "project": "TK3D",
+  "sources": [
+    {
+      "repository": "https://github.com/a1studmuffin/SpaceshipGenerator",
+      "projects": [
+        "SpaceshipGenerator"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 1,
+      "local_source_files": 1,
+      "entry_ids": [
+        "prop.vehicle.spaceship"
+      ]
+    },
+    {
+      "repository": "https://github.com/aaronjolson/Blender-Bottle-Builder",
+      "projects": [
+        "Blender-Bottle-Builder"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "Unlicense"
+      ],
+      "entries": 1,
+      "local_source_files": 1,
+      "entry_ids": [
+        "prop.bottle.bottle_builder"
+      ]
+    },
+    {
+      "repository": "https://github.com/abpy/improved-sapling-tree-generator",
+      "projects": [
+        "improved-sapling-tree-generator"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-2.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.tree.sapling4"
+      ]
+    },
+    {
+      "repository": "https://github.com/acfaruk/proc-rock",
+      "projects": [
+        "proc-rock"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.rock.proc_rock_geo"
+      ]
+    },
+    {
+      "repository": "https://github.com/adaybekovt-boop/TK3D",
+      "projects": [
+        "TK3D"
+      ],
+      "pinned_commits": [
+        "0216534645b15b3f8aac0bd1d7e6674e2972b9b3"
+      ],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 8,
+      "local_source_files": 2,
+      "entry_ids": [
+        "architecture.beam",
+        "architecture.ceiling",
+        "architecture.column",
+        "architecture.floor",
+        "architecture.room",
+        "architecture.stairs.walkable",
+        "architecture.wall",
+        "geometry.box"
+      ]
+    },
+    {
+      "repository": "https://github.com/Beneking102/bene-proggen-maps",
+      "projects": [
+        "bene-proggen-maps"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0-or-later"
+      ],
+      "entries": 15,
+      "local_source_files": 0,
+      "entry_ids": [
+        "building.apartment.slab.bene",
+        "building.apartment.tower.bene",
+        "building.commercial.brick.bene",
+        "building.cottage.bene",
+        "building.factory.hall.bene",
+        "building.industrial.tower.bene",
+        "building.mixeduse.bene",
+        "building.office.block.bene",
+        "building.shopfront.bene",
+        "building.tower.glass.bene",
+        "building.townhouse.bene",
+        "building.warehouse.bene",
+        "street.bench.bene",
+        "street.lamp.bene",
+        "street.sign.bene"
+      ]
+    },
+    {
+      "repository": "https://github.com/blender/blender-addons",
+      "projects": [
+        "Add Mesh Extra Objects",
+        "Archimesh",
+        "BoltFactory"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-2.0-or-later"
+      ],
+      "entries": 26,
+      "local_source_files": 21,
+      "entry_ids": [
+        "architecture.masonry.blocks.extra_objects",
+        "architecture.wall.factory.extra_objects",
+        "building.column.archimesh",
+        "building.door.archimesh",
+        "building.roof.tile.archimesh",
+        "building.room.archimesh",
+        "building.stair.archimesh",
+        "building.window.archimesh",
+        "furniture.cabinet.kitchen.archimesh",
+        "furniture.cabinet.kitchen.floor.archimesh",
+        "furniture.cabinet.kitchen.wall.archimesh",
+        "furniture.shelf.archimesh",
+        "household.blind.venetian.archimesh",
+        "household.curtain.archimesh",
+        "household.lamp.archimesh",
+        "industrial.beam.extra_objects",
+        "industrial.bolt.mesh",
+        "industrial.fastener.boltfactory",
+        "industrial.pipe.joint.extra_objects",
+        "interior.curtain.archimesh",
+        "lighting.lamp.archimesh",
+        "prop.book.archimesh",
+        "prop.books.archimesh",
+        "prop.gem.brilliant.extra_objects",
+        "prop.gem.extra_objects",
+        "prop.teapot.extra_objects"
+      ]
+    },
+    {
+      "repository": "https://github.com/BlendingJake/JARCH-Vis",
+      "projects": [
+        "JARCH Vis"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 6,
+      "local_source_files": 4,
+      "entry_ids": [
+        "building.flooring.jarch",
+        "building.roof.shake.jarch",
+        "building.roof.shingle.jarch",
+        "building.roof.terracotta.jarch",
+        "building.siding.jarch",
+        "building.window.regular.jarch"
+      ]
+    },
+    {
+      "repository": "https://github.com/bruchansky/pipes-generator-blender",
+      "projects": [
+        "pipes-generator-blender"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 1,
+      "local_source_files": 1,
+      "entry_ids": [
+        "industrial.pipe.blender_pipes"
+      ]
+    },
+    {
+      "repository": "https://github.com/CadQuery/cadquery",
+      "projects": [
+        "CadQuery",
+        "CadQuery examples"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "entries": 3,
+      "local_source_files": 2,
+      "entry_ids": [
+        "industrial.pillow_block",
+        "prop.lego.brick",
+        "prop.toy.lego_brick"
+      ]
+    },
+    {
+      "repository": "https://github.com/CommanderFoo/blender-low-poly-rock",
+      "projects": [
+        "blender-low-poly-rock"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.rock.lowpoly_foo"
+      ]
+    },
+    {
+      "repository": "https://github.com/CreativeDesigner3D/Library_Home_Builder",
+      "projects": [
+        "Library_Home_Builder"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 13,
+      "local_source_files": 8,
+      "entry_ids": [
+        "architecture.door.sliding.homebuilder",
+        "architecture.door.swing.homebuilder",
+        "architecture.window.standard.homebuilder",
+        "furniture.cabinet.blind_corner.homebuilder",
+        "furniture.cabinet.carcass.homebuilder",
+        "furniture.cabinet.exterior.homebuilder",
+        "furniture.cabinet.interior.homebuilder",
+        "furniture.cabinet.stacked.homebuilder",
+        "furniture.cabinet.standard.homebuilder",
+        "furniture.closet.corner.homebuilder",
+        "furniture.closet.inserts.homebuilder",
+        "furniture.closet.starter.homebuilder",
+        "furniture.drawerbox.homebuilder"
+      ]
+    },
+    {
+      "repository": "https://github.com/creativemind3d/Home_Builder",
+      "projects": [
+        "Home Builder"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 11,
+      "local_source_files": 6,
+      "entry_ids": [
+        "building.door.homebuilder",
+        "building.wall.homebuilder",
+        "building.window.homebuilder",
+        "furniture.cabinet.base.homebuilder",
+        "furniture.cabinet.tall.homebuilder",
+        "furniture.cabinet.wall.homebuilder",
+        "furniture.closet.homebuilder",
+        "furniture.countertop.homebuilder",
+        "household.appliance.dishwasher.homebuilder",
+        "household.appliance.range.homebuilder",
+        "household.appliance.refrigerator.homebuilder"
+      ]
+    },
+    {
+      "repository": "https://github.com/FreeCAD/FreeCAD",
+      "projects": [
+        "FreeCAD BIM/Arch"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "LGPL-2.1-or-later"
+      ],
+      "entries": 22,
+      "local_source_files": 20,
+      "entry_ids": [
+        "building.beam.freecad",
+        "building.column.freecad",
+        "building.covering.freecad",
+        "building.curtainwall.freecad",
+        "building.frame.freecad",
+        "building.grid.freecad",
+        "building.panel.freecad",
+        "building.precast.freecad",
+        "building.roof.freecad",
+        "building.room.space.freecad",
+        "building.site.freecad",
+        "building.slab.freecad",
+        "building.stair.freecad",
+        "building.storey.freecad",
+        "building.truss.freecad",
+        "building.wall.freecad",
+        "building.window.freecad",
+        "building.window.preset.freecad",
+        "industrial.equipment.freecad",
+        "industrial.pipe.freecad",
+        "industrial.rebar.freecad",
+        "street.fence.freecad"
+      ]
+    },
+    {
+      "repository": "https://github.com/friggog/tree-gen",
+      "projects": [
+        "tree-gen"
+      ],
+      "pinned_commits": [
+        "01e872182a0f955349e51bb1a68ed4dfd665f81c"
+      ],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 20,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.leaf.shapes",
+        "nature.tree.acer",
+        "nature.tree.apple",
+        "nature.tree.balsam_fir",
+        "nature.tree.bamboo_weber",
+        "nature.tree.black_oak",
+        "nature.tree.black_tupelo",
+        "nature.tree.cambridge_oak",
+        "nature.tree.douglas_fir",
+        "nature.tree.european_larch",
+        "nature.tree.fan_palm",
+        "nature.tree.hill_cherry",
+        "nature.tree.lombardy_poplar",
+        "nature.tree.palm_weber",
+        "nature.tree.quaking_aspen",
+        "nature.tree.sassafras",
+        "nature.tree.silver_birch",
+        "nature.tree.small_pine",
+        "nature.tree.sphere_canopy",
+        "nature.tree.weeping_willow"
+      ]
+    },
+    {
+      "repository": "https://github.com/Fyrecean/ProceduralRocks",
+      "projects": [
+        "ProceduralRocks"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.rock.godot_proc"
+      ]
+    },
+    {
+      "repository": "https://github.com/GoodPie/modular_tree",
+      "projects": [
+        "MTree / modular_tree"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 3,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.tree.modular_oak",
+        "nature.tree.modular_pine",
+        "nature.tree.modular_willow"
+      ]
+    },
+    {
+      "repository": "https://github.com/gumyr/cq_warehouse",
+      "projects": [
+        "cq_warehouse"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "entries": 9,
+      "local_source_files": 5,
+      "entry_ids": [
+        "industrial.bearing.cq_warehouse",
+        "industrial.bearing.cqwarehouse",
+        "industrial.chain.cq_warehouse",
+        "industrial.chain.cqwarehouse",
+        "industrial.fastener.cq_warehouse",
+        "industrial.fastener.cqwarehouse",
+        "industrial.sprocket.cq_warehouse",
+        "industrial.sprocket.cqwarehouse",
+        "industrial.thread.cq_warehouse"
+      ]
+    },
+    {
+      "repository": "https://github.com/hsab/GrowthNodes",
+      "projects": [
+        "GrowthNodes"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.growth.surface"
+      ]
+    },
+    {
+      "repository": "https://github.com/hugemenace/nd",
+      "projects": [
+        "ND addon"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 3,
+      "local_source_files": 0,
+      "entry_ids": [
+        "industrial.cable.nd",
+        "industrial.pipe.nd",
+        "industrial.pipefitting.nd"
+      ]
+    },
+    {
+      "repository": "https://github.com/InternRobotics/Infinite-Mobility",
+      "projects": [
+        "Infinite-Mobility"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "entries": 20,
+      "local_source_files": 0,
+      "entry_ids": [
+        "architecture.door.lite.mobility",
+        "architecture.window.mobility",
+        "bathroom.tap.mobility",
+        "bathroom.toilet.mobility",
+        "furniture.cabinet.kitchen.mobility",
+        "furniture.chair.bar.mobility",
+        "furniture.chair.office.mobility",
+        "furniture.table.cocktail.mobility",
+        "furniture.table.dining.mobility",
+        "household.appliance.dishwasher.mobility",
+        "household.appliance.fridge.mobility",
+        "household.appliance.microwave.mobility",
+        "household.appliance.oven.mobility",
+        "household.electronics.tv.mobility",
+        "household.lamp.mobility",
+        "household.plate_rack.mobility",
+        "prop.bottle.mobility",
+        "prop.pan.mobility",
+        "prop.pot.mobility",
+        "prop.vase.mobility"
+      ]
+    },
+    {
+      "repository": "https://github.com/lorentzo/RocksNPillars",
+      "projects": [
+        "RocksNPillars"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.rock.pillars"
+      ]
+    },
+    {
+      "repository": "https://github.com/LuncyBloont/IvyAnywhere",
+      "projects": [
+        "IvyAnywhere"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.vine.ivyanywhere"
+      ]
+    },
+    {
+      "repository": "https://github.com/lupin4/Blender-Rock-Generator",
+      "projects": [
+        "Blender-Rock-Generator"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.rock.lupin_lowpoly"
+      ]
+    },
+    {
+      "repository": "https://github.com/mattiascibien/ivygen",
+      "projects": [
+        "ivygen"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-2.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.vine.luft_ivygen"
+      ]
+    },
+    {
+      "repository": "https://github.com/medicationforall/cqterrain",
+      "projects": [
+        "cqterrain"
+      ],
+      "pinned_commits": [
+        "3848928597b2ba9ca5b61e11279467c93ad66889"
+      ],
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "entries": 32,
+      "local_source_files": 0,
+      "entry_ids": [
+        "building.door.cqterrain",
+        "building.door.double.cqterrain",
+        "building.door.garage.cqterrain",
+        "building.door.heavy.cqterrain",
+        "building.door.panel.cqterrain",
+        "building.door.single.cqterrain",
+        "building.door.split.cqterrain",
+        "building.door.tiled.cqterrain",
+        "building.floor.brick.cqterrain",
+        "building.floor.cqterrain",
+        "building.floor.tile.cqterrain",
+        "building.floor.wood.cqterrain",
+        "building.modular.cqterrain",
+        "building.roof.cqterrain",
+        "building.room.cqterrain",
+        "building.ruin.cqterrain",
+        "building.stair.cqterrain",
+        "building.wall.cqterrain",
+        "building.window.cqterrain",
+        "industrial.antenna.dish.cqterrain",
+        "industrial.door.blast.cqterrain",
+        "industrial.door.hatch.cqterrain",
+        "industrial.fan.cqterrain",
+        "industrial.ladder.cqterrain",
+        "industrial.panel.cqterrain",
+        "industrial.pipe.cqterrain",
+        "industrial.spool.cqterrain",
+        "industrial.vent.cqterrain",
+        "industrial.walkway.cqterrain",
+        "street.barrier.jersey.cqterrain",
+        "street.bridge.cqterrain",
+        "street.shieldwall.cqterrain"
+      ]
+    },
+    {
+      "repository": "https://github.com/mikhailefimov/blender_furniture_builder",
+      "projects": [
+        "blender_furniture_builder"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-2.0-or-later"
+      ],
+      "entries": 4,
+      "local_source_files": 1,
+      "entry_ids": [
+        "furniture.cabinet.parametric.fbuilder",
+        "furniture.cabinet.programmatic.furniture_builder",
+        "prop.hardware.handle.furniture_builder",
+        "prop.hardware.hinge.furniture_builder"
+      ]
+    },
+    {
+      "repository": "https://github.com/neurospiritus/roomicon",
+      "projects": [
+        "Roomicon"
+      ],
+      "pinned_commits": [
+        "2dcd3d1"
+      ],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 85,
+      "local_source_files": 25,
+      "entry_ids": [
+        "furniture.bunk_bed",
+        "furniture.chair.armchair",
+        "furniture.chair.bench",
+        "furniture.chair.dining",
+        "furniture.chair.normal",
+        "furniture.chair.office.roomicon",
+        "furniture.chair.stool",
+        "furniture.daybed",
+        "furniture.double_bed",
+        "furniture.panel_bed",
+        "furniture.shelf.box",
+        "furniture.shelf.bracket",
+        "furniture.shelf.multi",
+        "furniture.shelf.single",
+        "furniture.single_bed",
+        "furniture.sofa",
+        "furniture.table.bar",
+        "furniture.table.coffee",
+        "furniture.table.desk",
+        "furniture.table.dining",
+        "furniture.table.nightstand",
+        "furniture.table.radial",
+        "furniture.table.round",
+        "furniture.table.tea",
+        "furniture.wardrobe.double",
+        "furniture.wardrobe.dresser",
+        "furniture.wardrobe.nightstand",
+        "furniture.wardrobe.single",
+        "furniture.wardrobe.with_drawers",
+        "household.clock.alarm",
+        "household.clock.grandfather",
+        "household.clock.round_wall",
+        "household.clock.square_wall",
+        "household.curtain.gathered",
+        "household.curtain.sheer",
+        "household.curtain.straight",
+        "household.lamp.arc",
+        "household.lamp.floor",
+        "household.lamp.flush",
+        "household.lamp.nightlight",
+        "household.lamp.pendant",
+        "household.lamp.sconce",
+        "household.lamp.tabletop_classic",
+        "household.mirror.arched",
+        "household.mirror.oval",
+        "household.mirror.rectangle",
+        "household.mirror.round",
+        "household.mirror.with_shelf",
+        "household.painting.framed",
+        "household.photoframe.tabletop_bevel",
+        "household.photoframe.tabletop_simple",
+        "household.photoframe.wall_bevel",
+        "household.photoframe.wall_simple",
+        "household.rug.procedural",
+        "prop.book.leaning",
+        "prop.book.row",
+        "prop.book.single",
+        "prop.book.stack",
+        "prop.candle.candlestick",
+        "prop.candle.group",
+        "prop.candle.single",
+        "prop.candle.tealight",
+        "prop.cushion.rectangle",
+        "prop.cushion.square",
+        "prop.kitchenware.bottle",
+        "prop.kitchenware.coffee_cup",
+        "prop.kitchenware.dessert_plate",
+        "prop.kitchenware.dinner_plate",
+        "prop.kitchenware.highball",
+        "prop.kitchenware.mug",
+        "prop.kitchenware.soup_plate",
+        "prop.kitchenware.tea_cup",
+        "prop.kitchenware.tumbler",
+        "prop.kitchenware.vase_bottle",
+        "prop.kitchenware.vase_classic",
+        "prop.kitchenware.vase_cylinder",
+        "prop.kitchenware.wineglass",
+        "prop.plant.cactus",
+        "prop.plant.fern",
+        "prop.plant.ficus",
+        "prop.plant.succulent",
+        "prop.plushtoy.bear",
+        "prop.plushtoy.bunny",
+        "prop.plushtoy.duck",
+        "prop.plushtoy.penguin"
+      ]
+    },
+    {
+      "repository": "https://github.com/nifets/ArborGen",
+      "projects": [
+        "ArborGen"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.tree.arborgen_oak_growth"
+      ]
+    },
+    {
+      "repository": "https://github.com/outerreaches/blender-building-generator",
+      "projects": [
+        "blender-building-generator"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0-or-later"
+      ],
+      "entries": 5,
+      "local_source_files": 0,
+      "entry_ids": [
+        "building.bar.pbg",
+        "building.residential.pbg",
+        "building.storefront.pbg",
+        "building.urban.damaged.pbg",
+        "building.warehouse.pbg"
+      ]
+    },
+    {
+      "repository": "https://github.com/oweissbarth/bookGen",
+      "projects": [
+        "BookGen"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "prop.book.bookgen"
+      ]
+    },
+    {
+      "repository": "https://github.com/princeton-vl/infinigen",
+      "projects": [
+        "Infinigen",
+        "Infinigen / Infinigen Indoors"
+      ],
+      "pinned_commits": [
+        "3f58bb886bb1bda681d41240344fe3126ac0e9bd"
+      ],
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "entries": 206,
+      "local_source_files": 68,
+      "entry_ids": [
+        "architecture.pillar.infinigen",
+        "architecture.window.awning.infinigen",
+        "architecture.window.bay.infinigen",
+        "architecture.window.casement.infinigen",
+        "architecture.window.glassblock.infinigen",
+        "architecture.window.infinigen",
+        "architecture.window.sliding.infinigen",
+        "bathroom.bathtub.infinigen",
+        "bathroom.hardware.infinigen",
+        "bathroom.sink.infinigen",
+        "bathroom.toilet.infinigen",
+        "building.column.pillar",
+        "building.door.glasspanel.infinigen",
+        "building.door.lite.infinigen",
+        "building.door.louver.infinigen",
+        "building.door.panel.infinigen",
+        "building.stairs.cantilever",
+        "building.stairs.curved",
+        "building.stairs.l_shaped",
+        "building.stairs.spiral",
+        "building.stairs.straight",
+        "building.stairs.u_shaped",
+        "building.window.infinigen",
+        "decor.aquarium",
+        "electronics.tv_monitor",
+        "furniture.bed.infinigen",
+        "furniture.bedframe.infinigen",
+        "furniture.cabinet.body.infinigen",
+        "furniture.cabinet.doors.infinigen",
+        "furniture.cabinet.drawers.infinigen",
+        "furniture.cabinet.kitchen.infinigen",
+        "furniture.cabinet.single.infinigen",
+        "furniture.chair.bar",
+        "furniture.chair.bar.infinigen",
+        "furniture.chair.dining.infinigen",
+        "furniture.chair.general",
+        "furniture.chair.office",
+        "furniture.chair.office.infinigen",
+        "furniture.counter.kitchen_space.infinigen",
+        "furniture.countertop.infinigen",
+        "furniture.desk.simple",
+        "furniture.desk.simple.infinigen",
+        "furniture.kitchen.countertop",
+        "furniture.kitchen.space",
+        "furniture.mattress.infinigen",
+        "furniture.pillow.infinigen",
+        "furniture.rug.infinigen",
+        "furniture.shelf.bookcase.infinigen",
+        "furniture.shelf.cell.infinigen",
+        "furniture.shelf.large.infinigen",
+        "furniture.shelf.triangle.infinigen",
+        "furniture.shelf.wall.infinigen",
+        "furniture.sofa.infinigen",
+        "furniture.table.cocktail.infinigen",
+        "furniture.table.dining.infinigen",
+        "furniture.table.stretcher",
+        "furniture.table.top",
+        "furniture.table.top.infinigen",
+        "household.appliance.dishwasher",
+        "household.appliance.dishwasher.infinigen",
+        "household.appliance.fridge.infinigen",
+        "household.appliance.fridge_beverage",
+        "household.appliance.microwave",
+        "household.appliance.microwave.infinigen",
+        "household.appliance.oven",
+        "household.appliance.oven.infinigen",
+        "household.appliance.toaster",
+        "household.appliance.toaster.infinigen",
+        "household.appliance.tv",
+        "household.bathroom.bathtub",
+        "household.bathroom.hardware",
+        "household.bathroom.sink",
+        "household.bathroom.toilet",
+        "household.electronics.tv.infinigen",
+        "household.lamp.ceiling.infinigen",
+        "household.lamp.ceiling_classic",
+        "household.lamp.ceiling_classic.infinigen",
+        "household.lamp.ceiling_light",
+        "household.lamp.desk_floor.infinigen",
+        "household.lamp.desk_or_floor",
+        "household.plate_rack.infinigen",
+        "household.range_hood.infinigen",
+        "household.sink.kitchen.infinigen",
+        "household.textile.blanket",
+        "household.textile.blanket.infinigen",
+        "household.textile.pants",
+        "household.textile.shirt",
+        "household.textile.towel",
+        "household.textile.towel.infinigen",
+        "household.wall_art.infinigen",
+        "industrial.rack.warehouse",
+        "lighting.ceiling.classic.infinigen",
+        "lighting.desklamp.infinigen",
+        "lighting.floorlamp.infinigen",
+        "lighting.lamp.infinigen",
+        "nature.cactus.columnar",
+        "nature.cactus.globular",
+        "nature.cactus.kalidium",
+        "nature.cactus.prickly_pear",
+        "nature.coral.diff_growth",
+        "nature.coral.elkhorn",
+        "nature.coral.fan",
+        "nature.coral.reaction_diffusion",
+        "nature.coral.star",
+        "nature.coral.tree",
+        "nature.coral.tube",
+        "nature.creature.beetle",
+        "nature.creature.bird",
+        "nature.creature.carnivore",
+        "nature.creature.crustacean",
+        "nature.creature.dragonfly",
+        "nature.creature.fish",
+        "nature.creature.herbivore",
+        "nature.leaf.generic",
+        "nature.mushroom.generic",
+        "nature.plant.agave",
+        "nature.plant.banana_monocot",
+        "nature.plant.dandelion",
+        "nature.plant.fern",
+        "nature.plant.flower",
+        "nature.plant.flowerplant",
+        "nature.plant.grass_tuft",
+        "nature.plant.grasses",
+        "nature.plant.kelp",
+        "nature.plant.leaf_grass",
+        "nature.plant.palm_leaf",
+        "nature.plant.snake_plant",
+        "nature.plant.spider_plant",
+        "nature.plant.succulent",
+        "nature.plant.tussock",
+        "nature.plant.veratrum",
+        "nature.prop.pinecone",
+        "nature.rock.blender",
+        "nature.rock.boulder",
+        "nature.rock.glowing",
+        "nature.rock.pile",
+        "nature.tree.bamboo",
+        "nature.tree.banana",
+        "nature.tree.baobab",
+        "nature.tree.coconut",
+        "nature.tree.fallen",
+        "nature.tree.flowering",
+        "nature.tree.generic",
+        "nature.tree.hollow",
+        "nature.tree.palm",
+        "nature.tree.pine",
+        "nature.tree.random",
+        "nature.tree.rotten",
+        "nature.tree.shrub",
+        "nature.tree.stump",
+        "nature.tree.tropical_palm",
+        "prop.aquarium.infinigen",
+        "prop.balloon.infinigen",
+        "prop.basket",
+        "prop.basket.infinigen",
+        "prop.book.infinigen",
+        "prop.bottle.generic",
+        "prop.bowl",
+        "prop.can",
+        "prop.chopsticks",
+        "prop.clothes.pants.infinigen",
+        "prop.clothes.shirt.infinigen",
+        "prop.cup",
+        "prop.food_bag",
+        "prop.food_box",
+        "prop.fork",
+        "prop.fruit.apple",
+        "prop.fruit.blackberry",
+        "prop.fruit.coconut_green",
+        "prop.fruit.coconut_hairy",
+        "prop.fruit.durian",
+        "prop.fruit.pineapple",
+        "prop.fruit.starfruit",
+        "prop.fruit.strawberry",
+        "prop.hook",
+        "prop.hook.infinigen",
+        "prop.jar",
+        "prop.knife",
+        "prop.lid",
+        "prop.pallet.wood",
+        "prop.pan",
+        "prop.plant_pot",
+        "prop.plate",
+        "prop.plate_rack",
+        "prop.pot",
+        "prop.spoon",
+        "prop.tableware.bottle.infinigen",
+        "prop.tableware.bowl.infinigen",
+        "prop.tableware.can.infinigen",
+        "prop.tableware.chopsticks.infinigen",
+        "prop.tableware.cup.infinigen",
+        "prop.tableware.food_bag.infinigen",
+        "prop.tableware.food_box.infinigen",
+        "prop.tableware.fork.infinigen",
+        "prop.tableware.fruit_container.infinigen",
+        "prop.tableware.jar.infinigen",
+        "prop.tableware.knife.infinigen",
+        "prop.tableware.lid.infinigen",
+        "prop.tableware.pan.infinigen",
+        "prop.tableware.plant_container.infinigen",
+        "prop.tableware.plate.infinigen",
+        "prop.tableware.pot.infinigen",
+        "prop.tableware.spoon.infinigen",
+        "prop.tableware.wineglass.infinigen",
+        "prop.vase.infinigen",
+        "prop.wineglass"
+      ]
+    },
+    {
+      "repository": "https://github.com/princeton-vl/procfunc",
+      "projects": [
+        "ProcFunc"
+      ],
+      "pinned_commits": [
+        "7ff982e89c58ce16fe4b0028d14661c0be77b6b7"
+      ],
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "entries": 5,
+      "local_source_files": 5,
+      "entry_ids": [
+        "geometry.procfunc.collection",
+        "geometry.procfunc.curve",
+        "geometry.procfunc.object_ops",
+        "geometry.procfunc.primitives",
+        "geometry.procfunc.random"
+      ]
+    },
+    {
+      "repository": "https://github.com/ranjian0/building_tools",
+      "projects": [
+        "Building Tools"
+      ],
+      "pinned_commits": [
+        "0216534645b15b3f8aac0bd1d7e6674e2972b9b3"
+      ],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 21,
+      "local_source_files": 17,
+      "entry_ids": [
+        "architecture.balcony",
+        "architecture.door",
+        "architecture.floor_system",
+        "architecture.floorplan",
+        "architecture.railing",
+        "architecture.window",
+        "building.balcony.buildingtools",
+        "building.door.buildingtools",
+        "building.fill.buildingtools",
+        "building.floorplan.buildingtools",
+        "building.house.modular.buildingtools",
+        "building.multigroup.buildingtools",
+        "building.roof.buildingtools",
+        "building.stair.buildingtools",
+        "building.storey.buildingtools",
+        "building.window.buildingtools",
+        "infrastructure.road",
+        "shared.building_tools.arch",
+        "shared.building_tools.array",
+        "shared.building_tools.frame",
+        "shared.building_tools.sizeoffset"
+      ]
+    },
+    {
+      "repository": "https://github.com/s-leger/archipack",
+      "projects": [
+        "Archipack"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-3.0"
+      ],
+      "entries": 16,
+      "local_source_files": 14,
+      "entry_ids": [
+        "building.beam.archipack",
+        "building.door.archipack",
+        "building.floor.finish.archipack",
+        "building.floor.heating.archipack",
+        "building.handle.archipack",
+        "building.molding.archipack",
+        "building.roof.archipack",
+        "building.slab.archipack",
+        "building.stair.archipack",
+        "building.truss.archipack",
+        "building.wall.archipack",
+        "building.window.archipack",
+        "furniture.kitchen.archipack",
+        "interior.blind.archipack",
+        "street.fence.archipack",
+        "street.road.archipack"
+      ]
+    },
+    {
+      "repository": "https://github.com/Team-Crescendo-Games/ProceduralIvy",
+      "projects": [
+        "ProceduralIvy"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.vine.unity_procedural_ivy"
+      ]
+    },
+    {
+      "repository": "https://github.com/UPBGE/blender-addons",
+      "projects": [
+        "Blender official addons"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-2.0-or-later"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.vine.ivygen_official"
+      ]
+    },
+    {
+      "repository": "https://github.com/versluis/Rock-Generator",
+      "projects": [
+        "Rock-Generator"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-2.0"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "nature.rock.add_mesh_rocks"
+      ]
+    },
+    {
+      "repository": "https://github.com/wsparcie/procedural_buildings",
+      "projects": [
+        "procedural_buildings"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "MIT"
+      ],
+      "entries": 4,
+      "local_source_files": 0,
+      "entry_ids": [
+        "building.blockflats.geonodes",
+        "building.factory.geonodes",
+        "building.skyscraper.geonodes",
+        "building.tenement.geonodes"
+      ]
+    },
+    {
+      "repository": "https://projects.blender.org/blender/blender-addons",
+      "projects": [
+        "blender-addons extra_objects"
+      ],
+      "pinned_commits": [],
+      "licenses": [
+        "GPL-2.0-or-later"
+      ],
+      "entries": 1,
+      "local_source_files": 0,
+      "entry_ids": [
+        "prop.teapot.utah"
+      ]
+    }
+  ]
+}

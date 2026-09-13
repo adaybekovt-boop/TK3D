@@ -1,0 +1,418 @@
+[
+  {
+    "id": "rejected.nature.tree.tbo_license",
+    "name": "TBO-Tree-Gen",
+    "reason": "license not confirmed in README (pre-release). Catalogued tentatively as nature.tree.tbo_spacecol with license=unknown; treat as review-needed until COPYING found.",
+    "repo": "https://github.com/TheBeautifulOrc/TBO-Tree-Gen",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.nature.tree.easy_tree_license",
+    "name": "Easy-Tree",
+    "reason": "license file not verified; GN-heavy, little portable Python.",
+    "repo": "https://github.com/jacobcjohnston/Easy-Tree",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.nature.tree.lowpoly_license",
+    "name": "LuFlo/low-poly-tree-generator",
+    "reason": "license not visible on README.",
+    "repo": "https://github.com/LuFlo/low-poly-tree-generator",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.nature.tree.lazy_license",
+    "name": "lazy-tree",
+    "reason": "license not confirmed.",
+    "repo": "https://github.com/thelazyone/lazy-tree",
+    "license": "unknown"
+  },
+  {
+    "id": "rejected.paid.the_grove",
+    "name": "The Grove",
+    "reason": "Commercial tree generator, not open source.",
+    "license": "proprietary"
+  },
+  {
+    "id": "rejected.paid.botaniq",
+    "name": "Botaniq",
+    "reason": "Commercial vegetation pack, not procedural source.",
+    "license": "proprietary"
+  },
+  {
+    "id": "rejected.asset.not_code",
+    "name": "Poly Haven / Megascans trees",
+    "reason": "static meshes, not procedural generators.",
+    "repo": "",
+    "license": "CC0 / Megascans"
+  },
+  {
+    "id": "rejected.scenecity",
+    "name": "SceneCity",
+    "reason": "Commercial city addon; not reusable public generators.",
+    "license": "proprietary"
+  },
+  {
+    "id": "rejected.pbg2",
+    "name": "PBG 2",
+    "reason": "Paid Geometry Nodes product.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.skyscrapx",
+    "name": "SkyscrapX",
+    "reason": "Paid itch.io addon.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.superhive.fence",
+    "name": "Superhive procedural fence packs",
+    "reason": "Paid storefront products.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.superhive.structures",
+    "name": "Procedural Structures Bundle",
+    "reason": "Paid poles/pipes/scaffolding bundle; no pinned public repo.",
+    "license": "paid-store"
+  },
+  {
+    "id": "rejected.industrial.pbg.paid",
+    "name": "Industrial PBG Quad Lab",
+    "reason": "Paid Superhive addon.",
+    "license": "paid"
+  },
+  {
+    "id": "rejected.archipack2.paid",
+    "name": "Archipack 2.x paid features",
+    "reason": "Kitchen and several 2.x features commercial.",
+    "license": "commercial"
+  },
+  {
+    "id": "rejected.extraobjects.primitives",
+    "name": "Extra Objects math primitives",
+    "reason": "gears/torusknot/star/pyramid/honeycomb/menger/supertoroid are not object types.",
+    "license": "GPL-2.0-or-later"
+  },
+  {
+    "id": "rejected.buildingnodes.durman",
+    "name": "BuildingNodes",
+    "reason": "Requires artist panel meshes; node style system not a typed object generator.",
+    "repo": "https://github.com/Durman/BuildingNodes"
+  },
+  {
+    "id": "reject.extra_objects.gears",
+    "name": "Gear primitives",
+    "reason": "primitive, not an object type",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_gears.py"
+  },
+  {
+    "id": "reject.extra_objects.torusknot",
+    "name": "Torus knot",
+    "reason": "math primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_torusknot.py"
+  },
+  {
+    "id": "reject.extra_objects.star",
+    "name": "Star mesh",
+    "reason": "primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_star.py"
+  },
+  {
+    "id": "reject.extra_objects.pyramid",
+    "name": "Pyramid",
+    "reason": "primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_pyramid.py"
+  },
+  {
+    "id": "reject.extra_objects.honeycomb",
+    "name": "Honeycomb",
+    "reason": "pattern primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_honeycomb.py"
+  },
+  {
+    "id": "reject.extra_objects.menger",
+    "name": "Menger sponge",
+    "reason": "fractal primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_menger_sponge.py"
+  },
+  {
+    "id": "reject.extra_objects.supertoroid",
+    "name": "Supertoroid",
+    "reason": "math primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_supertoroid.py"
+  },
+  {
+    "id": "reject.extra_objects.twisted_torus",
+    "name": "Twisted torus",
+    "reason": "math primitive",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_twisted_torus.py"
+  },
+  {
+    "id": "reject.extra_objects.function_surface",
+    "name": "3D function surface",
+    "reason": "math surface, not an object type",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_3d_function_surface.py"
+  },
+  {
+    "id": "reject.nodee.furnitures",
+    "name": "Nodee Furnitures",
+    "reason": "paid Superhive product, no reusable source",
+    "repo": "https://superhivemarket.com/products/nodee-furnitures"
+  },
+  {
+    "id": "reject.blenderbash.furniture_gn",
+    "name": "Procedural furniture GN pack",
+    "reason": "paid Gumroad geometry-nodes file, no code",
+    "repo": "https://blenderbash.gumroad.com/l/tPJOa"
+  },
+  {
+    "id": "reject.stool_chair_table_generator",
+    "name": "Stool-Chair-Table Generator",
+    "reason": "paid Superhive GN, royalty-free but no source",
+    "repo": "https://superhivemarket.com/products/stool---chair---table-generator"
+  },
+  {
+    "id": "reject.procedural_bathrooms_blendermarket",
+    "name": "Procedural Bathrooms pack",
+    "reason": "paid asset pack, not code generators",
+    "repo": "https://www.blendernation.com/2024/01/15/procedural-bathrooms-and-assets/"
+  },
+  {
+    "id": "reject.tiny_treats_bathroom",
+    "name": "Tiny Treats Bubbly Bathroom",
+    "reason": "static CC0 meshes, not procedural generators",
+    "repo": "https://github.com/TinyTreats-Game-Assets/Tiny-Treats-Bubbly-Bathroom-1.0"
+  },
+  {
+    "id": "reject.lpan18.chair_mixer",
+    "name": "3D-Chair-Generator mix-n-match",
+    "reason": "recombines existing OBJ parts, not a procedural generator; unclear license",
+    "repo": "https://github.com/lpan18/3D-Chair-Generator"
+  },
+  {
+    "id": "reject.unreal.table_chairs",
+    "name": "UE5 Procedural Table and Chairs",
+    "reason": "Unreal C++ cubes demo, not reusable Blender/Python geometry",
+    "repo": "https://github.com/UnMondodiBonobo/ProceduralTableAndChairs"
+  },
+  {
+    "id": "reject.furniture_builder.license",
+    "name": "blender_furniture_builder license review",
+    "reason": "usable code but no SPDX/license file in repo header — keep in catalog as unspecified-review, flagged here too",
+    "repo": "https://github.com/mikhailefimov/blender_furniture_builder"
+  },
+  {
+    "id": "dup.building.wall.masonry.extraobjects",
+    "name": "Masonry Wall",
+    "reason": "Duplicate of another catalog row pointing at the same source file.",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/Wallfactory.py"
+  },
+  {
+    "id": "dup.industrial.beam.extraobjects",
+    "name": "Beam Builder",
+    "reason": "Duplicate of another catalog row pointing at the same source file.",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_beam_builder.py"
+  },
+  {
+    "id": "dup.industrial.pipejoint.extraobjects",
+    "name": "Pipe Joint",
+    "reason": "Duplicate of another catalog row pointing at the same source file.",
+    "repo": "https://github.com/blender/blender-addons",
+    "source_file": "candidates/extra_objects/add_mesh_pipe_joint.py"
+  },
+  {
+    "id": "dup.industrial.pipes.volume.fill",
+    "name": "Random Volume Pipes",
+    "reason": "Duplicate of another catalog row pointing at the same source file.",
+    "repo": "https://github.com/bruchansky/pipes-generator-blender",
+    "source_file": "candidates/pipes_generator/pipes-generator.py"
+  },
+  {
+    "id": "nature.mushroom.proc_shrooms",
+    "name": "Proc-Shrooms Blender Addon",
+    "reason": "Unverified or unknown license at harvest time (unknown). Not mixed into usable catalog.",
+    "repo": "https://github.com/leafar-tb/proc-shrooms",
+    "source_file": "addon operators",
+    "license": "unknown"
+  },
+  {
+    "id": "nature.tree.easy_tree_geonodes",
+    "name": "Easy Tree Geometry Nodes",
+    "reason": "Unverified or unknown license at harvest time (unknown). Not mixed into usable catalog.",
+    "repo": "https://github.com/jacobcjohnston/Easy-Tree",
+    "source_file": "addon + GN groups",
+    "license": "unknown"
+  },
+  {
+    "id": "nature.tree.lazy_printable",
+    "name": "Lazy Tree (3D-print watertight)",
+    "reason": "Unverified or unknown license at harvest time (unknown). Not mixed into usable catalog.",
+    "repo": "https://github.com/thelazyone/lazy-tree",
+    "source_file": "tree_mesh_functions.py",
+    "license": "unknown"
+  },
+  {
+    "id": "nature.tree.lowpoly",
+    "name": "Low-Poly Tree Generator",
+    "reason": "Unverified or unknown license at harvest time (unknown). Not mixed into usable catalog.",
+    "repo": "https://github.com/LuFlo/low-poly-tree-generator",
+    "source_file": "addon",
+    "license": "unknown"
+  },
+  {
+    "id": "nature.tree.lsystem_8systems",
+    "name": "L-System Tree (8 grammars)",
+    "reason": "Unverified or unknown license at harvest time (unknown). Not mixed into usable catalog.",
+    "repo": "https://github.com/smaooo/L-System",
+    "source_file": "addon",
+    "license": "unknown"
+  },
+  {
+    "id": "nature.tree.tbo_spacecol",
+    "name": "TBO Space-Colonization Tree",
+    "reason": "Unverified or unknown license at harvest time (unknown). Not mixed into usable catalog.",
+    "repo": "https://github.com/TheBeautifulOrc/TBO-Tree-Gen",
+    "source_file": "addon + C++ core",
+    "license": "unknown"
+  },
+  {
+    "id": "prop.bin.gridfinity",
+    "name": "Gridfinity Bin",
+    "reason": "Unverified or unknown license at harvest time (review-needed). Not mixed into usable catalog.",
+    "repo": "https://github.com/flowful-ai/cad-skill",
+    "source_file": "gridfinity.py",
+    "license": "review-needed"
+  },
+  {
+    "id": "prop.bin.recursive_drawer",
+    "name": "Recursive Drawer Bins",
+    "reason": "Unverified or unknown license at harvest time (review-needed). Not mixed into usable catalog.",
+    "repo": "https://github.com/node-dojo/dojo-recursive-bins",
+    "source_file": "dojo-recursive-bins .blend geometry nodes",
+    "license": "review-needed"
+  },
+  {
+    "id": "prop.pallet.palletdatagenerator",
+    "name": "Synthetic Pallet",
+    "reason": "Unverified or unknown license at harvest time (review-needed). Not mixed into usable catalog.",
+    "repo": "https://github.com/boubakriibrahim/PalletDataGenerator",
+    "source_file": "palletdatagenerator package",
+    "license": "review-needed"
+  },
+  {
+    "id": "prop.tray.storage_grid",
+    "name": "Dovetail Storage Tray",
+    "reason": "Unverified or unknown license at harvest time (review-needed). Not mixed into usable catalog.",
+    "repo": "https://github.com/Roger-random/storage_grid",
+    "source_file": "dovetailstoragegrid.py",
+    "license": "review-needed"
+  },
+  {
+    "id": "gap.industrial.tank",
+    "name": "Industrial storage tank",
+    "reason": "No isolated open-source procedural tank factory found. Closest: cqterrain spool / FreeCAD ArchPipe.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.industrial.valve",
+    "name": "Industrial valve",
+    "reason": "No dedicated OSS valve generator. Pipe joints exist; valve bodies do not.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.industrial.hvac",
+    "name": "HVAC unit / boiler / pump",
+    "reason": "No standalone procedural HVAC/boiler/pump factories under a clear license.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.industrial.electrical_cabinet",
+    "name": "Electrical cabinet",
+    "reason": "No dedicated OSS electrical-box generator. Closest: cqterrain panel / FreeCAD ArchEquipment.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.industrial.cable_tray",
+    "name": "Cable tray",
+    "reason": "Not found as reusable source. Paid Superhive structures bundle covers poles/cables.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.industrial.scaffolding",
+    "name": "Scaffolding",
+    "reason": "Only paid Superhive scaffolding generator found.",
+    "license": "paid-store"
+  },
+  {
+    "id": "gap.street.traffic_light",
+    "name": "Traffic light",
+    "reason": "No isolated procedural traffic-light factory found.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.street.manhole",
+    "name": "Manhole / drain",
+    "reason": "No isolated procedural manhole/drain factory found.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.street.utility_pole",
+    "name": "Utility pole",
+    "reason": "Paid Superhive poles-and-cables pack; no clear-license public source.",
+    "license": "paid-store"
+  },
+  {
+    "id": "gap.street.bus_stop",
+    "name": "Bus stop",
+    "reason": "No isolated procedural bus-stop factory found.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.prop.barrel",
+    "name": "Barrel",
+    "reason": "No dedicated OSS barrel factory. Closest: bottle builders / cqterrain spool.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.prop.crate",
+    "name": "Crate / dumpster / trash can",
+    "reason": "No dedicated OSS crate/dumpster/trash-can factory found.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.furniture.locker",
+    "name": "Locker",
+    "reason": "No dedicated OSS locker factory. Closest: cabinet/wardrobe generators.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.building.hangar",
+    "name": "Hangar / barn / shed as typed factory",
+    "reason": "Modular building toolkits exist (Building Tools, cqterrain) but no typed hangar/barn/shed factory.",
+    "license": "n/a"
+  },
+  {
+    "id": "gap.nature.cave",
+    "name": "Cave / cliff / roots",
+    "reason": "No isolated cave/cliff/root object factories. Terrain noise and rock piles exist.",
+    "license": "n/a"
+  },
+  {
+    "id": "rejected.paid.scaffolding_bundle",
+    "name": "Superhive Procedural Structures Bundle",
+    "reason": "Paid poles/pipes/scaffolding. GPL binaries without a public reusable repo pin.",
+    "license": "paid-store"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "quality_gate_tiny_box",
+  "seed": 91,
+  "units": "m",
+  "entities": [
+    {
+      "id": "box.tiny",
+      "kind": "box",
+      "params": {
+        "width": 0.005,
+        "depth": 1.0,
+        "height": 1.0
+      }
+    }
+  ],
+  "quality": {
+    "profile": "production",
+    "min_feature_size": 0.02
+  },
+  "output": {
+    "save_blend": false,
+    "report": "build-report.json",
+    "manifest": "build-manifest.json"
+  }
+}
