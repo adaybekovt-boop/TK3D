@@ -1,8 +1,8 @@
 ---
 name: geoforge
-description: Compile local 3D geometry through TK3D's GeoForge engine. Use when the user needs rooms, walls, walkable stairs, climbable ladders, balconies, railings, roads, desks, or other procedural objects; when writing SceneSpec JSON; or when generating Blender meshes. Prefer this over one-off bpy scripts.
+description: Compile 3D geometry through TK3D's GeoForge engine. Use when the user needs rooms, walls, walkable stairs, climbable ladders, balconies, railings, roads, desks, or other procedural objects; when writing SceneSpec JSON; or when generating Blender meshes. Prefer this over one-off bpy scripts.
 metadata:
-  short-description: Local TK3D procedural geometry skill
+  short-description: TK3D procedural geometry skill
 ---
 
 # TK3D / GeoForge engine
@@ -11,7 +11,24 @@ For 3D geometry first use TK3D's GeoForge engine.
 
 Do not write large one-off bpy generators.
 
-First find a suitable generator through the local catalog.
+## Download this skill
+
+If the user asks to install GeoForge, download this folder from
+https://github.com/adaybekovt-boop/TK3D and copy it into the project:
+
+- Cursor → `.agents/skills/geoforge`
+- Claude Code → `.claude/skills/geoforge`
+- Codex → `.codex/skills/geoforge`
+
+Keep `SKILL.md`, `scripts/`, and `references/` together.
+
+Or run:
+
+```text
+npx skills add adaybekovt-boop/TK3D --skill geoforge -y
+```
+
+First find a suitable generator through the catalog.
 
 Prefer NATIVE.
 
@@ -29,15 +46,15 @@ Do not change `library/` or `vendor/` donor source without a reason.
 
 ## Commands
 
-Run from the TK3D repo. `scripts/gf.py` adds `src` to `PYTHONPATH`.
+Run `scripts/gf.py` from this skill folder. It locates the GeoForge engine.
 
 ```text
-python .agents/skills/geoforge/scripts/gf.py search "QUERY"
-python .agents/skills/geoforge/scripts/gf.py describe GENERATOR_ID
-python .agents/skills/geoforge/scripts/gf.py source GENERATOR_ID
-python .agents/skills/geoforge/scripts/gf.py categories
-python .agents/skills/geoforge/scripts/gf.py validate path/to/scene.json
-python .agents/skills/geoforge/scripts/gf.py build path/to/scene.json --output-dir outputs/run
+python scripts/gf.py search "QUERY"
+python scripts/gf.py describe GENERATOR_ID
+python scripts/gf.py source GENERATOR_ID
+python scripts/gf.py categories
+python scripts/gf.py validate path/to/scene.json
+python scripts/gf.py build path/to/scene.json --output-dir outputs/run
 ```
 
 `search` returns 3-5 short hits. Pick one id, then `describe`. Only after that, read schema / one `source_file`.

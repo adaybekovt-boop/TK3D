@@ -1,102 +1,52 @@
 # TK3D
 
-TK3D is a deterministic procedural-geometry compiler and searchable generator
-research library for AI agents. Its working runtime remains the Python package
-`geoforge`: a compact JSON `SceneSpec` is planned into pure-Python `MeshDraft`
-objects, materialized in a Blender staging collection, checked with BMesh QA,
-optionally repaired within a controlled Tier-1 budget, and published only after
-the quality gate passes.
+**Ask your agent for a room. Get a real 3D mesh back.**
 
-The catalog is deliberately honest. `NATIVE` and `ADAPTED` entries are executable
-TK3D builders. `REFERENCE` and `UNSUPPORTED` entries are inert donor/research
-records and are never imported by the runtime.
+GeoForge is a Cursor skill that compiles procedural geometry — rooms, walls,
+walkable stairs, climbable ladders, balconies, railings, roads, desks.
 
-## Working generators
+You describe the space. The agent builds it. Quality checks run automatically.
+If the mesh fails, it does not ship.
 
-Native: `box`, `wall`, `room`, `floor`, `ceiling`, `straight_stairs`, `beam`,
-and `column`.
+## Agent setup
 
-Adapted: `climbable_ladder`, `railing`, `balcony`, `road`, and `desk`.
+Paste this into **Cursor Agent**:
 
-Rooms use clear-interior dimensions. Door and window openings use analytical
-wall splitting rather than Boolean modifiers. See
-[`examples/v1-room.json`](examples/v1-room.json) and
-[`schemas/scene-1.0.schema.json`](schemas/scene-1.0.schema.json).
-
-## Catalog and source layers
-
-- `catalogs/generators.json` — canonical merged searchable catalog.
-- `catalogs/sources.json` — repository/provenance index.
-- `catalogs/integrity.json` — deterministic inventory and validation result.
-- `library/objects/` — 315 unmodified object-harvest Python files; reference only.
-- `vendor/generator_library/` — 30 curated generator Python files; reference only.
-- `licenses/` — harvested source/license manifests and available license texts.
-- `src/geoforge/catalog/generators.json` — generated packaged mirror of the canonical catalog.
-
-The merged catalog contains 556 entries: 8 `NATIVE`, 5 `ADAPTED`, 535
-`REFERENCE`, and 8 `UNSUPPORTED`. Donor presence never implies runtime support.
-See [`docs/catalog.md`](docs/catalog.md) for the normalized fields and provenance
-rules.
-
-## Local skill
-
-The project-local skill is `.agents/skills/geoforge`. Its wrapper keeps output
-small and reads one catalog entry/source at a time:
-
-```powershell
-python .agents/skills/geoforge/scripts/gf.py search "office chair"
-python .agents/skills/geoforge/scripts/gf.py describe furniture.chair.office.roomicon
-python .agents/skills/geoforge/scripts/gf.py source furniture.chair.office.roomicon
-python .agents/skills/geoforge/scripts/gf.py categories
-python .agents/skills/geoforge/scripts/gf.py status
+```
+Download the GeoForge skill from https://github.com/adaybekovt-boop/TK3D and install it in this project.
 ```
 
-Use a returned `kind` only when status is `NATIVE` or `ADAPTED`. A `REFERENCE`
-source is material for writing a future adapter, not a runnable generator.
+The agent downloads the skill from this repo and copies it into the project.
 
-## Install and test
+| Agent | Source | Destination |
+| --- | --- | --- |
+| Cursor | `.agents/skills/geoforge` | `.agents/skills/geoforge` |
+| Claude Code | `.agents/skills/geoforge` | `.claude/skills/geoforge` |
+| Codex | `.agents/skills/geoforge` | `.codex/skills/geoforge` |
 
-TK3D has no third-party pure-Python runtime dependency. Blender supplies `bpy`
-and `bmesh` for materialization and QA.
+The copied folder must contain `SKILL.md`, `scripts/`, and `references/`.
 
-```powershell
-python -m pip install -e .
-python tests/run_unit.py
+The agent can download it in one command:
+
+```
+npx skills add adaybekovt-boop/TK3D --skill geoforge -y
 ```
 
-Run the real Blender integration suite:
+That is the whole setup.
 
-```powershell
-& 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe' `
-  --background --factory-startup `
-  --python tests/blender/run_suite.py
+## Then just ask
+
+```
+Build a 12×20 m room with a south door, an east window, and walkable stairs.
 ```
 
-Build a scene through the skill:
+Or type `/geoforge`.
 
-```powershell
-python .agents/skills/geoforge/scripts/gf.py validate examples/v1-room.json
-python .agents/skills/geoforge/scripts/gf.py build examples/v1-room.json --output-dir outputs/example
-```
+| You ask for | You get |
+| --- | --- |
+| A room | Walls, floor, ceiling, door and window openings |
+| Stairs | Walkable treads between floors |
+| A ladder | Two rails and rungs you climb with your hands |
+| A balcony, railing, road, or desk | Compiled geometry, not a sketch |
 
-Rebuild the library/catalog layer from the two research archives:
-
-```powershell
-python scripts/consolidate_libraries.py `
-  C:\path\to\GeoForge_Code_Library_v1.zip `
-  C:\path\to\GeoForge_Object_Harvest.zip
-```
-
-Archive code is copied but never executed. Cached bytecode from the curated
-archive is intentionally discarded.
-
-## Deliberate limits
-
-The working runtime does not claim support for terrain, arbitrary curved wall
-networks, spiral stairs, imported-mesh repair, exact self-intersection analysis,
-advanced UV/material generation, Geometry Nodes generation, collision/navmesh,
-or engine-specific export. Unsupported SceneSpec kinds fail explicitly.
-
-TK3D project-owned code is MIT licensed. Third-party files retain their own
-licenses; consult `licenses/`, each catalog entry, and upstream repositories
-before redistribution or adaptation.
+MIT. Third-party donor files keep their own licenses.
