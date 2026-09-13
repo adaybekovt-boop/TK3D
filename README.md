@@ -8,21 +8,31 @@ walkable stairs, climbable ladders, balconies, railings, roads, desks.
 You describe the space. The agent builds it. Quality checks run automatically.
 If the mesh fails, it does not ship.
 
-No one-off Blender scripts. No guessing mesh code.
+## Agent setup
 
-## Install
-
-Open **Cursor Agent** and paste this:
+Paste this into **Cursor Agent**:
 
 ```
-Install the GeoForge skill from https://github.com/adaybekovt-boop/TK3D
+Download the GeoForge skill from https://github.com/adaybekovt-boop/TK3D and install it in this project.
 ```
 
-That is the whole setup. The agent installs the skill. You do not run a local
-install, clone extra folders, or touch Python yourself.
+The agent downloads the skill from this repo and copies it into the project.
 
-Works the same in Claude Code, Codex, and any other agent that can install a
-skill from GitHub.
+| Agent | Source | Destination |
+| --- | --- | --- |
+| Cursor | `.agents/skills/geoforge` | `.agents/skills/geoforge` |
+| Claude Code | `.agents/skills/geoforge` | `.claude/skills/geoforge` |
+| Codex | `.agents/skills/geoforge` | `.codex/skills/geoforge` |
+
+The copied folder must contain `SKILL.md`, `scripts/`, and `references/`.
+
+The agent can download it in one command:
+
+```
+npx skills add adaybekovt-boop/TK3D --skill geoforge -y
+```
+
+That is the whole setup.
 
 ## Then just ask
 
@@ -30,7 +40,7 @@ skill from GitHub.
 Build a 12×20 m room with a south door, an east window, and walkable stairs.
 ```
 
-Or type `/geoforge` after it is installed.
+Or type `/geoforge`.
 
 | You ask for | You get |
 | --- | --- |
